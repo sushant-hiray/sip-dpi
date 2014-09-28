@@ -1,0 +1,35 @@
+
+For 1000 Requests at 50 requests per second :
+
+For Bono - 
+
+Total number of lines in file is 1864
+Number of requests sent initially 891
+Unauthorized response to the first request 147
+Number of re-requests 197
+Successful requests 81
+Service unavailable status 429
+Number of server timeout requests is 42
+Number of forbidden requests is 77
+
+For Sprout - 
+
+Total number of lines in file is 2819
+Number of requests sent initially 891
+Unauthorized response to the first request 275
+Number of re-requests 197
+Successful requests 140
+Service unavailable status 1035
+Number of server timeout requests is 94
+Number of forbidden requests is 187
+
+For Bono - 
+
+Total number of lines in file is 2629
+Number of requests sent initially 873
+Unauthorized response to the first request 285
+Number of re-requests 219
+Successful requests 71
+Service unavailable status 1104
+Number of server timeout requests is 38
+Number of forbidden requests is 39
