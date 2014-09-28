@@ -1,0 +1,1188 @@
+  0.000000   10.3.96.32 -> 10.129.34.51 SIP 619 Request: REGISTER sip:ims.hom
+  0.000040   10.3.96.32 -> 10.129.34.51 SIP 621 Request: REGISTER sip:ims.hom
+  0.000052   10.3.96.32 -> 10.129.34.51 SIP 621 Request: REGISTER sip:ims.hom
+  0.000334   10.3.96.32 -> 10.129.34.51 SIP 620 Request: REGISTER sip:ims.hom
+  0.000354   10.3.96.32 -> 10.129.34.51 SIP 622 Request: REGISTER sip:ims.hom
+  0.000363   10.3.96.32 -> 10.129.34.51 SIP 621 Request: REGISTER sip:ims.hom
+  0.000657   10.3.96.32 -> 10.129.34.51 SIP 620 Request: REGISTER sip:ims.hom
+  0.000675   10.3.96.32 -> 10.129.34.51 SIP 620 Request: REGISTER sip:ims.hom
+  0.000684   10.3.96.32 -> 10.129.34.51 SIP 619 Request: REGISTER sip:ims.hom
+  0.000864   10.3.96.32 -> 10.129.34.51 SIP 624 Request: REGISTER sip:ims.hom
+  0.001158   10.3.96.32 -> 10.129.34.51 SIP 624 Request: REGISTER sip:ims.hom
+  0.001175   10.3.96.32 -> 10.129.34.51 SIP 625 Request: REGISTER sip:ims.hom
+  0.001207   10.3.96.32 -> 10.129.34.51 SIP 625 Request: REGISTER sip:ims.hom
+  0.001470   10.3.96.32 -> 10.129.34.51 SIP 624 Request: REGISTER sip:ims.hom
+  0.001493   10.3.96.32 -> 10.129.34.51 SIP 623 Request: REGISTER sip:ims.hom
+  0.329478 10.129.34.51 -> 10.3.96.32   SIP 451 Status: 401 Unauthorized    (0 bindings)
+  0.330825   10.3.96.32 -> 10.129.34.51 SIP 556 Request: REGISTER sip:ims.hom
+  0.371015 10.129.34.51 -> 10.3.96.32   SIP 450 Status: 401 Unauthorized    (0 bindings)
+  0.371429 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+  0.372496   10.3.96.32 -> 10.129.34.51 SIP 557 Request: REGISTER sip:ims.hom
+  0.372512   10.3.96.32 -> 10.129.34.51 SIP 555 Request: REGISTER sip:ims.hom
+  0.382207 10.129.34.51 -> 10.3.96.32   SIP 451 Status: 401 Unauthorized    (0 bindings)
+  0.383224   10.3.96.32 -> 10.129.34.51 SIP 556 Request: REGISTER sip:ims.hom
+  0.384186 10.129.34.51 -> 10.3.96.32   SIP 448 Status: 401 Unauthorized    (0 bindings)
+  0.385173   10.3.96.32 -> 10.129.34.51 SIP 553 Request: REGISTER sip:ims.hom
+  0.434050 10.129.34.51 -> 10.3.96.32   SIP 451 Status: 401 Unauthorized    (0 bindings)
+  0.435265   10.3.96.32 -> 10.129.34.51 SIP 552 Request: REGISTER sip:ims.hom
+  0.445542 10.129.34.51 -> 10.3.96.32   SIP 449 Status: 401 Unauthorized    (0 bindings)
+  0.445908 10.129.34.51 -> 10.3.96.32   SIP 450 Status: 401 Unauthorized    (0 bindings)
+  0.446245 10.129.34.51 -> 10.3.96.32   SIP 450 Status: 401 Unauthorized    (0 bindings)
+  0.446507   10.3.96.32 -> 10.129.34.51 SIP 552 Request: REGISTER sip:ims.hom
+  0.447613   10.3.96.32 -> 10.129.34.51 SIP 553 Request: REGISTER sip:ims.hom
+  0.448098   10.3.96.32 -> 10.129.34.51 SIP 553 Request: REGISTER sip:ims.hom
+  0.456200 10.129.34.51 -> 10.3.96.32   SIP 448 Status: 401 Unauthorized    (0 bindings)
+  0.457064   10.3.96.32 -> 10.129.34.51 SIP 553 Request: REGISTER sip:ims.hom
+  0.458461 10.129.34.51 -> 10.3.96.32   SIP 450 Status: 401 Unauthorized    (0 bindings)
+  0.458767 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+  0.459094 10.129.34.51 -> 10.3.96.32   SIP 451 Status: 401 Unauthorized    (0 bindings)
+  0.459253   10.3.96.32 -> 10.129.34.51 SIP 553 Request: REGISTER sip:ims.hom
+  0.459577   10.3.96.32 -> 10.129.34.51 SIP 556 Request: REGISTER sip:ims.hom
+  0.460000   10.3.96.32 -> 10.129.34.51 SIP 557 Request: REGISTER sip:ims.hom
+  0.469949 10.129.34.51 -> 10.3.96.32   SIP 449 Status: 401 Unauthorized    (0 bindings)
+  0.471059   10.3.96.32 -> 10.129.34.51 SIP 553 Request: REGISTER sip:ims.hom
+  0.498573 10.129.34.51 -> 10.3.96.32   SIP 600 Status: 200 OK    (1 bindings)
+  0.498853 10.129.34.51 -> 10.3.96.32   SIP 449 Status: 401 Unauthorized    (0 bindings)
+  0.499918   10.3.96.32 -> 10.129.34.51 SIP 553 Request: REGISTER sip:ims.hom
+  0.684797 10.129.34.51 -> 10.3.96.32   SIP 597 Status: 200 OK    (1 bindings)
+  0.715554 10.129.34.51 -> 10.3.96.32   SIP 597 Status: 200 OK    (1 bindings)
+  0.716042 10.129.34.51 -> 10.3.96.32   SIP 601 Status: 200 OK    (1 bindings)
+  0.716499 10.129.34.51 -> 10.3.96.32   SIP 596 Status: 200 OK    (1 bindings)
+  0.726562 10.129.34.51 -> 10.3.96.32   SIP 597 Status: 200 OK    (1 bindings)
+  0.726999 10.129.34.51 -> 10.3.96.32   SIP 597 Status: 200 OK    (1 bindings)
+  0.727387 10.129.34.51 -> 10.3.96.32   SIP 596 Status: 200 OK    (1 bindings)
+  0.727780 10.129.34.51 -> 10.3.96.32   SIP 597 Status: 200 OK    (1 bindings)
+  0.737610 10.129.34.51 -> 10.3.96.32   SIP 597 Status: 200 OK    (1 bindings)
+  0.738022 10.129.34.51 -> 10.3.96.32   SIP 599 Status: 200 OK    (1 bindings)
+  0.738431 10.129.34.51 -> 10.3.96.32   SIP 600 Status: 200 OK    (1 bindings)
+  0.789127 10.129.34.51 -> 10.3.96.32   SIP 600 Status: 200 OK    (1 bindings)
+  0.799884 10.129.34.51 -> 10.3.96.32   SIP 601 Status: 200 OK    (1 bindings)
+  0.800472 10.129.34.51 -> 10.3.96.32   SIP 597 Status: 200 OK    (1 bindings)
+  0.999128   10.3.96.32 -> 10.129.34.51 SIP 624 Request: REGISTER sip:ims.hom
+  0.999226   10.3.96.32 -> 10.129.34.51 SIP 624 Request: REGISTER sip:ims.hom
+  0.999551   10.3.96.32 -> 10.129.34.51 SIP 624 Request: REGISTER sip:ims.hom
+  0.999829   10.3.96.32 -> 10.129.34.51 SIP 624 Request: REGISTER sip:ims.hom
+  0.999980   10.3.96.32 -> 10.129.34.51 SIP 625 Request: REGISTER sip:ims.hom
+  1.000181   10.3.96.32 -> 10.129.34.51 SIP 622 Request: REGISTER sip:ims.hom
+  1.000431   10.3.96.32 -> 10.129.34.51 SIP 625 Request: REGISTER sip:ims.hom
+  1.000667   10.3.96.32 -> 10.129.34.51 SIP 626 Request: REGISTER sip:ims.hom
+  1.000897   10.3.96.32 -> 10.129.34.51 SIP 624 Request: REGISTER sip:ims.hom
+  1.001120   10.3.96.32 -> 10.129.34.51 SIP 626 Request: REGISTER sip:ims.hom
+  1.001441   10.3.96.32 -> 10.129.34.51 SIP 624 Request: REGISTER sip:ims.hom
+  1.001693   10.3.96.32 -> 10.129.34.51 SIP 625 Request: REGISTER sip:ims.hom
+  1.001875   10.3.96.32 -> 10.129.34.51 SIP 623 Request: REGISTER sip:ims.hom
+  1.002091   10.3.96.32 -> 10.129.34.51 SIP 625 Request: REGISTER sip:ims.hom
+  1.002326   10.3.96.32 -> 10.129.34.51 SIP 624 Request: REGISTER sip:ims.hom
+  1.363171 10.129.34.51 -> 10.3.96.32   SIP 451 Status: 401 Unauthorized    (0 bindings)
+  1.368158   10.3.96.32 -> 10.129.34.51 SIP 557 Request: REGISTER sip:ims.hom
+  1.457447 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+  1.457917 10.129.34.51 -> 10.3.96.32   SIP 451 Status: 401 Unauthorized    (0 bindings)
+  1.458343 10.129.34.51 -> 10.3.96.32   SIP 451 Status: 401 Unauthorized    (0 bindings)
+  1.458761 10.129.34.51 -> 10.3.96.32   SIP 451 Status: 401 Unauthorized    (0 bindings)
+  1.459165 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+  1.459567 10.129.34.51 -> 10.3.96.32   SIP 449 Status: 401 Unauthorized    (0 bindings)
+  1.459986 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+  1.460387 10.129.34.51 -> 10.3.96.32   SIP 451 Status: 401 Unauthorized    (0 bindings)
+  1.460621   10.3.96.32 -> 10.129.34.51 SIP 555 Request: REGISTER sip:ims.hom
+  1.460904 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+  1.461053   10.3.96.32 -> 10.129.34.51 SIP 554 Request: REGISTER sip:ims.hom
+  1.461538   10.3.96.32 -> 10.129.34.51 SIP 557 Request: REGISTER sip:ims.hom
+  1.461609 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+  1.461824   10.3.96.32 -> 10.129.34.51 SIP 557 Request: REGISTER sip:ims.hom
+  1.462076   10.3.96.32 -> 10.129.34.51 SIP 556 Request: REGISTER sip:ims.hom
+  1.462191 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+  1.462458   10.3.96.32 -> 10.129.34.51 SIP 555 Request: REGISTER sip:ims.hom
+  1.462670 10.129.34.51 -> 10.3.96.32   SIP 451 Status: 401 Unauthorized    (0 bindings)
+  1.462732   10.3.96.32 -> 10.129.34.51 SIP 557 Request: REGISTER sip:ims.hom
+  1.463072 10.129.34.51 -> 10.3.96.32   SIP 451 Status: 401 Unauthorized    (0 bindings)
+  1.463458   10.3.96.32 -> 10.129.34.51 SIP 557 Request: REGISTER sip:ims.hom
+  1.466123   10.3.96.32 -> 10.129.34.51 SIP 555 Request: REGISTER sip:ims.hom
+  1.466674   10.3.96.32 -> 10.129.34.51 SIP 556 Request: REGISTER sip:ims.hom
+  1.467042   10.3.96.32 -> 10.129.34.51 SIP 556 Request: REGISTER sip:ims.hom
+  1.467216   10.3.96.32 -> 10.129.34.51 SIP 557 Request: REGISTER sip:ims.hom
+  1.467474   10.3.96.32 -> 10.129.34.51 SIP 555 Request: REGISTER sip:ims.hom
+  1.481724 10.129.34.51 -> 10.3.96.32   SIP 450 Status: 401 Unauthorized    (0 bindings)
+  1.482885   10.3.96.32 -> 10.129.34.51 SIP 557 Request: REGISTER sip:ims.hom
+  1.522113 10.129.34.51 -> 10.3.96.32   SIP 600 Status: 200 OK    (1 bindings)
+  1.542966 10.129.34.51 -> 10.3.96.32   SIP 601 Status: 200 OK    (1 bindings)
+  1.543610 10.129.34.51 -> 10.3.96.32   SIP 601 Status: 200 OK    (1 bindings)
+  1.553793 10.129.34.51 -> 10.3.96.32   SIP 599 Status: 200 OK    (1 bindings)
+  1.574330 10.129.34.51 -> 10.3.96.32   SIP 601 Status: 200 OK    (1 bindings)
+  1.584843 10.129.34.51 -> 10.3.96.32   SIP 601 Status: 200 OK    (1 bindings)
+  1.779909 10.129.34.51 -> 10.3.96.32   SIP 600 Status: 200 OK    (1 bindings)
+  1.780679 10.129.34.51 -> 10.3.96.32   SIP 600 Status: 200 OK    (1 bindings)
+  1.781190 10.129.34.51 -> 10.3.96.32   SIP 601 Status: 200 OK    (1 bindings)
+  1.790940 10.129.34.51 -> 10.3.96.32   SIP 599 Status: 200 OK    (1 bindings)
+  1.791484 10.129.34.51 -> 10.3.96.32   SIP 599 Status: 200 OK    (1 bindings)
+  1.792114 10.129.34.51 -> 10.3.96.32   SIP 599 Status: 200 OK    (1 bindings)
+  1.801945 10.129.34.51 -> 10.3.96.32   SIP 598 Status: 200 OK    (1 bindings)
+  1.842869 10.129.34.51 -> 10.3.96.32   SIP 601 Status: 200 OK    (1 bindings)
+  1.999168   10.3.96.32 -> 10.129.34.51 SIP 626 Request: REGISTER sip:ims.hom
+  1.999365   10.3.96.32 -> 10.129.34.51 SIP 625 Request: REGISTER sip:ims.hom
+  1.999693   10.3.96.32 -> 10.129.34.51 SIP 626 Request: REGISTER sip:ims.hom
+  1.999984   10.3.96.32 -> 10.129.34.51 SIP 625 Request: REGISTER sip:ims.hom
+  2.000266   10.3.96.32 -> 10.129.34.51 SIP 624 Request: REGISTER sip:ims.hom
+  2.000587   10.3.96.32 -> 10.129.34.51 SIP 626 Request: REGISTER sip:ims.hom
+  2.000850   10.3.96.32 -> 10.129.34.51 SIP 624 Request: REGISTER sip:ims.hom
+  2.001149   10.3.96.32 -> 10.129.34.51 SIP 625 Request: REGISTER sip:ims.hom
+  2.001551   10.3.96.32 -> 10.129.34.51 SIP 625 Request: REGISTER sip:ims.hom
+  2.001843   10.3.96.32 -> 10.129.34.51 SIP 626 Request: REGISTER sip:ims.hom
+  2.002119   10.3.96.32 -> 10.129.34.51 SIP 626 Request: REGISTER sip:ims.hom
+  2.002387   10.3.96.32 -> 10.129.34.51 SIP 625 Request: REGISTER sip:ims.hom
+  2.002663   10.3.96.32 -> 10.129.34.51 SIP 625 Request: REGISTER sip:ims.hom
+  2.002981   10.3.96.32 -> 10.129.34.51 SIP 625 Request: REGISTER sip:ims.hom
+  2.003190   10.3.96.32 -> 10.129.34.51 SIP 624 Request: REGISTER sip:ims.hom
+  2.028531 10.129.34.51 -> 10.3.96.32   SIP 451 Status: 401 Unauthorized    (0 bindings)
+  2.028994 10.129.34.51 -> 10.3.96.32   SIP 451 Status: 401 Unauthorized    (0 bindings)
+  2.029441 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+  2.029645   10.3.96.32 -> 10.129.34.51 SIP 557 Request: REGISTER sip:ims.hom
+  2.030036   10.3.96.32 -> 10.129.34.51 SIP 556 Request: REGISTER sip:ims.hom
+  2.030622   10.3.96.32 -> 10.129.34.51 SIP 557 Request: REGISTER sip:ims.hom
+  2.080659 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+  2.081949   10.3.96.32 -> 10.129.34.51 SIP 557 Request: REGISTER sip:ims.hom
+  2.092594 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+  2.093094 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+  2.093565 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+  2.093773   10.3.96.32 -> 10.129.34.51 SIP 556 Request: REGISTER sip:ims.hom
+  2.094068   10.3.96.32 -> 10.129.34.51 SIP 556 Request: REGISTER sip:ims.hom
+  2.094206 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+  2.094664   10.3.96.32 -> 10.129.34.51 SIP 558 Request: REGISTER sip:ims.hom
+  2.095225   10.3.96.32 -> 10.129.34.51 SIP 557 Request: REGISTER sip:ims.hom
+  2.113572 10.129.34.51 -> 10.3.96.32   SIP 601 Status: 200 OK    (1 bindings)
+  2.124104 10.129.34.51 -> 10.3.96.32   SIP 601 Status: 200 OK    (1 bindings)
+  2.134599 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+  2.135231 10.129.34.51 -> 10.3.96.32   SIP 600 Status: 200 OK    (1 bindings)
+  2.135686   10.3.96.32 -> 10.129.34.51 SIP 557 Request: REGISTER sip:ims.hom
+  2.166117 10.129.34.51 -> 10.3.96.32   SIP 601 Status: 200 OK    (1 bindings)
+  2.299436 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+  2.299896 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+  2.300416 10.129.34.51 -> 10.3.96.32   SIP 601 Status: 200 OK    (1 bindings)
+  2.300634   10.3.96.32 -> 10.129.34.51 SIP 556 Request: REGISTER sip:ims.hom
+  2.300963   10.3.96.32 -> 10.129.34.51 SIP 555 Request: REGISTER sip:ims.hom
+  2.321280 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+  2.321785 10.129.34.51 -> 10.3.96.32   SIP 451 Status: 401 Unauthorized    (0 bindings)
+  2.322290   10.3.96.32 -> 10.129.34.51 SIP 557 Request: REGISTER sip:ims.hom
+  2.322459 10.129.34.51 -> 10.3.96.32   SIP 601 Status: 200 OK    (1 bindings)
+  2.322667   10.3.96.32 -> 10.129.34.51 SIP 558 Request: REGISTER sip:ims.hom
+  2.322942 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+  2.323343 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+  2.324009   10.3.96.32 -> 10.129.34.51 SIP 557 Request: REGISTER sip:ims.hom
+  2.324326   10.3.96.32 -> 10.129.34.51 SIP 556 Request: REGISTER sip:ims.hom
+  2.343606 10.129.34.51 -> 10.3.96.32   SIP 600 Status: 200 OK    (1 bindings)
+  2.354502 10.129.34.51 -> 10.3.96.32   SIP 602 Status: 200 OK    (1 bindings)
+  2.539446 10.129.34.51 -> 10.3.96.32   SIP 599 Status: 200 OK    (1 bindings)
+  2.550086 10.129.34.51 -> 10.3.96.32   SIP 600 Status: 200 OK    (1 bindings)
+  2.560770 10.129.34.51 -> 10.3.96.32   SIP 600 Status: 200 OK    (1 bindings)
+  2.571443 10.129.34.51 -> 10.3.96.32   SIP 602 Status: 200 OK    (1 bindings)
+  2.775729 10.129.34.51 -> 10.3.96.32   SIP 601 Status: 200 OK    (1 bindings)
+  2.776255 10.129.34.51 -> 10.3.96.32   SIP 600 Status: 200 OK    (1 bindings)
+  2.970884 10.129.34.51 -> 10.3.96.32   SIP 601 Status: 200 OK    (1 bindings)
+  2.999322   10.3.96.32 -> 10.129.34.51 SIP 625 Request: REGISTER sip:ims.hom
+  2.999435   10.3.96.32 -> 10.129.34.51 SIP 626 Request: REGISTER sip:ims.hom
+  2.999858   10.3.96.32 -> 10.129.34.51 SIP 624 Request: REGISTER sip:ims.hom
+  3.000106   10.3.96.32 -> 10.129.34.51 SIP 624 Request: REGISTER sip:ims.hom
+  3.000424   10.3.96.32 -> 10.129.34.51 SIP 624 Request: REGISTER sip:ims.hom
+  3.000763   10.3.96.32 -> 10.129.34.51 SIP 626 Request: REGISTER sip:ims.hom
+  3.001008   10.3.96.32 -> 10.129.34.51 SIP 623 Request: REGISTER sip:ims.hom
+  3.001395   10.3.96.32 -> 10.129.34.51 SIP 626 Request: REGISTER sip:ims.hom
+  3.001636   10.3.96.32 -> 10.129.34.51 SIP 623 Request: REGISTER sip:ims.hom
+  3.001889   10.3.96.32 -> 10.129.34.51 SIP 624 Request: REGISTER sip:ims.hom
+  3.002178   10.3.96.32 -> 10.129.34.51 SIP 624 Request: REGISTER sip:ims.hom
+  3.002478   10.3.96.32 -> 10.129.34.51 SIP 624 Request: REGISTER sip:ims.hom
+  3.002720   10.3.96.32 -> 10.129.34.51 SIP 622 Request: REGISTER sip:ims.hom
+  3.003045   10.3.96.32 -> 10.129.34.51 SIP 623 Request: REGISTER sip:ims.hom
+  3.003417   10.3.96.32 -> 10.129.34.51 SIP 625 Request: REGISTER sip:ims.hom
+  3.028425 10.129.34.51 -> 10.3.96.32   SIP 451 Status: 401 Unauthorized    (0 bindings)
+  3.029679   10.3.96.32 -> 10.129.34.51 SIP 557 Request: REGISTER sip:ims.hom
+  3.049523 10.129.34.51 -> 10.3.96.32   SIP 451 Status: 401 Unauthorized    (0 bindings)
+  3.050639   10.3.96.32 -> 10.129.34.51 SIP 556 Request: REGISTER sip:ims.hom
+  3.070541 10.129.34.51 -> 10.3.96.32   SIP 600 Status: 200 OK    (1 bindings)
+  3.193947 10.129.34.51 -> 10.3.96.32   SIP 601 Status: 200 OK    (1 bindings)
+  3.235370 10.129.34.51 -> 10.3.96.32   SIP 450 Status: 401 Unauthorized    (0 bindings)
+  3.235848 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+  3.236722   10.3.96.32 -> 10.129.34.51 SIP 556 Request: REGISTER sip:ims.hom
+  3.236770   10.3.96.32 -> 10.129.34.51 SIP 557 Request: REGISTER sip:ims.hom
+  3.246690 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+  3.247169 10.129.34.51 -> 10.3.96.32   SIP 450 Status: 401 Unauthorized    (0 bindings)
+  3.247625   10.3.96.32 -> 10.129.34.51 SIP 557 Request: REGISTER sip:ims.hom
+  3.248100   10.3.96.32 -> 10.129.34.51 SIP 557 Request: REGISTER sip:ims.hom
+  3.249520 10.129.34.51 -> 10.3.96.32   SIP 449 Status: 401 Unauthorized    (0 bindings)
+  3.249975 10.129.34.51 -> 10.3.96.32   SIP 450 Status: 401 Unauthorized    (0 bindings)
+  3.250415 10.129.34.51 -> 10.3.96.32   SIP 451 Status: 401 Unauthorized    (0 bindings)
+  3.250457   10.3.96.32 -> 10.129.34.51 SIP 557 Request: REGISTER sip:ims.hom
+  3.250920   10.3.96.32 -> 10.129.34.51 SIP 556 Request: REGISTER sip:ims.hom
+  3.251379   10.3.96.32 -> 10.129.34.51 SIP 555 Request: REGISTER sip:ims.hom
+  3.262590 10.129.34.51 -> 10.3.96.32   SIP 600 Status: 200 OK    (1 bindings)
+  3.474735 10.129.34.51 -> 10.3.96.32   SIP 601 Status: 200 OK    (1 bindings)
+  3.475359 10.129.34.51 -> 10.3.96.32   SIP 601 Status: 200 OK    (1 bindings)
+  3.485546 10.129.34.51 -> 10.3.96.32   SIP 601 Status: 200 OK    (1 bindings)
+  3.496143 10.129.34.51 -> 10.3.96.32   SIP 601 Status: 200 OK    (1 bindings)
+  3.496639 10.129.34.51 -> 10.3.96.32   SIP 601 Status: 200 OK    (1 bindings)
+  3.506717 10.129.34.51 -> 10.3.96.32   SIP 599 Status: 200 OK    (1 bindings)
+  3.517198 10.129.34.51 -> 10.3.96.32   SIP 600 Status: 200 OK    (1 bindings)
+  3.670648 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+  3.671628   10.3.96.32 -> 10.129.34.51 SIP 557 Request: REGISTER sip:ims.hom
+  3.672277 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+  3.672685 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+  3.673151   10.3.96.32 -> 10.129.34.51 SIP 555 Request: REGISTER sip:ims.hom
+  3.673642   10.3.96.32 -> 10.129.34.51 SIP 558 Request: REGISTER sip:ims.hom
+  3.684214 10.129.34.51 -> 10.3.96.32   SIP 451 Status: 401 Unauthorized    (0 bindings)
+  3.685171   10.3.96.32 -> 10.129.34.51 SIP 556 Request: REGISTER sip:ims.hom
+  3.907927 10.129.34.51 -> 10.3.96.32   SIP 599 Status: 200 OK    (1 bindings)
+  3.908497 10.129.34.51 -> 10.3.96.32   SIP 601 Status: 200 OK    (1 bindings)
+  3.908959 10.129.34.51 -> 10.3.96.32   SIP 602 Status: 200 OK    (1 bindings)
+  3.918840 10.129.34.51 -> 10.3.96.32   SIP 600 Status: 200 OK    (1 bindings)
+  3.999145   10.3.96.32 -> 10.129.34.51 SIP 623 Request: REGISTER sip:ims.hom
+  3.999376   10.3.96.32 -> 10.129.34.51 SIP 622 Request: REGISTER sip:ims.hom
+  3.999646   10.3.96.32 -> 10.129.34.51 SIP 626 Request: REGISTER sip:ims.hom
+  3.999860   10.3.96.32 -> 10.129.34.51 SIP 623 Request: REGISTER sip:ims.hom
+  4.000022   10.3.96.32 -> 10.129.34.51 SIP 623 Request: REGISTER sip:ims.hom
+  4.000363   10.3.96.32 -> 10.129.34.51 SIP 623 Request: REGISTER sip:ims.hom
+  4.000572   10.3.96.32 -> 10.129.34.51 SIP 625 Request: REGISTER sip:ims.hom
+  4.000815   10.3.96.32 -> 10.129.34.51 SIP 625 Request: REGISTER sip:ims.hom
+  4.001098   10.3.96.32 -> 10.129.34.51 SIP 625 Request: REGISTER sip:ims.hom
+  4.001405   10.3.96.32 -> 10.129.34.51 SIP 624 Request: REGISTER sip:ims.hom
+  4.001694   10.3.96.32 -> 10.129.34.51 SIP 625 Request: REGISTER sip:ims.hom
+  4.001921   10.3.96.32 -> 10.129.34.51 SIP 624 Request: REGISTER sip:ims.hom
+  4.002131   10.3.96.32 -> 10.129.34.51 SIP 625 Request: REGISTER sip:ims.hom
+  4.002361   10.3.96.32 -> 10.129.34.51 SIP 624 Request: REGISTER sip:ims.hom
+  4.002744   10.3.96.32 -> 10.129.34.51 SIP 622 Request: REGISTER sip:ims.hom
+  4.015384 10.129.34.51 -> 10.3.96.32   SIP 450 Status: 401 Unauthorized    (0 bindings)
+  4.016604   10.3.96.32 -> 10.129.34.51 SIP 555 Request: REGISTER sip:ims.hom
+  4.024258 10.129.34.51 -> 10.3.96.32   SIP 449 Status: 401 Unauthorized    (0 bindings)
+  4.025137   10.3.96.32 -> 10.129.34.51 SIP 554 Request: REGISTER sip:ims.hom
+  4.025244 10.129.34.51 -> 10.3.96.32   SIP 450 Status: 401 Unauthorized    (0 bindings)
+  4.025657 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+  4.026003 10.129.34.51 -> 10.3.96.32   SIP 450 Status: 401 Unauthorized    (0 bindings)
+  4.026297   10.3.96.32 -> 10.129.34.51 SIP 557 Request: REGISTER sip:ims.hom
+  4.026402 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+  4.026777   10.3.96.32 -> 10.129.34.51 SIP 556 Request: REGISTER sip:ims.hom
+  4.027208   10.3.96.32 -> 10.129.34.51 SIP 556 Request: REGISTER sip:ims.hom
+  4.027573   10.3.96.32 -> 10.129.34.51 SIP 557 Request: REGISTER sip:ims.hom
+  4.066779 10.129.34.51 -> 10.3.96.32   SIP 601 Status: 200 OK    (1 bindings)
+  4.241250 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+  4.242307   10.3.96.32 -> 10.129.34.51 SIP 556 Request: REGISTER sip:ims.hom
+  4.243373 10.129.34.51 -> 10.3.96.32   SIP 451 Status: 401 Unauthorized    (0 bindings)
+  4.244409   10.3.96.32 -> 10.129.34.51 SIP 556 Request: REGISTER sip:ims.hom
+  4.254238 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+  4.254692 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+  4.255146 10.129.34.51 -> 10.3.96.32   SIP 451 Status: 401 Unauthorized    (0 bindings)
+  4.255208   10.3.96.32 -> 10.129.34.51 SIP 555 Request: REGISTER sip:ims.hom
+  4.255691   10.3.96.32 -> 10.129.34.51 SIP 557 Request: REGISTER sip:ims.hom
+  4.256154   10.3.96.32 -> 10.129.34.51 SIP 556 Request: REGISTER sip:ims.hom
+  4.273957 10.129.34.51 -> 10.3.96.32   SIP 356 Status: 503 Service Unavailable    (0 bindings)
+  4.325786 10.129.34.51 -> 10.3.96.32   SIP 449 Status: 401 Unauthorized    (0 bindings)
+  4.326948   10.3.96.32 -> 10.129.34.51 SIP 556 Request: REGISTER sip:ims.hom
+  4.337258 10.129.34.51 -> 10.3.96.32   SIP 600 Status: 200 OK    (1 bindings)
+  4.521814 10.129.34.51 -> 10.3.96.32   SIP 451 Status: 401 Unauthorized    (0 bindings)
+  4.522341 10.129.34.51 -> 10.3.96.32   SIP 451 Status: 401 Unauthorized    (0 bindings)
+  4.522951   10.3.96.32 -> 10.129.34.51 SIP 558 Request: REGISTER sip:ims.hom
+  4.523470   10.3.96.32 -> 10.129.34.51 SIP 555 Request: REGISTER sip:ims.hom
+  4.543719 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+  4.544337 10.129.34.51 -> 10.3.96.32   SIP 599 Status: 200 OK    (1 bindings)
+  4.544610   10.3.96.32 -> 10.129.34.51 SIP 558 Request: REGISTER sip:ims.hom
+  4.544779 10.129.34.51 -> 10.3.96.32   SIP 450 Status: 401 Unauthorized    (0 bindings)
+  4.545316 10.129.34.51 -> 10.3.96.32   SIP 599 Status: 200 OK    (1 bindings)
+  4.545581   10.3.96.32 -> 10.129.34.51 SIP 556 Request: REGISTER sip:ims.hom
+  4.545890 10.129.34.51 -> 10.3.96.32   SIP 598 Status: 200 OK    (1 bindings)
+  4.546422 10.129.34.51 -> 10.3.96.32   SIP 600 Status: 200 OK    (1 bindings)
+  4.546865 10.129.34.51 -> 10.3.96.32   SIP 600 Status: 200 OK    (1 bindings)
+  4.547227 10.129.34.51 -> 10.3.96.32   SIP 451 Status: 401 Unauthorized    (0 bindings)
+  4.547691 10.129.34.51 -> 10.3.96.32   SIP 600 Status: 200 OK    (1 bindings)
+  4.548117   10.3.96.32 -> 10.129.34.51 SIP 557 Request: REGISTER sip:ims.hom
+  4.555947 10.129.34.51 -> 10.3.96.32   SIP 600 Status: 200 OK    (1 bindings)
+  4.559059 10.129.34.51 -> 10.3.96.32   SIP 602 Status: 200 OK    (1 bindings)
+  4.627960 10.129.34.51 -> 10.3.96.32   SIP 601 Status: 200 OK    (1 bindings)
+  4.638673 10.129.34.51 -> 10.3.96.32   SIP 599 Status: 200 OK    (1 bindings)
+  4.639197 10.129.34.51 -> 10.3.96.32   SIP 601 Status: 200 OK    (1 bindings)
+  4.782598 10.129.34.51 -> 10.3.96.32   SIP 602 Status: 200 OK    (1 bindings)
+  4.834235 10.129.34.51 -> 10.3.96.32   SIP 600 Status: 200 OK    (1 bindings)
+  4.980140 10.129.34.51 -> 10.3.96.32   SIP 600 Status: 200 OK    (1 bindings)
+  4.999203   10.3.96.32 -> 10.129.34.51 SIP 625 Request: REGISTER sip:ims.hom
+  4.999252   10.3.96.32 -> 10.129.34.51 SIP 626 Request: REGISTER sip:ims.hom
+  4.999545   10.3.96.32 -> 10.129.34.51 SIP 625 Request: REGISTER sip:ims.hom
+  4.999852   10.3.96.32 -> 10.129.34.51 SIP 625 Request: REGISTER sip:ims.hom
+  5.000075   10.3.96.32 -> 10.129.34.51 SIP 625 Request: REGISTER sip:ims.hom
+  5.000386   10.3.96.32 -> 10.129.34.51 SIP 624 Request: REGISTER sip:ims.hom
+  5.000589   10.3.96.32 -> 10.129.34.51 SIP 624 Request: REGISTER sip:ims.hom
+  5.000853   10.3.96.32 -> 10.129.34.51 SIP 625 Request: REGISTER sip:ims.hom
+  5.001073   10.3.96.32 -> 10.129.34.51 SIP 623 Request: REGISTER sip:ims.hom
+  5.001345   10.3.96.32 -> 10.129.34.51 SIP 623 Request: REGISTER sip:ims.hom
+  5.001655   10.3.96.32 -> 10.129.34.51 SIP 625 Request: REGISTER sip:ims.hom
+  5.001871   10.3.96.32 -> 10.129.34.51 SIP 624 Request: REGISTER sip:ims.hom
+  5.002113   10.3.96.32 -> 10.129.34.51 SIP 626 Request: REGISTER sip:ims.hom
+  5.002343   10.3.96.32 -> 10.129.34.51 SIP 625 Request: REGISTER sip:ims.hom
+  5.002581   10.3.96.32 -> 10.129.34.51 SIP 624 Request: REGISTER sip:ims.hom
+  5.024497 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+  5.024930 10.129.34.51 -> 10.3.96.32   SIP 354 Status: 503 Service Unavailable    (0 bindings)
+  5.025311 10.129.34.51 -> 10.3.96.32   SIP 356 Status: 503 Service Unavailable    (0 bindings)
+  5.025572   10.3.96.32 -> 10.129.34.51 SIP 558 Request: REGISTER sip:ims.hom
+  5.025870 10.129.34.51 -> 10.3.96.32   SIP 355 Status: 503 Service Unavailable    (0 bindings)
+  5.026365 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+  5.026799 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+  5.027157 10.129.34.51 -> 10.3.96.32   SIP 450 Status: 401 Unauthorized    (0 bindings)
+  5.027256   10.3.96.32 -> 10.129.34.51 SIP 556 Request: REGISTER sip:ims.hom
+  5.027624   10.3.96.32 -> 10.129.34.51 SIP 555 Request: REGISTER sip:ims.hom
+  5.027684 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+  5.028104   10.3.96.32 -> 10.129.34.51 SIP 556 Request: REGISTER sip:ims.hom
+  5.028709   10.3.96.32 -> 10.129.34.51 SIP 557 Request: REGISTER sip:ims.hom
+  5.036805 10.129.34.51 -> 10.3.96.32   SIP 451 Status: 401 Unauthorized    (0 bindings)
+  5.037678   10.3.96.32 -> 10.129.34.51 SIP 556 Request: REGISTER sip:ims.hom
+  5.041084 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+  5.041719 10.129.34.51 -> 10.3.96.32   SIP 451 Status: 401 Unauthorized    (0 bindings)
+  5.042111   10.3.96.32 -> 10.129.34.51 SIP 557 Request: REGISTER sip:ims.hom
+  5.042192 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+  5.042659   10.3.96.32 -> 10.129.34.51 SIP 558 Request: REGISTER sip:ims.hom
+  5.043079   10.3.96.32 -> 10.129.34.51 SIP 555 Request: REGISTER sip:ims.hom
+  5.051143 10.129.34.51 -> 10.3.96.32   SIP 355 Status: 503 Service Unavailable    (0 bindings)
+  5.051548 10.129.34.51 -> 10.3.96.32   SIP 356 Status: 503 Service Unavailable    (0 bindings)
+  5.058911 10.129.34.51 -> 10.3.96.32   SIP 355 Status: 503 Service Unavailable    (0 bindings)
+  5.243044 10.129.34.51 -> 10.3.96.32   SIP 357 Status: 503 Service Unavailable    (0 bindings)
+  5.243591 10.129.34.51 -> 10.3.96.32   SIP 355 Status: 503 Service Unavailable    (0 bindings)
+  5.254605 10.129.34.51 -> 10.3.96.32   SIP 356 Status: 503 Service Unavailable    (0 bindings)
+  5.255135 10.129.34.51 -> 10.3.96.32   SIP 599 Status: 200 OK    (1 bindings)
+  5.255503 10.129.34.51 -> 10.3.96.32   SIP 355 Status: 503 Service Unavailable    (0 bindings)
+  5.255923 10.129.34.51 -> 10.3.96.32   SIP 356 Status: 503 Service Unavailable    (0 bindings)
+  5.256313 10.129.34.51 -> 10.3.96.32   SIP 354 Status: 503 Service Unavailable    (0 bindings)
+  5.256817 10.129.34.51 -> 10.3.96.32   SIP 602 Status: 200 OK    (1 bindings)
+  5.265813 10.129.34.51 -> 10.3.96.32   SIP 357 Status: 503 Service Unavailable    (0 bindings)
+  5.999349   10.3.96.32 -> 10.129.34.51 SIP 623 Request: REGISTER sip:ims.hom
+  5.999496   10.3.96.32 -> 10.129.34.51 SIP 623 Request: REGISTER sip:ims.hom
+  5.999833   10.3.96.32 -> 10.129.34.51 SIP 623 Request: REGISTER sip:ims.hom
+  6.000128   10.3.96.32 -> 10.129.34.51 SIP 625 Request: REGISTER sip:ims.hom
+  6.000483   10.3.96.32 -> 10.129.34.51 SIP 623 Request: REGISTER sip:ims.hom
+  6.000762   10.3.96.32 -> 10.129.34.51 SIP 625 Request: REGISTER sip:ims.hom
+  6.001065   10.3.96.32 -> 10.129.34.51 SIP 623 Request: REGISTER sip:ims.hom
+  6.001292   10.3.96.32 -> 10.129.34.51 SIP 624 Request: REGISTER sip:ims.hom
+  6.001673   10.3.96.32 -> 10.129.34.51 SIP 625 Request: REGISTER sip:ims.hom
+  6.001956   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+  6.002256   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+  6.002546   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+  6.002917   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+  6.003210   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+  6.003482   10.3.96.32 -> 10.129.34.51 SIP 630 Request: REGISTER sip:ims.hom
+  6.026425 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+  6.027693   10.3.96.32 -> 10.129.34.51 SIP 556 Request: REGISTER sip:ims.hom
+  6.027895 10.129.34.51 -> 10.3.96.32   SIP 450 Status: 401 Unauthorized    (0 bindings)
+  6.029071   10.3.96.32 -> 10.129.34.51 SIP 556 Request: REGISTER sip:ims.hom
+  6.048592 10.129.34.51 -> 10.3.96.32   SIP 451 Status: 401 Unauthorized    (0 bindings)
+  6.049321 10.129.34.51 -> 10.3.96.32   SIP 450 Status: 401 Unauthorized    (0 bindings)
+  6.049764   10.3.96.32 -> 10.129.34.51 SIP 557 Request: REGISTER sip:ims.hom
+  6.050215 10.129.34.51 -> 10.3.96.32   SIP 450 Status: 401 Unauthorized    (0 bindings)
+  6.050322   10.3.96.32 -> 10.129.34.51 SIP 557 Request: REGISTER sip:ims.hom
+  6.050658 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+  6.051064 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+  6.051105   10.3.96.32 -> 10.129.34.51 SIP 555 Request: REGISTER sip:ims.hom
+  6.051454 10.129.34.51 -> 10.3.96.32   SIP 450 Status: 401 Unauthorized    (0 bindings)
+  6.051538   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+  6.051887   10.3.96.32 -> 10.129.34.51 SIP 556 Request: REGISTER sip:ims.hom
+  6.051901 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+  6.052258 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+  6.052353   10.3.96.32 -> 10.129.34.51 SIP 557 Request: REGISTER sip:ims.hom
+  6.052756   10.3.96.32 -> 10.129.34.51 SIP 557 Request: REGISTER sip:ims.hom
+  6.052860 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+  6.053057   10.3.96.32 -> 10.129.34.51 SIP 562 Request: REGISTER sip:ims.hom
+  6.053356 10.129.34.51 -> 10.3.96.32   SIP 450 Status: 401 Unauthorized    (0 bindings)
+  6.053734   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+  6.053869 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+  6.054314   10.3.96.32 -> 10.129.34.51 SIP 557 Request: REGISTER sip:ims.hom
+  6.054803   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+  6.061795 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+  6.062832   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+  6.071177 10.129.34.51 -> 10.3.96.32   SIP 455 Status: 401 Unauthorized    (0 bindings)
+  6.072123   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+  6.073349 10.129.34.51 -> 10.3.96.32   SIP 355 Status: 503 Service Unavailable    (0 bindings)
+  6.073769 10.129.34.51 -> 10.3.96.32   SIP 355 Status: 503 Service Unavailable    (0 bindings)
+  6.074938 10.129.34.51 -> 10.3.96.32   SIP 356 Status: 503 Service Unavailable    (0 bindings)
+  6.075368 10.129.34.51 -> 10.3.96.32   SIP 356 Status: 503 Service Unavailable    (0 bindings)
+  6.075775 10.129.34.51 -> 10.3.96.32   SIP 357 Status: 503 Service Unavailable    (0 bindings)
+  6.076187 10.129.34.51 -> 10.3.96.32   SIP 354 Status: 503 Service Unavailable    (0 bindings)
+  6.076582 10.129.34.51 -> 10.3.96.32   SIP 355 Status: 503 Service Unavailable    (0 bindings)
+  6.076981 10.129.34.51 -> 10.3.96.32   SIP 356 Status: 503 Service Unavailable    (0 bindings)
+  6.077441 10.129.34.51 -> 10.3.96.32   SIP 356 Status: 503 Service Unavailable    (0 bindings)
+  6.077875 10.129.34.51 -> 10.3.96.32   SIP 356 Status: 503 Service Unavailable    (0 bindings)
+  6.078193 10.129.34.51 -> 10.3.96.32   SIP 359 Status: 503 Service Unavailable    (0 bindings)
+  6.078511 10.129.34.51 -> 10.3.96.32   SIP 358 Status: 503 Service Unavailable    (0 bindings)
+  6.078820 10.129.34.51 -> 10.3.96.32   SIP 357 Status: 503 Service Unavailable    (0 bindings)
+  6.085181 10.129.34.51 -> 10.3.96.32   SIP 358 Status: 503 Service Unavailable    (0 bindings)
+  6.085513 10.129.34.51 -> 10.3.96.32   SIP 358 Status: 503 Service Unavailable    (0 bindings)
+  6.999190   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+  6.999431   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+  6.999730   10.3.96.32 -> 10.129.34.51 SIP 627 Request: REGISTER sip:ims.hom
+  7.000224   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+  7.000477   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+  7.000754   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+  7.001097   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+  7.001367   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+  7.001771   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+  7.002127   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+  7.002380   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+  7.002687   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+  7.003053   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+  7.003375   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+  7.003495   10.3.96.32 -> 10.129.34.51 SIP 627 Request: REGISTER sip:ims.hom
+  7.033896 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+  7.034284 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+  7.034650 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+  7.034883   10.3.96.32 -> 10.129.34.51 SIP 562 Request: REGISTER sip:ims.hom
+  7.035272   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+  7.035688   10.3.96.32 -> 10.129.34.51 SIP 562 Request: REGISTER sip:ims.hom
+  7.047583 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+  7.047973 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+  7.048313 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+  7.048534   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+  7.048731 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+  7.048911   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+  7.049063 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+  7.049464   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+  7.049521 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+  7.049920   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+  7.050342   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+  7.050662   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+  7.057237 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+  7.057684 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+  7.058081 10.129.34.51 -> 10.3.96.32   SIP 358 Status: 503 Service Unavailable    (0 bindings)
+  7.058296   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+  7.058506 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+  7.058836   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+  7.059481   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+  7.063044 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+  7.063550 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+  7.063899   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+  7.063927 10.129.34.51 -> 10.3.96.32   SIP 359 Status: 503 Service Unavailable    (0 bindings)
+  7.064424   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+  7.073480 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+  7.074007 10.129.34.51 -> 10.3.96.32   SIP 606 Status: 200 OK    (1 bindings)
+  7.074417   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+  7.074468 10.129.34.51 -> 10.3.96.32   SIP 358 Status: 503 Service Unavailable    (0 bindings)
+  7.074873 10.129.34.51 -> 10.3.96.32   SIP 357 Status: 503 Service Unavailable    (0 bindings)
+  7.075369 10.129.34.51 -> 10.3.96.32   SIP 357 Status: 503 Service Unavailable    (0 bindings)
+  7.075795 10.129.34.51 -> 10.3.96.32   SIP 357 Status: 503 Service Unavailable    (0 bindings)
+  7.076202 10.129.34.51 -> 10.3.96.32   SIP 357 Status: 503 Service Unavailable    (0 bindings)
+  7.082036 10.129.34.51 -> 10.3.96.32   SIP 358 Status: 503 Service Unavailable    (0 bindings)
+  7.082462 10.129.34.51 -> 10.3.96.32   SIP 357 Status: 503 Service Unavailable    (0 bindings)
+  7.082939 10.129.34.51 -> 10.3.96.32   SIP 357 Status: 503 Service Unavailable    (0 bindings)
+  7.083389 10.129.34.51 -> 10.3.96.32   SIP 357 Status: 503 Service Unavailable    (0 bindings)
+  7.084683 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+  7.085124 10.129.34.51 -> 10.3.96.32   SIP 358 Status: 503 Service Unavailable    (0 bindings)
+  7.093090 10.129.34.51 -> 10.3.96.32   SIP 358 Status: 503 Service Unavailable    (0 bindings)
+  7.999424   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+  7.999469   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+  7.999697   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+  7.999925   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+  8.000191   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+  8.000410   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+  8.000721   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+  8.000893   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+  8.001206   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+  8.001533   10.3.96.32 -> 10.129.34.51 SIP 624 Request: REGISTER sip:ims.hom
+  8.001838   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+  8.002115   10.3.96.32 -> 10.129.34.51 SIP 630 Request: REGISTER sip:ims.hom
+  8.002399   10.3.96.32 -> 10.129.34.51 SIP 630 Request: REGISTER sip:ims.hom
+  8.002788   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+  8.003052   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+  8.019831 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+  8.020191 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+  8.020537 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+  8.021088   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+  8.021335   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+  8.021726   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+  8.030892 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+  8.031880   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+  8.033653 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+  8.034852   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+  8.043343 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+  8.043691 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+  8.044025 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+  8.044357 10.129.34.51 -> 10.3.96.32   SIP 455 Status: 401 Unauthorized    (0 bindings)
+  8.044388   10.3.96.32 -> 10.129.34.51 SIP 559 Request: REGISTER sip:ims.hom
+  8.044674 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+  8.044708   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+  8.045106   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+  8.045468   10.3.96.32 -> 10.129.34.51 SIP 558 Request: REGISTER sip:ims.hom
+  8.045779   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+  8.053890 10.129.34.51 -> 10.3.96.32   SIP 449 Status: 401 Unauthorized    (0 bindings)
+  8.054409 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+  8.054891   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+  8.055212   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+  8.058878 10.129.34.51 -> 10.3.96.32   SIP 455 Status: 401 Unauthorized    (0 bindings)
+  8.059217 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+  8.059500 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+  8.060271   10.3.96.32 -> 10.129.34.51 SIP 562 Request: REGISTER sip:ims.hom
+  8.060545   10.3.96.32 -> 10.129.34.51 SIP 559 Request: REGISTER sip:ims.hom
+  8.060949   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+  8.068646 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+  8.069379 10.129.34.51 -> 10.3.96.32   SIP 604 Status: 200 OK    (1 bindings)
+  8.069961 10.129.34.51 -> 10.3.96.32   SIP 604 Status: 200 OK    (1 bindings)
+  8.070605 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+  8.077105 10.129.34.51 -> 10.3.96.32   SIP 357 Status: 503 Service Unavailable    (0 bindings)
+  8.077512 10.129.34.51 -> 10.3.96.32   SIP 355 Status: 503 Service Unavailable    (0 bindings)
+  8.077883 10.129.34.51 -> 10.3.96.32   SIP 357 Status: 503 Service Unavailable    (0 bindings)
+  8.078280 10.129.34.51 -> 10.3.96.32   SIP 358 Status: 503 Service Unavailable    (0 bindings)
+  8.078627 10.129.34.51 -> 10.3.96.32   SIP 357 Status: 503 Service Unavailable    (0 bindings)
+  8.079008 10.129.34.51 -> 10.3.96.32   SIP 359 Status: 503 Service Unavailable    (0 bindings)
+  8.079333 10.129.34.51 -> 10.3.96.32   SIP 356 Status: 503 Service Unavailable    (0 bindings)
+  8.079697 10.129.34.51 -> 10.3.96.32   SIP 358 Status: 503 Service Unavailable    (0 bindings)
+  8.088627 10.129.34.51 -> 10.3.96.32   SIP 603 Status: 200 OK    (1 bindings)
+  8.089024 10.129.34.51 -> 10.3.96.32   SIP 604 Status: 200 OK    (1 bindings)
+  8.109764 10.129.34.51 -> 10.3.96.32   SIP 357 Status: 503 Service Unavailable    (0 bindings)
+  8.999396   10.3.96.32 -> 10.129.34.51 SIP 627 Request: REGISTER sip:ims.hom
+  8.999605   10.3.96.32 -> 10.129.34.51 SIP 630 Request: REGISTER sip:ims.hom
+  8.999885   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+  9.000136   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+  9.000409   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+  9.000729   10.3.96.32 -> 10.129.34.51 SIP 630 Request: REGISTER sip:ims.hom
+  9.001025   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+  9.001303   10.3.96.32 -> 10.129.34.51 SIP 627 Request: REGISTER sip:ims.hom
+  9.001682   10.3.96.32 -> 10.129.34.51 SIP 630 Request: REGISTER sip:ims.hom
+  9.001992   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+  9.002384   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+  9.002635   10.3.96.32 -> 10.129.34.51 SIP 630 Request: REGISTER sip:ims.hom
+  9.002938   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+  9.003164   10.3.96.32 -> 10.129.34.51 SIP 627 Request: REGISTER sip:ims.hom
+  9.003406   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+  9.015912 10.129.34.51 -> 10.3.96.32   SIP 455 Status: 401 Unauthorized    (0 bindings)
+  9.016350 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+  9.016772 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+  9.016935   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+  9.017244   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+  9.017328 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+  9.018083   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+  9.018466   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+  9.030596 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+  9.030986 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+  9.031594   10.3.96.32 -> 10.129.34.51 SIP 558 Request: REGISTER sip:ims.hom
+  9.031872   10.3.96.32 -> 10.129.34.51 SIP 559 Request: REGISTER sip:ims.hom
+  9.039274 10.129.34.51 -> 10.3.96.32   SIP 455 Status: 401 Unauthorized    (0 bindings)
+  9.040577   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+  9.041670 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+  9.042013 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+  9.042329 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+  9.042627   10.3.96.32 -> 10.129.34.51 SIP 559 Request: REGISTER sip:ims.hom
+  9.042742 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+  9.042883   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+  9.043114 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+  9.043465   10.3.96.32 -> 10.129.34.51 SIP 562 Request: REGISTER sip:ims.hom
+  9.043689   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+  9.044192   10.3.96.32 -> 10.129.34.51 SIP 562 Request: REGISTER sip:ims.hom
+  9.051219 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+  9.052342   10.3.96.32 -> 10.129.34.51 SIP 562 Request: REGISTER sip:ims.hom
+  9.055585 10.129.34.51 -> 10.3.96.32   SIP 455 Status: 401 Unauthorized    (0 bindings)
+  9.056151 10.129.34.51 -> 10.3.96.32   SIP 604 Status: 200 OK    (1 bindings)
+  9.056578   10.3.96.32 -> 10.129.34.51 SIP 559 Request: REGISTER sip:ims.hom
+  9.056801 10.129.34.51 -> 10.3.96.32   SIP 604 Status: 200 OK    (1 bindings)
+  9.064427 10.129.34.51 -> 10.3.96.32   SIP 357 Status: 503 Service Unavailable    (0 bindings)
+  9.064893 10.129.34.51 -> 10.3.96.32   SIP 356 Status: 503 Service Unavailable    (0 bindings)
+  9.065392 10.129.34.51 -> 10.3.96.32   SIP 359 Status: 503 Service Unavailable    (0 bindings)
+  9.065823 10.129.34.51 -> 10.3.96.32   SIP 358 Status: 503 Service Unavailable    (0 bindings)
+  9.066318 10.129.34.51 -> 10.3.96.32   SIP 359 Status: 503 Service Unavailable    (0 bindings)
+  9.073938 10.129.34.51 -> 10.3.96.32   SIP 356 Status: 503 Service Unavailable    (0 bindings)
+  9.084787 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+  9.095703 10.129.34.51 -> 10.3.96.32   SIP 603 Status: 200 OK    (1 bindings)
+  9.096206 10.129.34.51 -> 10.3.96.32   SIP 455 Status: 401 Unauthorized    (0 bindings)
+  9.096577 10.129.34.51 -> 10.3.96.32   SIP 604 Status: 200 OK    (1 bindings)
+  9.098991   10.3.96.32 -> 10.129.34.51 SIP 559 Request: REGISTER sip:ims.hom
+  9.106445 10.129.34.51 -> 10.3.96.32   SIP 606 Status: 200 OK    (1 bindings)
+  9.107360 10.129.34.51 -> 10.3.96.32   SIP 602 Status: 200 OK    (1 bindings)
+  9.117188 10.129.34.51 -> 10.3.96.32   SIP 356 Status: 503 Service Unavailable    (0 bindings)
+  9.139290 10.129.34.51 -> 10.3.96.32   SIP 604 Status: 200 OK    (1 bindings)
+  9.999225   10.3.96.32 -> 10.129.34.51 SIP 627 Request: REGISTER sip:ims.hom
+  9.999780   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+  9.999869   10.3.96.32 -> 10.129.34.51 SIP 630 Request: REGISTER sip:ims.hom
+ 10.000289   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 10.000472   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 10.000593   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 10.000959   10.3.96.32 -> 10.129.34.51 SIP 627 Request: REGISTER sip:ims.hom
+ 10.001064   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 10.001512   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 10.001797   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 10.001844   10.3.96.32 -> 10.129.34.51 SIP 627 Request: REGISTER sip:ims.hom
+ 10.002311   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 10.002765   10.3.96.32 -> 10.129.34.51 SIP 627 Request: REGISTER sip:ims.hom
+ 10.002782   10.3.96.32 -> 10.129.34.51 SIP 627 Request: REGISTER sip:ims.hom
+ 10.003066   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 10.431942 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 10.432352 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 10.432722 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+ 10.433150 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 10.433498   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 10.433729 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 10.434146 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+ 10.434189   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 10.434552   10.3.96.32 -> 10.129.34.51 SIP 559 Request: REGISTER sip:ims.hom
+ 10.434625 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 10.434905   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 10.435101 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 10.435376   10.3.96.32 -> 10.129.34.51 SIP 559 Request: REGISTER sip:ims.hom
+ 10.435528 10.129.34.51 -> 10.3.96.32   SIP 455 Status: 401 Unauthorized    (0 bindings)
+ 10.435750   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 10.436017   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 10.436092 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 10.436467   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 10.436892   10.3.96.32 -> 10.129.34.51 SIP 562 Request: REGISTER sip:ims.hom
+ 10.437176   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 10.452875 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+ 10.453376 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 10.453744   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 10.453967 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+ 10.454123   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 10.454661   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 10.456109 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 10.457008   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 10.467777 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+ 10.468869   10.3.96.32 -> 10.129.34.51 SIP 562 Request: REGISTER sip:ims.hom
+ 10.539865 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+ 10.540367 10.129.34.51 -> 10.3.96.32   SIP 604 Status: 200 OK    (1 bindings)
+ 10.550485 10.129.34.51 -> 10.3.96.32   SIP 604 Status: 200 OK    (1 bindings)
+ 10.567494 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+ 10.571481 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+ 10.572066 10.129.34.51 -> 10.3.96.32   SIP 603 Status: 200 OK    (1 bindings)
+ 10.572688 10.129.34.51 -> 10.3.96.32   SIP 603 Status: 200 OK    (1 bindings)
+ 10.573165 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+ 10.573763 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+ 10.574272 10.129.34.51 -> 10.3.96.32   SIP 604 Status: 200 OK    (1 bindings)
+ 10.574852 10.129.34.51 -> 10.3.96.32   SIP 604 Status: 200 OK    (1 bindings)
+ 10.630465 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+ 10.631082 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+ 10.661820 10.129.34.51 -> 10.3.96.32   SIP 606 Status: 200 OK    (1 bindings)
+ 10.723787 10.129.34.51 -> 10.3.96.32   SIP 606 Status: 200 OK    (1 bindings)
+ 10.999515   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 10.999557   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 10.999745   10.3.96.32 -> 10.129.34.51 SIP 630 Request: REGISTER sip:ims.hom
+ 11.000042   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 11.000200   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 11.000534   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 11.000782   10.3.96.32 -> 10.129.34.51 SIP 630 Request: REGISTER sip:ims.hom
+ 11.001022   10.3.96.32 -> 10.129.34.51 SIP 630 Request: REGISTER sip:ims.hom
+ 11.001248   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 11.001634   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 11.001886   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 11.002123   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 11.002359   10.3.96.32 -> 10.129.34.51 SIP 627 Request: REGISTER sip:ims.hom
+ 11.002581   10.3.96.32 -> 10.129.34.51 SIP 627 Request: REGISTER sip:ims.hom
+ 11.002888   10.3.96.32 -> 10.129.34.51 SIP 630 Request: REGISTER sip:ims.hom
+ 11.075816 10.129.34.51 -> 10.3.96.32   SIP 455 Status: 401 Unauthorized    (0 bindings)
+ 11.076176 10.129.34.51 -> 10.3.96.32   SIP 455 Status: 401 Unauthorized    (0 bindings)
+ 11.076506 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 11.077811   10.3.96.32 -> 10.129.34.51 SIP 557 Request: REGISTER sip:ims.hom
+ 11.077970   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 11.078363   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 11.089187 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 11.089565 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 11.089999 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 11.090475 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+ 11.090523   10.3.96.32 -> 10.129.34.51 SIP 562 Request: REGISTER sip:ims.hom
+ 11.090897 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 11.091021   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 11.091343   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 11.091417 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 11.091804 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 11.091834   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 11.092444   10.3.96.32 -> 10.129.34.51 SIP 562 Request: REGISTER sip:ims.hom
+ 11.092842   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 11.093152   10.3.96.32 -> 10.129.34.51 SIP 559 Request: REGISTER sip:ims.hom
+ 11.099802 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 11.100252 10.129.34.51 -> 10.3.96.32   SIP 455 Status: 401 Unauthorized    (0 bindings)
+ 11.100793 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 11.100909   10.3.96.32 -> 10.129.34.51 SIP 559 Request: REGISTER sip:ims.hom
+ 11.101055   10.3.96.32 -> 10.129.34.51 SIP 562 Request: REGISTER sip:ims.hom
+ 11.101304 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+ 11.101877   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 11.102453   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 11.107035 10.129.34.51 -> 10.3.96.32   SIP 455 Status: 401 Unauthorized    (0 bindings)
+ 11.108093   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 11.111626 10.129.34.51 -> 10.3.96.32   SIP 601 Status: 200 OK    (1 bindings)
+ 11.122730 10.129.34.51 -> 10.3.96.32   SIP 606 Status: 200 OK    (1 bindings)
+ 11.123162 10.129.34.51 -> 10.3.96.32   SIP 356 Status: 503 Service Unavailable    (0 bindings)
+ 11.123571 10.129.34.51 -> 10.3.96.32   SIP 359 Status: 503 Service Unavailable    (0 bindings)
+ 11.123990 10.129.34.51 -> 10.3.96.32   SIP 357 Status: 503 Service Unavailable    (0 bindings)
+ 11.124448 10.129.34.51 -> 10.3.96.32   SIP 357 Status: 503 Service Unavailable    (0 bindings)
+ 11.124859 10.129.34.51 -> 10.3.96.32   SIP 357 Status: 503 Service Unavailable    (0 bindings)
+ 11.133973 10.129.34.51 -> 10.3.96.32   SIP 357 Status: 503 Service Unavailable    (0 bindings)
+ 11.134409 10.129.34.51 -> 10.3.96.32   SIP 357 Status: 503 Service Unavailable    (0 bindings)
+ 11.318660 10.129.34.51 -> 10.3.96.32   SIP 604 Status: 200 OK    (1 bindings)
+ 11.340028 10.129.34.51 -> 10.3.96.32   SIP 606 Status: 200 OK    (1 bindings)
+ 11.340550 10.129.34.51 -> 10.3.96.32   SIP 603 Status: 200 OK    (1 bindings)
+ 11.341202 10.129.34.51 -> 10.3.96.32   SIP 604 Status: 200 OK    (1 bindings)
+ 11.350829 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+ 11.351359 10.129.34.51 -> 10.3.96.32   SIP 604 Status: 200 OK    (1 bindings)
+ 11.999395   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 11.999454   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 11.999863   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 12.000118   10.3.96.32 -> 10.129.34.51 SIP 630 Request: REGISTER sip:ims.hom
+ 12.000197   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 12.000554   10.3.96.32 -> 10.129.34.51 SIP 627 Request: REGISTER sip:ims.hom
+ 12.000847   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 12.000951   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 12.001311   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 12.001584   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 12.001912   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 12.001929   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 12.002296   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 12.002548   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 12.002843   10.3.96.32 -> 10.129.34.51 SIP 627 Request: REGISTER sip:ims.hom
+ 12.040818 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 12.041996   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 12.051753 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 12.052841   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 12.053334 10.129.34.51 -> 10.3.96.32   SIP 455 Status: 401 Unauthorized    (0 bindings)
+ 12.053814 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+ 12.054317   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 12.054780   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 12.065252 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 12.065719 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 12.065981 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 12.066316 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 12.066365   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 12.066623 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 12.066656   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 12.066917   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 12.067025 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 12.067263   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 12.067342 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 12.067483   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 12.067840   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 12.068217   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 12.075283 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+ 12.075568 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 12.075849 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 12.076226   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 12.076414   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 12.076704   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 12.080533 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 12.080928 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+ 12.081431   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 12.090087 10.129.34.51 -> 10.3.96.32   SIP 604 Status: 200 OK    (1 bindings)
+ 12.090537 10.129.34.51 -> 10.3.96.32   SIP 604 Status: 200 OK    (1 bindings)
+ 12.090919 10.129.34.51 -> 10.3.96.32   SIP 604 Status: 200 OK    (1 bindings)
+ 12.091296 10.129.34.51 -> 10.3.96.32   SIP 604 Status: 200 OK    (1 bindings)
+ 12.098999 10.129.34.51 -> 10.3.96.32   SIP 358 Status: 503 Service Unavailable    (0 bindings)
+ 12.099459 10.129.34.51 -> 10.3.96.32   SIP 358 Status: 503 Service Unavailable    (0 bindings)
+ 12.099889 10.129.34.51 -> 10.3.96.32   SIP 357 Status: 503 Service Unavailable    (0 bindings)
+ 12.100299 10.129.34.51 -> 10.3.96.32   SIP 357 Status: 503 Service Unavailable    (0 bindings)
+ 12.100708 10.129.34.51 -> 10.3.96.32   SIP 358 Status: 503 Service Unavailable    (0 bindings)
+ 12.101073 10.129.34.51 -> 10.3.96.32   SIP 358 Status: 503 Service Unavailable    (0 bindings)
+ 12.101504 10.129.34.51 -> 10.3.96.32   SIP 358 Status: 503 Service Unavailable    (0 bindings)
+ 12.101905 10.129.34.51 -> 10.3.96.32   SIP 358 Status: 503 Service Unavailable    (0 bindings)
+ 12.104461 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+ 12.104977 10.129.34.51 -> 10.3.96.32   SIP 604 Status: 200 OK    (1 bindings)
+ 12.999330   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 12.999646   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 12.999942   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 13.000383   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 13.000511   10.3.96.32 -> 10.129.34.51 SIP 627 Request: REGISTER sip:ims.hom
+ 13.000878   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 13.001205   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 13.001496   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 13.001766   10.3.96.32 -> 10.129.34.51 SIP 627 Request: REGISTER sip:ims.hom
+ 13.002032   10.3.96.32 -> 10.129.34.51 SIP 627 Request: REGISTER sip:ims.hom
+ 13.002364   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 13.002662   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 13.003079   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 13.003512   10.3.96.32 -> 10.129.34.51 SIP 630 Request: REGISTER sip:ims.hom
+ 13.003576   10.3.96.32 -> 10.129.34.51 SIP 627 Request: REGISTER sip:ims.hom
+ 13.019186 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 13.019620 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 13.020052 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 13.020229   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 13.020609   10.3.96.32 -> 10.129.34.51 SIP 559 Request: REGISTER sip:ims.hom
+ 13.020738 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 13.020968   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 13.021914   10.3.96.32 -> 10.129.34.51 SIP 562 Request: REGISTER sip:ims.hom
+ 13.033762 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 13.034940   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 13.042141 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 13.042562 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 13.043092   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 13.043559   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 13.043983 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+ 13.044399 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 13.044608   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 13.044927 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 13.045394   10.3.96.32 -> 10.129.34.51 SIP 562 Request: REGISTER sip:ims.hom
+ 13.045409 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+ 13.045940   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 13.046255   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 13.054233 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+ 13.055246   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 13.059544 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 13.059954 10.129.34.51 -> 10.3.96.32   SIP 455 Status: 401 Unauthorized    (0 bindings)
+ 13.060631   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 13.060807   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 13.066219 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+ 13.067198   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 13.069186 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+ 13.069619 10.129.34.51 -> 10.3.96.32   SIP 357 Status: 503 Service Unavailable    (0 bindings)
+ 13.070023 10.129.34.51 -> 10.3.96.32   SIP 357 Status: 503 Service Unavailable    (0 bindings)
+ 13.070409 10.129.34.51 -> 10.3.96.32   SIP 359 Status: 503 Service Unavailable    (0 bindings)
+ 13.070895 10.129.34.51 -> 10.3.96.32   SIP 603 Status: 200 OK    (1 bindings)
+ 13.071426 10.129.34.51 -> 10.3.96.32   SIP 604 Status: 200 OK    (1 bindings)
+ 13.071813 10.129.34.51 -> 10.3.96.32   SIP 358 Status: 503 Service Unavailable    (0 bindings)
+ 13.078929 10.129.34.51 -> 10.3.96.32   SIP 358 Status: 503 Service Unavailable    (0 bindings)
+ 13.079434 10.129.34.51 -> 10.3.96.32   SIP 357 Status: 503 Service Unavailable    (0 bindings)
+ 13.079928 10.129.34.51 -> 10.3.96.32   SIP 606 Status: 200 OK    (1 bindings)
+ 13.080582 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+ 13.080997 10.129.34.51 -> 10.3.96.32   SIP 358 Status: 503 Service Unavailable    (0 bindings)
+ 13.089467 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+ 13.089899 10.129.34.51 -> 10.3.96.32   SIP 357 Status: 503 Service Unavailable    (0 bindings)
+ 13.100096 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+ 13.999351   10.3.96.32 -> 10.129.34.51 SIP 630 Request: REGISTER sip:ims.hom
+ 13.999515   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 13.999779   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 14.000045   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 14.000252   10.3.96.32 -> 10.129.34.51 SIP 630 Request: REGISTER sip:ims.hom
+ 14.000443   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 14.000729   10.3.96.32 -> 10.129.34.51 SIP 630 Request: REGISTER sip:ims.hom
+ 14.001024   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 14.001251   10.3.96.32 -> 10.129.34.51 SIP 627 Request: REGISTER sip:ims.hom
+ 14.001560   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 14.001795   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 14.001995   10.3.96.32 -> 10.129.34.51 SIP 630 Request: REGISTER sip:ims.hom
+ 14.002106   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 14.002414   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 14.002654   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 14.026375 10.129.34.51 -> 10.3.96.32   SIP 455 Status: 401 Unauthorized    (0 bindings)
+ 14.026973 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 14.027307 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 14.027482   10.3.96.32 -> 10.129.34.51 SIP 559 Request: REGISTER sip:ims.hom
+ 14.027780   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 14.027851 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 14.028286   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 14.028304 10.129.34.51 -> 10.3.96.32   SIP 455 Status: 401 Unauthorized    (0 bindings)
+ 14.028846   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 14.029281   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 14.038433 10.129.34.51 -> 10.3.96.32   SIP 455 Status: 401 Unauthorized    (0 bindings)
+ 14.038821 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 14.039442   10.3.96.32 -> 10.129.34.51 SIP 559 Request: REGISTER sip:ims.hom
+ 14.039789   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 14.042880 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+ 14.043462 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 14.043865 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 14.043970   10.3.96.32 -> 10.129.34.51 SIP 558 Request: REGISTER sip:ims.hom
+ 14.044421   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 14.044861   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 14.053095 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 14.053528 10.129.34.51 -> 10.3.96.32   SIP 455 Status: 401 Unauthorized    (0 bindings)
+ 14.053881 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 14.053932   10.3.96.32 -> 10.129.34.51 SIP 562 Request: REGISTER sip:ims.hom
+ 14.054217 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 14.054347   10.3.96.32 -> 10.129.34.51 SIP 562 Request: REGISTER sip:ims.hom
+ 14.054585 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 14.054639   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 14.055100   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 14.055489   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 14.065160 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+ 14.065558 10.129.34.51 -> 10.3.96.32   SIP 604 Status: 200 OK    (1 bindings)
+ 14.065994 10.129.34.51 -> 10.3.96.32   SIP 603 Status: 200 OK    (1 bindings)
+ 14.073634 10.129.34.51 -> 10.3.96.32   SIP 604 Status: 200 OK    (1 bindings)
+ 14.074064 10.129.34.51 -> 10.3.96.32   SIP 604 Status: 200 OK    (1 bindings)
+ 14.074481 10.129.34.51 -> 10.3.96.32   SIP 355 Status: 503 Service Unavailable    (0 bindings)
+ 14.074777 10.129.34.51 -> 10.3.96.32   SIP 359 Status: 503 Service Unavailable    (0 bindings)
+ 14.075263 10.129.34.51 -> 10.3.96.32   SIP 603 Status: 200 OK    (1 bindings)
+ 14.075568 10.129.34.51 -> 10.3.96.32   SIP 357 Status: 503 Service Unavailable    (0 bindings)
+ 14.075918 10.129.34.51 -> 10.3.96.32   SIP 359 Status: 503 Service Unavailable    (0 bindings)
+ 14.076306 10.129.34.51 -> 10.3.96.32   SIP 358 Status: 503 Service Unavailable    (0 bindings)
+ 14.076627 10.129.34.51 -> 10.3.96.32   SIP 357 Status: 503 Service Unavailable    (0 bindings)
+ 14.076916 10.129.34.51 -> 10.3.96.32   SIP 358 Status: 503 Service Unavailable    (0 bindings)
+ 14.085312 10.129.34.51 -> 10.3.96.32   SIP 604 Status: 200 OK    (1 bindings)
+ 14.085891 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+ 14.999306   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 14.999674   10.3.96.32 -> 10.129.34.51 SIP 630 Request: REGISTER sip:ims.hom
+ 14.999991   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 15.000466   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 15.000592   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 15.000903   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 15.001213   10.3.96.32 -> 10.129.34.51 SIP 627 Request: REGISTER sip:ims.hom
+ 15.001495   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 15.001775   10.3.96.32 -> 10.129.34.51 SIP 630 Request: REGISTER sip:ims.hom
+ 15.002008   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 15.002249   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 15.002533   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 15.002714   10.3.96.32 -> 10.129.34.51 SIP 630 Request: REGISTER sip:ims.hom
+ 15.003015   10.3.96.32 -> 10.129.34.51 SIP 627 Request: REGISTER sip:ims.hom
+ 15.003286   10.3.96.32 -> 10.129.34.51 SIP 624 Request: REGISTER sip:ims.hom
+ 15.023554 10.129.34.51 -> 10.3.96.32   SIP 455 Status: 401 Unauthorized    (0 bindings)
+ 15.023847 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 15.024131 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 15.024682   10.3.96.32 -> 10.129.34.51 SIP 559 Request: REGISTER sip:ims.hom
+ 15.025050   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 15.025222   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 15.037937 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 15.039318   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 15.046431 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 15.046911 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 15.047334 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+ 15.047412   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 15.047692   10.3.96.32 -> 10.129.34.51 SIP 562 Request: REGISTER sip:ims.hom
+ 15.047888 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 15.048179   10.3.96.32 -> 10.129.34.51 SIP 562 Request: REGISTER sip:ims.hom
+ 15.048766   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 15.049622 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 15.050012 10.129.34.51 -> 10.3.96.32   SIP 449 Status: 401 Unauthorized    (0 bindings)
+ 15.050517   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 15.051011   10.3.96.32 -> 10.129.34.51 SIP 559 Request: REGISTER sip:ims.hom
+ 15.064208 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 15.064740 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+ 15.065116 10.129.34.51 -> 10.3.96.32   SIP 455 Status: 401 Unauthorized    (0 bindings)
+ 15.065249   10.3.96.32 -> 10.129.34.51 SIP 562 Request: REGISTER sip:ims.hom
+ 15.065558   10.3.96.32 -> 10.129.34.51 SIP 562 Request: REGISTER sip:ims.hom
+ 15.065762 10.129.34.51 -> 10.3.96.32   SIP 455 Status: 401 Unauthorized    (0 bindings)
+ 15.066094   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 15.066428 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+ 15.066672   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 15.071517 10.129.34.51 -> 10.3.96.32   SIP 358 Status: 503 Service Unavailable    (0 bindings)
+ 15.071981 10.129.34.51 -> 10.3.96.32   SIP 357 Status: 503 Service Unavailable    (0 bindings)
+ 15.075899 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 15.076534 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+ 15.076909   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 15.077142 10.129.34.51 -> 10.3.96.32   SIP 606 Status: 200 OK    (1 bindings)
+ 15.077758 10.129.34.51 -> 10.3.96.32   SIP 604 Status: 200 OK    (1 bindings)
+ 15.083497 10.129.34.51 -> 10.3.96.32   SIP 359 Status: 503 Service Unavailable    (0 bindings)
+ 15.084905 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+ 15.085438 10.129.34.51 -> 10.3.96.32   SIP 603 Status: 200 OK    (1 bindings)
+ 15.085849 10.129.34.51 -> 10.3.96.32   SIP 359 Status: 503 Service Unavailable    (0 bindings)
+ 15.086284 10.129.34.51 -> 10.3.96.32   SIP 358 Status: 503 Service Unavailable    (0 bindings)
+ 15.086793 10.129.34.51 -> 10.3.96.32   SIP 357 Status: 503 Service Unavailable    (0 bindings)
+ 15.095316 10.129.34.51 -> 10.3.96.32   SIP 603 Status: 200 OK    (1 bindings)
+ 15.095770 10.129.34.51 -> 10.3.96.32   SIP 606 Status: 200 OK    (1 bindings)
+ 15.096191 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+ 15.999419   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 15.999643   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 15.999892   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 16.000151   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 16.000408   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 16.000649   10.3.96.32 -> 10.129.34.51 SIP 630 Request: REGISTER sip:ims.hom
+ 16.000907   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 16.001158   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 16.001399   10.3.96.32 -> 10.129.34.51 SIP 630 Request: REGISTER sip:ims.hom
+ 16.001616   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 16.001838   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 16.002060   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 16.002353   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 16.002682   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 16.003000   10.3.96.32 -> 10.129.34.51 SIP 627 Request: REGISTER sip:ims.hom
+ 16.024007 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 16.024374 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 16.024647 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 16.025284   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 16.025852   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 16.026131   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 16.036792 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 16.037145 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 16.037990   10.3.96.32 -> 10.129.34.51 SIP 558 Request: REGISTER sip:ims.hom
+ 16.038317   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 16.047851 10.129.34.51 -> 10.3.96.32   SIP 455 Status: 401 Unauthorized    (0 bindings)
+ 16.048193 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 16.048532 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 16.048705   10.3.96.32 -> 10.129.34.51 SIP 562 Request: REGISTER sip:ims.hom
+ 16.048966 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 16.049056   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 16.049346 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 16.049468   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 16.049758 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 16.049841   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 16.050116 10.129.34.51 -> 10.3.96.32   SIP 455 Status: 401 Unauthorized    (0 bindings)
+ 16.050169   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 16.050431 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 16.050920   10.3.96.32 -> 10.129.34.51 SIP 562 Request: REGISTER sip:ims.hom
+ 16.051170   10.3.96.32 -> 10.129.34.51 SIP 562 Request: REGISTER sip:ims.hom
+ 16.051500   10.3.96.32 -> 10.129.34.51 SIP 559 Request: REGISTER sip:ims.hom
+ 16.058768 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 16.059144 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+ 16.060045   10.3.96.32 -> 10.129.34.51 SIP 562 Request: REGISTER sip:ims.hom
+ 16.060347   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 16.064335 10.129.34.51 -> 10.3.96.32   SIP 604 Status: 200 OK    (1 bindings)
+ 16.064717 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+ 16.071207 10.129.34.51 -> 10.3.96.32   SIP 358 Status: 503 Service Unavailable    (0 bindings)
+ 16.071541 10.129.34.51 -> 10.3.96.32   SIP 357 Status: 503 Service Unavailable    (0 bindings)
+ 16.071936 10.129.34.51 -> 10.3.96.32   SIP 359 Status: 503 Service Unavailable    (0 bindings)
+ 16.072338 10.129.34.51 -> 10.3.96.32   SIP 359 Status: 503 Service Unavailable    (0 bindings)
+ 16.080891 10.129.34.51 -> 10.3.96.32   SIP 359 Status: 503 Service Unavailable    (0 bindings)
+ 16.081269 10.129.34.51 -> 10.3.96.32   SIP 358 Status: 503 Service Unavailable    (0 bindings)
+ 16.091620 10.129.34.51 -> 10.3.96.32   SIP 602 Status: 200 OK    (1 bindings)
+ 16.102471 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+ 16.105083 10.129.34.51 -> 10.3.96.32   SIP 604 Status: 200 OK    (1 bindings)
+ 16.206203 10.129.34.51 -> 10.3.96.32   SIP 603 Status: 200 OK    (1 bindings)
+ 16.206745 10.129.34.51 -> 10.3.96.32   SIP 606 Status: 200 OK    (1 bindings)
+ 16.207271 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+ 16.216815 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+ 16.999520   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 16.999550   10.3.96.32 -> 10.129.34.51 SIP 627 Request: REGISTER sip:ims.hom
+ 16.999958   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 17.000171   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 17.000455   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 17.000728   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 17.000952   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 17.001169   10.3.96.32 -> 10.129.34.51 SIP 630 Request: REGISTER sip:ims.hom
+ 17.001411   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 17.001820   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 17.002052   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 17.002330   10.3.96.32 -> 10.129.34.51 SIP 627 Request: REGISTER sip:ims.hom
+ 17.002566   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 17.002780   10.3.96.32 -> 10.129.34.51 SIP 630 Request: REGISTER sip:ims.hom
+ 17.003058   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 17.028497 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 17.029742   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 17.039588 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 17.040550   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 17.040747 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+ 17.041058 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 17.041465 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 17.041562   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 17.041827 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 17.042019   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 17.042213 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 17.042301   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 17.042520 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 17.042938   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 17.043301   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 17.043605   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 17.051954 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 17.052993   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 17.056553 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 17.056942 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+ 17.057287 10.129.34.51 -> 10.3.96.32   SIP 455 Status: 401 Unauthorized    (0 bindings)
+ 17.057649 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 17.057739   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 17.057924   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 17.058030 10.129.34.51 -> 10.3.96.32   SIP 455 Status: 401 Unauthorized    (0 bindings)
+ 17.058277   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 17.058402 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 17.058732   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 17.059119   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 17.059436   10.3.96.32 -> 10.129.34.51 SIP 559 Request: REGISTER sip:ims.hom
+ 17.068100 10.129.34.51 -> 10.3.96.32   SIP 604 Status: 200 OK    (1 bindings)
+ 17.068467 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+ 17.075048 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+ 17.075433 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+ 17.076015 10.129.34.51 -> 10.3.96.32   SIP 604 Status: 200 OK    (1 bindings)
+ 17.076506 10.129.34.51 -> 10.3.96.32   SIP 358 Status: 503 Service Unavailable    (0 bindings)
+ 17.076934 10.129.34.51 -> 10.3.96.32   SIP 357 Status: 503 Service Unavailable    (0 bindings)
+ 17.077420 10.129.34.51 -> 10.3.96.32   SIP 358 Status: 503 Service Unavailable    (0 bindings)
+ 17.077920 10.129.34.51 -> 10.3.96.32   SIP 357 Status: 503 Service Unavailable    (0 bindings)
+ 17.078413 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+ 17.086537 10.129.34.51 -> 10.3.96.32   SIP 356 Status: 503 Service Unavailable    (0 bindings)
+ 17.087113 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+ 17.097263 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+ 17.107765 10.129.34.51 -> 10.3.96.32   SIP 604 Status: 200 OK    (1 bindings)
+ 17.108185 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+ 17.999535   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 17.999659   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 17.999973   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 18.000209   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 18.000437   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 18.000630   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 18.000939   10.3.96.32 -> 10.129.34.51 SIP 627 Request: REGISTER sip:ims.hom
+ 18.001185   10.3.96.32 -> 10.129.34.51 SIP 627 Request: REGISTER sip:ims.hom
+ 18.001450   10.3.96.32 -> 10.129.34.51 SIP 627 Request: REGISTER sip:ims.hom
+ 18.001736   10.3.96.32 -> 10.129.34.51 SIP 626 Request: REGISTER sip:ims.hom
+ 18.001981   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 18.002382   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 18.002678   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 18.002975   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 18.003140   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 18.016311 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 18.016633 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 18.017444   10.3.96.32 -> 10.129.34.51 SIP 559 Request: REGISTER sip:ims.hom
+ 18.017714   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 18.027261 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 18.028743 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 18.029075 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 18.029110   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 18.029407 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 18.029929   10.3.96.32 -> 10.129.34.51 SIP 559 Request: REGISTER sip:ims.hom
+ 18.030425   10.3.96.32 -> 10.129.34.51 SIP 559 Request: REGISTER sip:ims.hom
+ 18.030768   10.3.96.32 -> 10.129.34.51 SIP 557 Request: REGISTER sip:ims.hom
+ 18.042133 10.129.34.51 -> 10.3.96.32   SIP 451 Status: 401 Unauthorized    (0 bindings)
+ 18.042582 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 18.042997 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+ 18.043109   10.3.96.32 -> 10.129.34.51 SIP 559 Request: REGISTER sip:ims.hom
+ 18.043462 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 18.043521   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 18.043883   10.3.96.32 -> 10.129.34.51 SIP 562 Request: REGISTER sip:ims.hom
+ 18.044469   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 18.051007 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+ 18.052137   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 18.054644 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+ 18.054947 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 18.055361   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 18.055376 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+ 18.055655   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 18.055939 10.129.34.51 -> 10.3.96.32   SIP 603 Status: 200 OK    (1 bindings)
+ 18.062186 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 18.063304   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 18.064518 10.129.34.51 -> 10.3.96.32   SIP 603 Status: 200 OK    (1 bindings)
+ 18.064790 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 18.065816   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 18.075478 10.129.34.51 -> 10.3.96.32   SIP 603 Status: 200 OK    (1 bindings)
+ 18.075981 10.129.34.51 -> 10.3.96.32   SIP 601 Status: 200 OK    (1 bindings)
+ 18.076512 10.129.34.51 -> 10.3.96.32   SIP 604 Status: 200 OK    (1 bindings)
+ 18.077059 10.129.34.51 -> 10.3.96.32   SIP 606 Status: 200 OK    (1 bindings)
+ 18.077524 10.129.34.51 -> 10.3.96.32   SIP 357 Status: 503 Service Unavailable    (0 bindings)
+ 18.077947 10.129.34.51 -> 10.3.96.32   SIP 357 Status: 503 Service Unavailable    (0 bindings)
+ 18.085756 10.129.34.51 -> 10.3.96.32   SIP 357 Status: 503 Service Unavailable    (0 bindings)
+ 18.086277 10.129.34.51 -> 10.3.96.32   SIP 603 Status: 200 OK    (1 bindings)
+ 18.086818 10.129.34.51 -> 10.3.96.32   SIP 604 Status: 200 OK    (1 bindings)
+ 18.087364 10.129.34.51 -> 10.3.96.32   SIP 604 Status: 200 OK    (1 bindings)
+ 18.087769 10.129.34.51 -> 10.3.96.32   SIP 358 Status: 503 Service Unavailable    (0 bindings)
+ 18.108654 10.129.34.51 -> 10.3.96.32   SIP 604 Status: 200 OK    (1 bindings)
+ 18.999431   10.3.96.32 -> 10.129.34.51 SIP 630 Request: REGISTER sip:ims.hom
+ 18.999696   10.3.96.32 -> 10.129.34.51 SIP 627 Request: REGISTER sip:ims.hom
+ 18.999835   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 19.000128   10.3.96.32 -> 10.129.34.51 SIP 630 Request: REGISTER sip:ims.hom
+ 19.000365   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 19.000587   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 19.000848   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 19.001100   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 19.001356   10.3.96.32 -> 10.129.34.51 SIP 628 Request: REGISTER sip:ims.hom
+ 19.001702   10.3.96.32 -> 10.129.34.51 SIP 630 Request: REGISTER sip:ims.hom
+ 19.001967   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 19.002282   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 19.002590   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 19.002897   10.3.96.32 -> 10.129.34.51 SIP 629 Request: REGISTER sip:ims.hom
+ 19.003115   10.3.96.32 -> 10.129.34.51 SIP 627 Request: REGISTER sip:ims.hom
+ 19.017169 10.129.34.51 -> 10.3.96.32   SIP 455 Status: 401 Unauthorized    (0 bindings)
+ 19.017764 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 19.018131 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+ 19.018246   10.3.96.32 -> 10.129.34.51 SIP 559 Request: REGISTER sip:ims.hom
+ 19.018464 10.129.34.51 -> 10.3.96.32   SIP 455 Status: 401 Unauthorized    (0 bindings)
+ 19.018844   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 19.019302   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 19.019499   10.3.96.32 -> 10.129.34.51 SIP 559 Request: REGISTER sip:ims.hom
+ 19.030634 10.129.34.51 -> 10.3.96.32   SIP 455 Status: 401 Unauthorized    (0 bindings)
+ 19.030930 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 19.031552   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 19.031729 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 19.031957   10.3.96.32 -> 10.129.34.51 SIP 562 Request: REGISTER sip:ims.hom
+ 19.032097 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 19.032570   10.3.96.32 -> 10.129.34.51 SIP 559 Request: REGISTER sip:ims.hom
+ 19.033079   10.3.96.32 -> 10.129.34.51 SIP 559 Request: REGISTER sip:ims.hom
+ 19.039674 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 19.039969 10.129.34.51 -> 10.3.96.32   SIP 453 Status: 401 Unauthorized    (0 bindings)
+ 19.040279 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 19.040578   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 19.040734   10.3.96.32 -> 10.129.34.51 SIP 560 Request: REGISTER sip:ims.hom
+ 19.041055   10.3.96.32 -> 10.129.34.51 SIP 558 Request: REGISTER sip:ims.hom
+ 19.043458 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 19.043769 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 19.044296   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 19.044668   10.3.96.32 -> 10.129.34.51 SIP 561 Request: REGISTER sip:ims.hom
+ 19.063203 10.129.34.51 -> 10.3.96.32   SIP 603 Status: 200 OK    (1 bindings)
+ 19.065418 10.129.34.51 -> 10.3.96.32   SIP 604 Status: 200 OK    (1 bindings)
+ 19.065762 10.129.34.51 -> 10.3.96.32   SIP 454 Status: 401 Unauthorized    (0 bindings)
+ 19.066175 10.129.34.51 -> 10.3.96.32   SIP 604 Status: 200 OK    (1 bindings)
+ 19.066499 10.129.34.51 -> 10.3.96.32   SIP 452 Status: 401 Unauthorized    (0 bindings)
+ 19.066631   10.3.96.32 -> 10.129.34.51 SIP 562 Request: REGISTER sip:ims.hom
+ 19.066969 10.129.34.51 -> 10.3.96.32   SIP 603 Status: 200 OK    (1 bindings)
+ 19.067356 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+ 19.067429   10.3.96.32 -> 10.129.34.51 SIP 558 Request: REGISTER sip:ims.hom
+ 19.067762 10.129.34.51 -> 10.3.96.32   SIP 606 Status: 200 OK    (1 bindings)
+ 19.068116 10.129.34.51 -> 10.3.96.32   SIP 358 Status: 503 Service Unavailable    (0 bindings)
+ 19.078815 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+ 19.087702 10.129.34.51 -> 10.3.96.32   SIP 357 Status: 503 Service Unavailable    (0 bindings)
+ 19.118940 10.129.34.51 -> 10.3.96.32   SIP 602 Status: 200 OK    (1 bindings)
+ 19.120777 10.129.34.51 -> 10.3.96.32   SIP 605 Status: 200 OK    (1 bindings)
+ 19.121136 10.129.34.51 -> 10.3.96.32   SIP 603 Status: 200 OK    (1 bindings)
+ 19.121512 10.129.34.51 -> 10.3.96.32   SIP 606 Status: 200 OK    (1 bindings)
+ 19.121967 10.129.34.51 -> 10.3.96.32   SIP 602 Status: 200 OK    (1 bindings)
+ 19.122435 10.129.34.51 -> 10.3.96.32   SIP 603 Status: 200 OK    (1 bindings)
