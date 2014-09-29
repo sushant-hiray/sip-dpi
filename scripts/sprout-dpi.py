@@ -1,5 +1,5 @@
-from scapy import *
-from dissector import *
+from scapy.all import *
+from pprint import pprint
 
 first_request = 0
 second_request = 0
@@ -77,21 +77,29 @@ def extract_status(load, time):
             status_forbidden[username] = 1
             forbidden_status += 1
 
-def extract_sip(pkt):
-    bucket = pkt.load.split(' ')
+def extract_sip(load, time):
     global total
-    if (bucket[0] == 'SIP/2.0'):
-        extract_status(pkt.load, pkt.time)
-        total = total + 1
-    elif (bucket[0] == 'REGISTER'):
-        extract_register(pkt.load, pkt.time)
-        total = total + 1
+    while load!='':
+        bucket = load.split(' ')
+        if (bucket[0] == 'SIP/2.0'):
+            extract_status(load, time)
+            total = total + 1
+        elif (bucket[0] == 'REGISTER'):
+            extract_register(load, time)
+            total = total + 1
+        cl_loc = load.find('Content-Length')
+        cl_end = cl_loc+18
+        if len(load) > cl_end:
+            load = load[cl_end+1:]
+            load = load.strip()
+        else:
+            break
 
 def main(file_name):
     pkts = rdpcap(file_name)
     for i in xrange(0, len(pkts)):
         if "sip" in str(pkts[i]):
-            extract_sip(pkts[i])
+            extract_sip(pkts[i].load, pkts[i].time)
 
 def print_result():
     print "Total number of lines in file is " + str(total)
@@ -104,6 +112,8 @@ def print_result():
     print "Number of forbidden requests is " + str(forbidden_status)
     print "\n"
 
+def print_hashmap():
+    pprint(status_unauthorised)
 
 main(str(sys.argv[1]))
 print_result()
