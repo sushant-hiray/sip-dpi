@@ -9,6 +9,14 @@ service_unavailable_status = 0
 server_timeout_status = 0
 forbidden_status = 0
 total = 0;
+fart_response = 0
+init_request = {}
+sec_request = {}
+status_unauthorised = {}
+status_ok = {}
+status_service_unavailable = {}
+status_server_timeout = {}
+status_forbidden = {}
 
 
 def extract_register(load, time):
@@ -26,10 +34,14 @@ def extract_register(load, time):
 
     if (nonce.strip() == ''):
         print "REGISTER[1] for " + username + " at time " + str(time)
-        first_request = first_request + 1
+        if init_request.has_key(username) == False:
+            init_request[username] = 1;
+            first_request = first_request + 1    
     else:
         print "REGISTER[2] for " + username + " at time " + str(time)
-        second_request = second_request + 1
+        if sec_request.has_key(username) == False:
+            sec_request[username] = 1
+            second_request = second_request + 1
 
 def extract_status(load, time):
     bucket = load.split(' ')
@@ -43,16 +55,27 @@ def extract_status(load, time):
     global service_unavailable_status
     global server_timeout_status
     global forbidden_status
+    global fart_response
     if status == '401':
-        unauthorized_status = unauthorized_status + 1
+        if status_unauthorised.has_key(username) == False: 
+            status_unauthorised[username] = 1
+            unauthorized_status = unauthorized_status + 1
     elif status == '200':
-        ok_status = ok_status + 1
+        if status_ok.has_key(username) == False:
+            status_ok[username] = 1
+            ok_status = ok_status + 1
     elif status == '503':
-        service_unavailable_status = service_unavailable_status + 1
+        if status_service_unavailable.has_key(username) == False:
+            status_service_unavailable[username] = 1
+            service_unavailable_status = service_unavailable_status + 1
     elif status == '504':
-        server_timeout_status += 1
+        if status_server_timeout.has_key(username) == False:
+            status_server_timeout[username] = 1
+            server_timeout_status += 1
     elif status == '403':
-        forbidden_status += 1
+        if status_forbidden.has_key(username) == False:
+            status_forbidden[username] = 1
+            forbidden_status += 1
 
 def extract_sip(pkt):
     bucket = pkt.load.split(' ')
@@ -66,7 +89,7 @@ def extract_sip(pkt):
 
 def main(file_name):
     pkts = rdpcap(file_name)
-    for i in xrange(0, 100):
+    for i in xrange(0, len(pkts)):
         if "sip" in str(pkts[i]):
             extract_sip(pkts[i])
 
