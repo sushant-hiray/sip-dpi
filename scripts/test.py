@@ -127,9 +127,6 @@ def extract_sip(load, time):
     prev = load
     if (leftover!=''):
         load = leftover + load
-    # print "############################"
-    # print load
-    # print "$$$$$$$$$$$$$$$$$$$$$$$$$$$$"
     while load!='':
         cl_loc = load.find('Content-Length')
         cl_end = cl_loc+18
@@ -138,50 +135,18 @@ def extract_sip(load, time):
             bucket = load.split(' ')
             if "sip" in load:
                 if (bucket[0] == 'SIP/2.0'):
-                    # extract_status(load, time)
-                    # print "Found Status"
                     total = total + 1
                 elif (bucket[0] == 'REGISTER'):
                     extract_register(load, time)
-                    # total = total + 1
-                    # check = 1
-                    # print "Found REGISTER"
+                    total = total + 1
             if(len(load) > cl_end):
                 load = load[cl_end+1:]
                 load = load.strip()
             else:
-                break
-            
+                break        
         else:
             leftover = load
             break
-            # cl_loc = load.find('Content-Length')
-            # cl_end = cl_loc+18
-            # prev = load
-            # if (len(load) > cl_end) and (cl_loc!=-1):
-            #     load = load[cl_end+1:]
-            #     load = load.strip()
-            #     # if load!='':
-            #     #     print "############################"
-            #     #     print prev
-            #     #     print "////////////////////////////"
-            #     #     print load
-            #     #     print "$$$$$$$$$$$$$$$$$$$$$$$$$$$$"
-            # else:
-            #     break
-
-# for i in xrange(0, len(pkts)):
-#     if "sip" in str(pkts[i]):
-#         load = pkts[i].load
-#         username_start = load.find('user')
-#         username_end = load.find('@', username_start)
-#         username = load[username_start:username_end]
-#         if username == "user161":
-#             bucket = load.split(' ')
-#             if bucket[0] == 'SIP/2.0':
-#                  mystr = load
-#                  mystr2 = str(pkts[i])
-#                  break
 
 
 def print_result():
