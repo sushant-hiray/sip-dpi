@@ -19,6 +19,7 @@ status_server_timeout = {}
 status_forbidden = {}
 
 def extract_status(load, time):
+    # f = open('sprout','a')
     bucket = load.split(' ')
     status = bucket[1]
     username_start = load.find('user')
@@ -42,24 +43,25 @@ def extract_status(load, time):
     global fart_response
     if status == '401':
         if status_unauthorised.has_key(username) == False: 
-            status_unauthorised[username] = 1
+            status_unauthorised[username] = time
             unauthorized_status = unauthorized_status + 1
     elif status == '200':
         if status_ok.has_key(username) == False:
-            status_ok[username] = 1
+            status_ok[username] = time
             ok_status = ok_status + 1
             # print "ok_status is " +  str(ok_status)
     elif status == '503':
         if status_service_unavailable.has_key(username) == False:
-            status_service_unavailable[username] = 1
+            status_service_unavailable[username] = time
             service_unavailable_status = service_unavailable_status + 1
     elif status == '504':
         if status_server_timeout.has_key(username) == False:
-            status_server_timeout[username] = 1
+            status_server_timeout[username] = time
             server_timeout_status += 1
     elif status == '403':
         if status_forbidden.has_key(username) == False:
-            status_forbidden[username] = 1
+            # f.write(username + "\n")
+            status_forbidden[username] = time
             forbidden_status += 1
 
     count = load.count("CSeq: 1 REGISTER")
@@ -110,12 +112,12 @@ def extract_register(load, time):
     if (nonce.strip() == ''):
         print "REGISTER[1] for " + username + " at time " + str(time)
         if init_request.has_key(username) == False:
-            init_request[username] = 1;
+            init_request[username] = time;
             first_request = first_request + 1    
     else:
         print "REGISTER[2] for " + username + " at time " + str(time)
         if sec_request.has_key(username) == False:
-            sec_request[username] = 1
+            sec_request[username] = time
             second_request = second_request + 1
     count = load.count("CSeq: 1 REGISTER")
     if (count > 1):
@@ -176,6 +178,37 @@ def print_result():
     print "Number of forbidden requests is " + str(forbidden_status)
     print "\n"
 
+def print_timeline():
+    total = 400
+    for i in xrange(1,total+1):
+        username = "user" + str(i)
+        print "Time for user" + str(i) + " :"
+        if init_request.has_key(username) != False:
+            print "Initial request sent at time - " + str(init_request[username])
+        if status_unauthorised.has_key(username) != False: 
+            print "Unauthorized response to first request at time - " + str(status_unauthorised[username])
+            if init_request.has_key(username) != False:
+                print "Time taken for unauthorized status is - " + str(status_unauthorised[username] - init_request[username])
+        if sec_request.has_key(username) != False:
+            print "Second request sent at time - " + str(sec_request[username])
+        if status_ok.has_key(username) != False:
+            print "Status ok to the second request at time - " + str(status_ok[username])
+            if sec_request.has_key(username) != False:
+                print "Time taken for ok status is - " + str(status_ok[username] - sec_request[username])
+        if status_server_timeout.has_key(username) != False:
+            print "Server timeout status to the second request at time - " + str(status_server_timeout[username])
+            print "Time taken for server timeout status is - " + str(status_server_timeout[username] - sec_request[username])
+        if status_service_unavailable.has_key(username) != False:
+            print "Service unavailable status to the second request at time - " + str(status_service_unavailable[username])
+            if sec_request.has_key(username) != False:
+                print "Time taken for service unavailable status is - " + str(status_service_unavailable[username] - sec_request[username])
+            elif init_request.has_key(username) != False:
+                print "Time taken for service unavailable status is - " + str(status_service_unavailable[username] - init_request[username])
+        if status_forbidden.has_key(username) != False:
+            print "Forbidden status to the second request at time - " + str(status_forbidden[username])
+            if init_request.has_key(username) != False:
+                print "Time taken for forbidden status is - " + str(status_forbidden[username] - init_request[username])
+        print "\n"
 
 def main(filename):
     pkts = rdpcap(filename)
@@ -188,4 +221,5 @@ def main(filename):
 
 
 main(str(sys.argv[1]))
+# print_timeline()
 print_result()
