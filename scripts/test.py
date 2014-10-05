@@ -19,8 +19,8 @@ status_server_timeout = {}
 status_forbidden = {}
 
 def extract_status(load, time):
-    print "extract_status"
-    print load
+    # print "extract_status"
+    # print load
     bucket = load.split(' ')
     status = bucket[1]
     username_start = load.find('user')
@@ -49,6 +49,9 @@ def extract_status(load, time):
         if status_ok.has_key(username) == False:
             status_ok[username] = 1
             ok_status = ok_status + 1
+            print "ok_status is " +  str(ok_status)
+        else:
+            print "Repeat status_ok for " + username
     elif status == '503':
         if status_service_unavailable.has_key(username) == False:
             status_service_unavailable[username] = 1
@@ -62,33 +65,45 @@ def extract_status(load, time):
             status_forbidden[username] = 1
             forbidden_status += 1
 
-def extract_register(load, time):
-    print "############################"
-    print load
-    print "$$$$$$$$$$$$$$$$$$$$$$$$$$$$"
-        
+    count = load.count("CSeq: 1 REGISTER")
+    if (count > 1):
+        print "[status] found more than 1 CSEQ for username " + username
+        nonce_end = load.find("CSeq: 1 REGISTER")
+        nonce_end+=16
+        next_register = load.find("REGISTER", nonce_end)
+        next_sip = load.find("SIP/2.0", nonce_end)
+        if (next_sip==-1 or next_register==-1):
+            return
+        if (next_sip > next_register):
+            load = load[next_register:]
+            extract_register(load, time)
+        else:
+            load = load[next_sip:]
+            extract_status(load, time)
+
+def extract_register(load, time):    
     load_copy = load
     username_start = load.find('username')
     if username_start == -1:
-        #print "[ERROR: extract_register]: Username start not found"
+        # print "[ERROR: extract_register]: Username start not found"
         return
 
     username_start +=10
     username_end = load.find('@', username_start)
     if username_end == -1:
-        #print "[ERROR: extract_register]: Username end not found"
+        # print "[ERROR: extract_register]: Username end not found"
         return
 
     username = load[username_start:username_end]
 
     nonce_start = load.find('nonce', username_end)
     if nonce_start == -1:
-        #print "[ERROR: extract_register]: nonce_start not found"
+        # print "[ERROR: extract_register]: nonce_start not found"
         return
     nonce_start +=7
     nonce_end = load.find('"',nonce_start)
     if nonce_end == -1:
-        #print "[ERROR: extract_register]: nonce_end not found"
+        # print "[ERROR: extract_register]: nonce_end not found"
         return
     nonce = load[nonce_start:nonce_end]
 
@@ -107,7 +122,7 @@ def extract_register(load, time):
             second_request = second_request + 1
     count = load.count("CSeq: 1 REGISTER")
     if (count > 1):
-        "found more than 1 CSEQ for username " + username
+        print "found more than 1 CSEQ for username " + username
         next_register = load.find("REGISTER", nonce_end)
         next_sip = load.find("SIP/2.0", nonce_end)
         if (next_sip==-1 or next_register==-1):
@@ -127,6 +142,9 @@ def extract_sip(load, time):
     prev = load
     if (leftover!=''):
         load = leftover + load
+    # print "############################"
+    # print load
+    # print "$$$$$$$$$$$$$$$$$$$$$$$$$$$$"
     while load!='':
         cl_loc = load.find('Content-Length')
         cl_end = cl_loc+18
@@ -136,18 +154,23 @@ def extract_sip(load, time):
             if "sip" in load:
                 if (bucket[0] == 'SIP/2.0'):
                     total = total + 1
-                elif (bucket[0] == 'REGISTER'):
-                    extract_register(load, time)
+                    extract_status(load, time)
+                    # print "Found Status"
                     total = total + 1
+                elif (bucket[0] == 'REGISTER'):
+                    total = total + 1
+                    extract_register(load, time)
+                    # check = 1
+                    # print "Found REGISTER"
             if(len(load) > cl_end):
                 load = load[cl_end+1:]
                 load = load.strip()
             else:
-                break        
+                break
+            
         else:
             leftover = load
             break
-
 
 def print_result():
     print "Total number of lines in file is " + str(total)
@@ -173,13 +196,3 @@ def main(filename):
 
 main(str(sys.argv[1]))
 print_result()
-# print mystr
-# print "###############"
-# cl_loc = mystr.find('Content-Length')
-# cl_end = cl_loc+19
-# print mystr[cl_end:]
-# print "$$$$$$$$$$$$$$$$"
-# print mystr2
-# fp = open('multiple-register.pcap', 'r')
-# strs = fp.read()
-# extract_register(strs,1)
