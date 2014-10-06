@@ -1,0 +1,3019 @@
+Time for user1 :
+Initial request sent at time - 1412528545.66
+Unauthorized response to first request at time - 1412528545.84
+Time taken for unauthorized status is - 0.181725978851
+Second request sent at time - 1412528545.86
+Server timeout status to the second request at time - 1412528548.67
+Time taken for server timeout status is - 2.80631780624
+
+
+Time for user2 :
+Initial request sent at time - 1412528545.66
+Unauthorized response to first request at time - 1412528545.85
+Time taken for unauthorized status is - 0.184571027756
+Second request sent at time - 1412528545.86
+Server timeout status to the second request at time - 1412528547.97
+Time taken for server timeout status is - 2.10352182388
+
+
+Time for user3 :
+Initial request sent at time - 1412528545.66
+Unauthorized response to first request at time - 1412528545.86
+Time taken for unauthorized status is - 0.195264101028
+Second request sent at time - 1412528545.87
+Status ok to the second request at time - 1412528546.11
+Time taken for ok status is - 0.233468055725
+
+
+Time for user4 :
+Initial request sent at time - 1412528545.66
+Unauthorized response to first request at time - 1412528545.85
+Time taken for unauthorized status is - 0.191910982132
+Second request sent at time - 1412528545.87
+Server timeout status to the second request at time - 1412528547.97
+Time taken for server timeout status is - 2.09653306007
+
+
+Time for user5 :
+Initial request sent at time - 1412528545.66
+Unauthorized response to first request at time - 1412528545.85
+Time taken for unauthorized status is - 0.182985067368
+Second request sent at time - 1412528545.86
+Server timeout status to the second request at time - 1412528547.97
+Time taken for server timeout status is - 2.10682201385
+
+
+Time for user6 :
+Initial request sent at time - 1412528545.66
+Unauthorized response to first request at time - 1412528545.85
+Time taken for unauthorized status is - 0.189270973206
+Second request sent at time - 1412528545.87
+Server timeout status to the second request at time - 1412528550.36
+Time taken for server timeout status is - 4.49036884308
+
+
+Time for user7 :
+Initial request sent at time - 1412528545.66
+Unauthorized response to first request at time - 1412528545.85
+Time taken for unauthorized status is - 0.182880878448
+Second request sent at time - 1412528546.65
+Status ok to the second request at time - 1412528546.67
+Time taken for ok status is - 0.0198061466217
+
+
+Time for user8 :
+Initial request sent at time - 1412528545.66
+Unauthorized response to first request at time - 1412528545.85
+Time taken for unauthorized status is - 0.184329986572
+Second request sent at time - 1412528545.86
+Status ok to the second request at time - 1412528546.11
+Time taken for ok status is - 0.245712041855
+
+
+Time for user9 :
+Initial request sent at time - 1412528545.66
+Unauthorized response to first request at time - 1412528545.86
+Time taken for unauthorized status is - 0.195535898209
+
+
+Time for user10 :
+Initial request sent at time - 1412528545.66
+Unauthorized response to first request at time - 1412528545.84
+Time taken for unauthorized status is - 0.178106069565
+Second request sent at time - 1412528545.86
+Server timeout status to the second request at time - 1412528547.97
+Time taken for server timeout status is - 2.10466003418
+
+
+Time for user11 :
+Initial request sent at time - 1412528545.67
+Unauthorized response to first request at time - 1412528545.85
+Time taken for unauthorized status is - 0.187761068344
+Second request sent at time - 1412528545.9
+Status ok to the second request at time - 1412528546.12
+Time taken for ok status is - 0.221462965012
+
+
+Time for user12 :
+Initial request sent at time - 1412528545.67
+Unauthorized response to first request at time - 1412528545.85
+Time taken for unauthorized status is - 0.180133104324
+Second request sent at time - 1412528545.86
+Server timeout status to the second request at time - 1412528549.31
+Time taken for server timeout status is - 3.44538402557
+
+
+Time for user13 :
+Initial request sent at time - 1412528545.67
+Unauthorized response to first request at time - 1412528545.85
+Time taken for unauthorized status is - 0.18225312233
+Second request sent at time - 1412528545.86
+Server timeout status to the second request at time - 1412528547.97
+Time taken for server timeout status is - 2.10537195206
+
+
+Time for user14 :
+Initial request sent at time - 1412528545.67
+Unauthorized response to first request at time - 1412528545.84
+Time taken for unauthorized status is - 0.179155111313
+Second request sent at time - 1412528545.86
+Status ok to the second request at time - 1412528548.97
+Time taken for ok status is - 3.11113810539
+
+
+Time for user15 :
+Initial request sent at time - 1412528545.67
+Unauthorized response to first request at time - 1412528545.85
+Time taken for unauthorized status is - 0.185904979706
+Second request sent at time - 1412528545.87
+Server timeout status to the second request at time - 1412528547.97
+Time taken for server timeout status is - 2.09279799461
+
+
+Time for user16 :
+Initial request sent at time - 1412528545.67
+Unauthorized response to first request at time - 1412528545.86
+Time taken for unauthorized status is - 0.188959121704
+Second request sent at time - 1412528545.87
+Server timeout status to the second request at time - 1412528547.97
+Time taken for server timeout status is - 2.0964949131
+
+
+Time for user17 :
+Initial request sent at time - 1412528545.67
+Unauthorized response to first request at time - 1412528545.84
+Time taken for unauthorized status is - 0.176723003387
+Second request sent at time - 1412528545.86
+Server timeout status to the second request at time - 1412528547.97
+Time taken for server timeout status is - 2.10508799553
+
+
+Time for user18 :
+Initial request sent at time - 1412528545.67
+Unauthorized response to first request at time - 1412528545.86
+Time taken for unauthorized status is - 0.188675880432
+Second request sent at time - 1412528545.87
+Server timeout status to the second request at time - 1412528547.61
+Time taken for server timeout status is - 1.73765993118
+
+
+Time for user19 :
+Initial request sent at time - 1412528545.71
+Unauthorized response to first request at time - 1412528545.86
+Time taken for unauthorized status is - 0.148750066757
+Second request sent at time - 1412528545.88
+Status ok to the second request at time - 1412528547.19
+Time taken for ok status is - 1.30741119385
+
+
+Time for user20 :
+Initial request sent at time - 1412528545.67
+Unauthorized response to first request at time - 1412528545.85
+Time taken for unauthorized status is - 0.178418874741
+Second request sent at time - 1412528545.86
+Server timeout status to the second request at time - 1412528547.97
+Time taken for server timeout status is - 2.10315799713
+
+
+Time for user21 :
+Initial request sent at time - 1412528546.65
+Unauthorized response to first request at time - 1412528546.67
+Time taken for unauthorized status is - 0.0190260410309
+Second request sent at time - 1412528546.69
+Status ok to the second request at time - 1412528546.9
+Time taken for ok status is - 0.215525865555
+
+
+Time for user22 :
+Initial request sent at time - 1412528546.65
+Unauthorized response to first request at time - 1412528546.71
+Time taken for unauthorized status is - 0.0537669658661
+Second request sent at time - 1412528546.72
+Status ok to the second request at time - 1412528546.72
+Time taken for ok status is - 0.0050220489502
+
+
+Time for user23 :
+Initial request sent at time - 1412528546.8
+Unauthorized response to first request at time - 1412528546.81
+Time taken for unauthorized status is - 0.00601696968079
+Second request sent at time - 1412528547.47
+Status ok to the second request at time - 1412528549.72
+Time taken for ok status is - 2.24443697929
+
+
+Time for user24 :
+Initial request sent at time - 1412528546.65
+Unauthorized response to first request at time - 1412528546.69
+Time taken for unauthorized status is - 0.0398101806641
+Second request sent at time - 1412528548.89
+Status ok to the second request at time - 1412528550.12
+Time taken for ok status is - 1.22829818726
+
+
+Time for user25 :
+Initial request sent at time - 1412528546.65
+Unauthorized response to first request at time - 1412528546.7
+Time taken for unauthorized status is - 0.0424859523773
+Second request sent at time - 1412528549.73
+Status ok to the second request at time - 1412528549.95
+Time taken for ok status is - 0.21679520607
+
+
+Time for user26 :
+Initial request sent at time - 1412528546.65
+Unauthorized response to first request at time - 1412528546.68
+Time taken for unauthorized status is - 0.0223319530487
+Second request sent at time - 1412528546.7
+Server timeout status to the second request at time - 1412528550.15
+Time taken for server timeout status is - 3.45108294487
+
+
+Time for user27 :
+Initial request sent at time - 1412528546.65
+Unauthorized response to first request at time - 1412528549.31
+Time taken for unauthorized status is - 2.65426015854
+Second request sent at time - 1412528549.33
+Status ok to the second request at time - 1412528549.34
+Time taken for ok status is - 0.00673413276672
+
+
+Time for user28 :
+Initial request sent at time - 1412528546.65
+Unauthorized response to first request at time - 1412528546.69
+Time taken for unauthorized status is - 0.034698009491
+Second request sent at time - 1412528548.97
+
+
+Time for user29 :
+Initial request sent at time - 1412528546.66
+Unauthorized response to first request at time - 1412528546.7
+Time taken for unauthorized status is - 0.042603969574
+Second request sent at time - 1412528548.9
+Status ok to the second request at time - 1412528550.1
+Time taken for ok status is - 1.19676399231
+
+
+Time for user30 :
+Initial request sent at time - 1412528546.66
+Unauthorized response to first request at time - 1412528546.67
+Time taken for unauthorized status is - 0.0180249214172
+Second request sent at time - 1412528546.69
+Server timeout status to the second request at time - 1412528548.69
+Time taken for server timeout status is - 2.00583386421
+
+
+Time for user31 :
+Initial request sent at time - 1412528546.66
+Unauthorized response to first request at time - 1412528546.68
+Time taken for unauthorized status is - 0.0250689983368
+Status ok to the second request at time - 1412528548.99
+
+
+Time for user32 :
+Initial request sent at time - 1412528546.66
+Unauthorized response to first request at time - 1412528546.68
+Time taken for unauthorized status is - 0.0247828960419
+Second request sent at time - 1412528546.7
+Server timeout status to the second request at time - 1412528549.98
+Time taken for server timeout status is - 3.2828848362
+
+
+Time for user33 :
+Initial request sent at time - 1412528546.68
+Unauthorized response to first request at time - 1412528546.7
+Time taken for unauthorized status is - 0.0197930335999
+Second request sent at time - 1412528548.59
+Status ok to the second request at time - 1412528550.51
+Time taken for ok status is - 1.91774988174
+
+
+Time for user34 :
+Initial request sent at time - 1412528546.66
+Unauthorized response to first request at time - 1412528546.69
+Time taken for unauthorized status is - 0.0368459224701
+Second request sent at time - 1412528560.17
+Service unavailable status to the second request at time - 1412528560.84
+Time taken for service unavailable status is - 0.671931028366
+
+
+Time for user35 :
+Initial request sent at time - 1412528546.66
+Unauthorized response to first request at time - 1412528546.68
+Time taken for unauthorized status is - 0.0259840488434
+Second request sent at time - 1412528549.69
+Status ok to the second request at time - 1412528550.1
+Time taken for ok status is - 0.407278060913
+
+
+Time for user36 :
+Initial request sent at time - 1412528546.66
+Unauthorized response to first request at time - 1412528546.68
+Time taken for unauthorized status is - 0.0251269340515
+Service unavailable status to the second request at time - 1412528560.72
+Time taken for service unavailable status is - 14.0628378391
+
+
+Time for user37 :
+Initial request sent at time - 1412528548.36
+Unauthorized response to first request at time - 1412528551.0
+Time taken for unauthorized status is - 2.63259601593
+Second request sent at time - 1412528551.01
+Status ok to the second request at time - 1412528551.02
+Time taken for ok status is - 0.0073618888855
+
+
+Time for user38 :
+Initial request sent at time - 1412528546.66
+Unauthorized response to first request at time - 1412528560.7
+Time taken for unauthorized status is - 14.0428709984
+Status ok to the second request at time - 1412528562.6
+
+
+Time for user39 :
+Initial request sent at time - 1412528546.66
+Unauthorized response to first request at time - 1412528546.69
+Time taken for unauthorized status is - 0.0294718742371
+Second request sent at time - 1412528547.37
+Status ok to the second request at time - 1412528547.58
+Time taken for ok status is - 0.215640068054
+
+
+Time for user40 :
+Initial request sent at time - 1412528546.66
+Unauthorized response to first request at time - 1412528546.69
+Time taken for unauthorized status is - 0.028627872467
+Second request sent at time - 1412528550.01
+Status ok to the second request at time - 1412528550.02
+Time taken for ok status is - 0.00666117668152
+
+
+Time for user41 :
+Initial request sent at time - 1412528547.65
+Unauthorized response to first request at time - 1412528547.66
+Time taken for unauthorized status is - 0.00892400741577
+Second request sent at time - 1412528547.68
+Server timeout status to the second request at time - 1412528550.51
+Time taken for server timeout status is - 2.82988095284
+
+
+Time for user42 :
+Initial request sent at time - 1412528547.65
+Unauthorized response to first request at time - 1412528560.7
+Time taken for unauthorized status is - 13.0467851162
+Second request sent at time - 1412528562.59
+Status ok to the second request at time - 1412528562.6
+Time taken for ok status is - 0.016921043396
+
+
+Time for user43 :
+Initial request sent at time - 1412528547.65
+Unauthorized response to first request at time - 1412528547.67
+Time taken for unauthorized status is - 0.0171117782593
+Second request sent at time - 1412528554.72
+Status ok to the second request at time - 1412528556.49
+Time taken for ok status is - 1.7687830925
+
+
+Time for user44 :
+Initial request sent at time - 1412528547.65
+Unauthorized response to first request at time - 1412528548.97
+Time taken for unauthorized status is - 1.31957411766
+Second request sent at time - 1412528549.31
+Status ok to the second request at time - 1412528549.31
+Time taken for ok status is - 0.00732493400574
+
+
+Time for user45 :
+Initial request sent at time - 1412528547.65
+Unauthorized response to first request at time - 1412528547.67
+Time taken for unauthorized status is - 0.0194218158722
+Second request sent at time - 1412528547.69
+Status ok to the second request at time - 1412528550.0
+Time taken for ok status is - 2.30756878853
+
+
+Time for user46 :
+Initial request sent at time - 1412528547.65
+Unauthorized response to first request at time - 1412528547.68
+Time taken for unauthorized status is - 0.0263640880585
+Second request sent at time - 1412528550.97
+Status ok to the second request at time - 1412528560.7
+Time taken for ok status is - 9.72762203217
+
+
+Time for user47 :
+Initial request sent at time - 1412528547.66
+Unauthorized response to first request at time - 1412528548.62
+Time taken for unauthorized status is - 0.959873199463
+Second request sent at time - 1412528548.63
+Status ok to the second request at time - 1412528550.0
+Time taken for ok status is - 1.36424398422
+
+
+Time for user48 :
+Initial request sent at time - 1412528547.66
+Unauthorized response to first request at time - 1412528547.68
+Time taken for unauthorized status is - 0.0254509449005
+Second request sent at time - 1412528549.61
+Status ok to the second request at time - 1412528550.03
+Time taken for ok status is - 0.420910835266
+
+
+Time for user49 :
+Initial request sent at time - 1412528548.38
+Unauthorized response to first request at time - 1412528551.03
+Time taken for unauthorized status is - 2.64429688454
+Second request sent at time - 1412528551.04
+Status ok to the second request at time - 1412528551.05
+Time taken for ok status is - 0.00797009468079
+
+
+Time for user50 :
+Initial request sent at time - 1412528547.66
+Unauthorized response to first request at time - 1412528547.67
+Time taken for unauthorized status is - 0.0176830291748
+Second request sent at time - 1412528550.17
+Status ok to the second request at time - 1412528551.66
+Time taken for ok status is - 1.49429702759
+Service unavailable status to the second request at time - 1412528569.31
+Time taken for service unavailable status is - 19.14168787
+
+
+Time for user51 :
+Initial request sent at time - 1412528547.66
+Unauthorized response to first request at time - 1412528548.88
+Time taken for unauthorized status is - 1.21963000298
+Second request sent at time - 1412528548.89
+Status ok to the second request at time - 1412528549.11
+Time taken for ok status is - 0.215971946716
+
+
+Time for user52 :
+Initial request sent at time - 1412528547.66
+Unauthorized response to first request at time - 1412528547.89
+Time taken for unauthorized status is - 0.232123851776
+Second request sent at time - 1412528550.47
+Status ok to the second request at time - 1412528552.63
+Time taken for ok status is - 2.16041588783
+
+
+Time for user53 :
+Initial request sent at time - 1412528547.66
+Unauthorized response to first request at time - 1412528547.68
+Time taken for unauthorized status is - 0.0233199596405
+Second request sent at time - 1412528550.04
+Status ok to the second request at time - 1412528550.05
+Time taken for ok status is - 0.00663089752197
+
+
+Time for user54 :
+Initial request sent at time - 1412528547.66
+Unauthorized response to first request at time - 1412528547.89
+Time taken for unauthorized status is - 0.2320728302
+Second request sent at time - 1412528550.53
+Status ok to the second request at time - 1412528550.54
+Time taken for ok status is - 0.00790095329285
+
+
+Time for user55 :
+Initial request sent at time - 1412528547.66
+Second request sent at time - 1412528549.69
+Status ok to the second request at time - 1412528550.38
+Time taken for ok status is - 0.689708948135
+
+
+Time for user56 :
+Initial request sent at time - 1412528547.66
+Unauthorized response to first request at time - 1412528547.89
+Time taken for unauthorized status is - 0.231122016907
+Second request sent at time - 1412528550.12
+Status ok to the second request at time - 1412528550.44
+Time taken for ok status is - 0.328503131866
+
+
+Time for user57 :
+Initial request sent at time - 1412528547.66
+Unauthorized response to first request at time - 1412528547.89
+Time taken for unauthorized status is - 0.228184938431
+Second request sent at time - 1412528547.9
+Status ok to the second request at time - 1412528549.56
+Time taken for ok status is - 1.66057801247
+
+
+Time for user58 :
+Initial request sent at time - 1412528547.66
+Unauthorized response to first request at time - 1412528547.89
+Time taken for unauthorized status is - 0.229537010193
+Second request sent at time - 1412528550.46
+Status ok to the second request at time - 1412528550.47
+Time taken for ok status is - 0.0101180076599
+
+
+Time for user59 :
+Initial request sent at time - 1412528547.66
+Unauthorized response to first request at time - 1412528547.89
+Time taken for unauthorized status is - 0.229080200195
+Second request sent at time - 1412528550.11
+Status ok to the second request at time - 1412528550.12
+Time taken for ok status is - 0.0108969211578
+
+
+Time for user60 :
+Initial request sent at time - 1412528547.66
+Unauthorized response to first request at time - 1412528547.89
+Time taken for unauthorized status is - 0.224347829819
+Second request sent at time - 1412528550.39
+Status ok to the second request at time - 1412528550.4
+Time taken for ok status is - 0.00765109062195
+
+
+Time for user61 :
+Initial request sent at time - 1412528548.65
+Unauthorized response to first request at time - 1412528549.56
+Time taken for unauthorized status is - 0.911505937576
+Second request sent at time - 1412528549.59
+Status ok to the second request at time - 1412528551.89
+Time taken for ok status is - 2.30510783195
+
+
+Time for user62 :
+Initial request sent at time - 1412528548.65
+Unauthorized response to first request at time - 1412528548.67
+Time taken for unauthorized status is - 0.0145797729492
+Second request sent at time - 1412528560.17
+Service unavailable status to the second request at time - 1412528561.66
+Time taken for service unavailable status is - 1.48721194267
+
+
+Time for user63 :
+Initial request sent at time - 1412528548.65
+Unauthorized response to first request at time - 1412528554.71
+Time taken for unauthorized status is - 6.05473589897
+Second request sent at time - 1412528554.72
+Status ok to the second request at time - 1412528557.66
+Time taken for ok status is - 2.94163107872
+
+
+Time for user64 :
+Initial request sent at time - 1412528548.65
+Unauthorized response to first request at time - 1412528548.67
+Time taken for unauthorized status is - 0.0154659748077
+Second request sent at time - 1412528551.15
+Status ok to the second request at time - 1412528551.37
+Time taken for ok status is - 0.218045949936
+
+
+Time for user65 :
+Initial request sent at time - 1412528548.65
+Unauthorized response to first request at time - 1412528548.67
+Time taken for unauthorized status is - 0.0127568244934
+Second request sent at time - 1412528560.17
+Service unavailable status to the second request at time - 1412528560.17
+Time taken for service unavailable status is - 0.000417947769165
+
+
+Time for user66 :
+Initial request sent at time - 1412528548.65
+Unauthorized response to first request at time - 1412528551.13
+Time taken for unauthorized status is - 2.47750592232
+Second request sent at time - 1412528551.15
+Status ok to the second request at time - 1412528551.16
+Time taken for ok status is - 0.0092978477478
+
+
+Time for user67 :
+Initial request sent at time - 1412528548.65
+Unauthorized response to first request at time - 1412528549.74
+Time taken for unauthorized status is - 1.08514499664
+Second request sent at time - 1412528560.17
+Service unavailable status to the second request at time - 1412528561.71
+Time taken for service unavailable status is - 1.53479385376
+
+
+Time for user68 :
+Initial request sent at time - 1412528548.66
+Forbidden status to the second request at time - 1412528552.35
+Time taken for forbidden status is - 3.69291591644
+
+
+Time for user69 :
+Initial request sent at time - 1412528548.66
+Forbidden status to the second request at time - 1412528551.0
+Time taken for forbidden status is - 2.34061217308
+
+
+Time for user70 :
+Initial request sent at time - 1412528548.66
+Unauthorized response to first request at time - 1412528548.88
+Time taken for unauthorized status is - 0.222644090652
+Second request sent at time - 1412528548.89
+Status ok to the second request at time - 1412528549.11
+Time taken for ok status is - 0.218128919601
+
+
+Time for user71 :
+Initial request sent at time - 1412528548.66
+Forbidden status to the second request at time - 1412528560.16
+Time taken for forbidden status is - 11.4991431236
+
+
+Time for user72 :
+Initial request sent at time - 1412528548.66
+Forbidden status to the second request at time - 1412528551.6
+Time taken for forbidden status is - 2.94750189781
+
+
+Time for user73 :
+Initial request sent at time - 1412528548.66
+Forbidden status to the second request at time - 1412528550.69
+Time taken for forbidden status is - 2.03248000145
+
+
+Time for user74 :
+Initial request sent at time - 1412528548.66
+Unauthorized response to first request at time - 1412528549.9
+Time taken for unauthorized status is - 1.23849606514
+Second request sent at time - 1412528560.17
+Service unavailable status to the second request at time - 1412528560.32
+Time taken for service unavailable status is - 0.150549888611
+
+
+Time for user75 :
+Initial request sent at time - 1412528548.66
+Forbidden status to the second request at time - 1412528552.96
+Time taken for forbidden status is - 4.29842710495
+
+
+Time for user76 :
+Initial request sent at time - 1412528548.66
+Forbidden status to the second request at time - 1412528550.69
+Time taken for forbidden status is - 2.03349614143
+
+
+Time for user77 :
+Initial request sent at time - 1412528548.66
+Forbidden status to the second request at time - 1412528550.69
+Time taken for forbidden status is - 2.03236103058
+
+
+Time for user78 :
+Initial request sent at time - 1412528548.66
+Forbidden status to the second request at time - 1412528550.69
+Time taken for forbidden status is - 2.03236603737
+
+
+Time for user79 :
+Initial request sent at time - 1412528548.66
+Forbidden status to the second request at time - 1412528550.69
+Time taken for forbidden status is - 2.03229403496
+
+
+Time for user80 :
+Initial request sent at time - 1412528548.66
+Forbidden status to the second request at time - 1412528550.69
+Time taken for forbidden status is - 2.03230595589
+
+
+Time for user81 :
+Initial request sent at time - 1412528549.66
+Unauthorized response to first request at time - 1412528550.44
+Time taken for unauthorized status is - 0.784397125244
+Second request sent at time - 1412528550.46
+Status ok to the second request at time - 1412528554.71
+Time taken for ok status is - 4.25207710266
+
+
+Time for user82 :
+Initial request sent at time - 1412528549.73
+Unauthorized response to first request at time - 1412528549.74
+Time taken for unauthorized status is - 0.00846409797668
+Second request sent at time - 1412528560.17
+Service unavailable status to the second request at time - 1412528560.17
+Time taken for service unavailable status is - 0.000443935394287
+
+
+Time for user83 :
+Initial request sent at time - 1412528549.66
+Unauthorized response to first request at time - 1412528551.69
+Time taken for unauthorized status is - 2.02761101723
+Forbidden status to the second request at time - 1412528553.37
+Time taken for forbidden status is - 3.70999908447
+
+
+Time for user84 :
+Initial request sent at time - 1412528549.66
+Second request sent at time - 1412528549.91
+
+
+Time for user85 :
+Initial request sent at time - 1412528549.66
+Unauthorized response to first request at time - 1412528553.88
+Time taken for unauthorized status is - 4.2128341198
+Second request sent at time - 1412528558.08
+Service unavailable status to the second request at time - 1412528558.08
+Time taken for service unavailable status is - 0.000353097915649
+
+
+Time for user86 :
+Initial request sent at time - 1412528549.66
+Unauthorized response to first request at time - 1412528549.9
+Time taken for unauthorized status is - 0.241744041443
+Second request sent at time - 1412528554.11
+Server timeout status to the second request at time - 1412528556.73
+Time taken for server timeout status is - 2.61190104485
+
+
+Time for user87 :
+Initial request sent at time - 1412528549.66
+Unauthorized response to first request at time - 1412528549.92
+Time taken for unauthorized status is - 0.259116888046
+Second request sent at time - 1412528552.17
+Status ok to the second request at time - 1412528552.19
+Time taken for ok status is - 0.0194270610809
+
+
+Time for user88 :
+Initial request sent at time - 1412528549.66
+Unauthorized response to first request at time - 1412528549.92
+Time taken for unauthorized status is - 0.25807094574
+Second request sent at time - 1412528549.94
+Status ok to the second request at time - 1412528550.78
+Time taken for ok status is - 0.844782829285
+
+
+Time for user89 :
+Initial request sent at time - 1412528549.66
+Unauthorized response to first request at time - 1412528551.89
+Time taken for unauthorized status is - 2.22764492035
+Second request sent at time - 1412528555.45
+Status ok to the second request at time - 1412528555.67
+Time taken for ok status is - 0.213629961014
+
+
+Time for user90 :
+Initial request sent at time - 1412528549.66
+Unauthorized response to first request at time - 1412528549.92
+Time taken for unauthorized status is - 0.256749153137
+Second request sent at time - 1412528551.96
+Status ok to the second request at time - 1412528551.97
+Time taken for ok status is - 0.00809788703918
+
+
+Time for user91 :
+Initial request sent at time - 1412528549.66
+Unauthorized response to first request at time - 1412528550.88
+Time taken for unauthorized status is - 1.21538209915
+Second request sent at time - 1412528563.89
+Status ok to the second request at time - 1412528563.9
+Time taken for ok status is - 0.0100510120392
+
+
+Time for user92 :
+Initial request sent at time - 1412528549.66
+Unauthorized response to first request at time - 1412528550.09
+Time taken for unauthorized status is - 0.428214788437
+Second request sent at time - 1412528550.11
+Status ok to the second request at time - 1412528550.12
+Time taken for ok status is - 0.0119850635529
+
+
+Time for user93 :
+Initial request sent at time - 1412528549.66
+Unauthorized response to first request at time - 1412528549.9
+Time taken for unauthorized status is - 0.238828897476
+Second request sent at time - 1412528549.92
+Status ok to the second request at time - 1412528550.14
+Time taken for ok status is - 0.217828035355
+
+
+Time for user94 :
+Initial request sent at time - 1412528549.66
+Unauthorized response to first request at time - 1412528550.12
+Time taken for unauthorized status is - 0.456863164902
+Second request sent at time - 1412528550.39
+Status ok to the second request at time - 1412528550.61
+Time taken for ok status is - 0.215537071228
+
+
+Time for user95 :
+Initial request sent at time - 1412528549.67
+Unauthorized response to first request at time - 1412528549.7
+Time taken for unauthorized status is - 0.0299689769745
+Status ok to the second request at time - 1412528553.61
+
+
+Time for user96 :
+Initial request sent at time - 1412528549.67
+Unauthorized response to first request at time - 1412528550.66
+Time taken for unauthorized status is - 0.998505115509
+Second request sent at time - 1412528559.55
+Status ok to the second request at time - 1412528559.56
+Time taken for ok status is - 0.00847411155701
+
+
+Time for user97 :
+Initial request sent at time - 1412528549.67
+Unauthorized response to first request at time - 1412528550.34
+Time taken for unauthorized status is - 0.674730062485
+Status ok to the second request at time - 1412528552.36
+
+
+Time for user98 :
+Forbidden status to the second request at time - 1412528552.57
+
+
+Time for user99 :
+Initial request sent at time - 1412528550.33
+Unauthorized response to first request at time - 1412528549.92
+Time taken for unauthorized status is - -0.40922498703
+Second request sent at time - 1412528552.34
+
+
+Time for user100 :
+Forbidden status to the second request at time - 1412528551.7
+
+
+Time for user101 :
+Initial request sent at time - 1412528550.65
+Second request sent at time - 1412528559.55
+Service unavailable status to the second request at time - 1412528559.55
+Time taken for service unavailable status is - 0.00126504898071
+
+
+Time for user102 :
+Initial request sent at time - 1412528550.65
+Unauthorized response to first request at time - 1412528550.66
+Time taken for unauthorized status is - 0.0100131034851
+Second request sent at time - 1412528550.68
+Status ok to the second request at time - 1412528551.06
+Time taken for ok status is - 0.379678010941
+
+
+Time for user103 :
+Initial request sent at time - 1412528550.65
+Unauthorized response to first request at time - 1412528551.83
+Time taken for unauthorized status is - 1.17849707603
+Second request sent at time - 1412528551.85
+Server timeout status to the second request at time - 1412528553.53
+Time taken for server timeout status is - 1.68248796463
+
+
+Time for user104 :
+Initial request sent at time - 1412528550.65
+Unauthorized response to first request at time - 1412528551.66
+Time taken for unauthorized status is - 1.00779700279
+Second request sent at time - 1412528569.31
+Status ok to the second request at time - 1412528569.33
+Time taken for ok status is - 0.0132880210876
+
+
+Time for user105 :
+Initial request sent at time - 1412528550.65
+Unauthorized response to first request at time - 1412528552.57
+Time taken for unauthorized status is - 1.91754698753
+Second request sent at time - 1412528552.59
+Status ok to the second request at time - 1412528552.6
+Time taken for ok status is - 0.0078399181366
+
+
+Time for user106 :
+Initial request sent at time - 1412528550.65
+Unauthorized response to first request at time - 1412528550.66
+Time taken for unauthorized status is - 0.00986194610596
+Second request sent at time - 1412528552.97
+Status ok to the second request at time - 1412528554.19
+Time taken for ok status is - 1.21634817123
+
+
+Time for user107 :
+Initial request sent at time - 1412528550.66
+Unauthorized response to first request at time - 1412528550.88
+Time taken for unauthorized status is - 0.224503993988
+Second request sent at time - 1412528563.89
+Service unavailable status to the second request at time - 1412528563.89
+Time taken for service unavailable status is - 0.00202083587646
+
+
+Time for user108 :
+Initial request sent at time - 1412528550.66
+Unauthorized response to first request at time - 1412528553.23
+Time taken for unauthorized status is - 2.57277393341
+Second request sent at time - 1412528553.26
+Status ok to the second request at time - 1412528554.49
+Time taken for ok status is - 1.22576999664
+
+
+Time for user109 :
+Initial request sent at time - 1412528550.66
+Unauthorized response to first request at time - 1412528550.88
+Time taken for unauthorized status is - 0.22354888916
+Second request sent at time - 1412528563.89
+Status ok to the second request at time - 1412528569.31
+Time taken for ok status is - 5.42186689377
+
+
+Time for user110 :
+Initial request sent at time - 1412528550.66
+
+
+Time for user111 :
+Initial request sent at time - 1412528550.66
+Forbidden status to the second request at time - 1412528552.29
+Time taken for forbidden status is - 1.63269615173
+
+
+Time for user112 :
+Initial request sent at time - 1412528550.7
+Unauthorized response to first request at time - 1412528550.81
+Time taken for unauthorized status is - 0.101119995117
+Second request sent at time - 1412528550.82
+Server timeout status to the second request at time - 1412528553.24
+Time taken for server timeout status is - 2.41728711128
+
+
+Time for user113 :
+Initial request sent at time - 1412528550.66
+Unauthorized response to first request at time - 1412528553.23
+Time taken for unauthorized status is - 2.57106494904
+Status ok to the second request at time - 1412528559.53
+
+
+Time for user114 :
+Initial request sent at time - 1412528550.66
+Forbidden status to the second request at time - 1412528552.67
+Time taken for forbidden status is - 2.01109099388
+
+
+Time for user115 :
+Unauthorized response to first request at time - 1412528550.66
+Forbidden status to the second request at time - 1412528553.47
+
+
+Time for user116 :
+Initial request sent at time - 1412528550.66
+Forbidden status to the second request at time - 1412528552.3
+Time taken for forbidden status is - 1.64026498795
+
+
+Time for user117 :
+Initial request sent at time - 1412528550.66
+Forbidden status to the second request at time - 1412528552.67
+Time taken for forbidden status is - 2.00670695305
+
+
+Time for user118 :
+Initial request sent at time - 1412528550.66
+Unauthorized response to first request at time - 1412528550.67
+Time taken for unauthorized status is - 0.0079128742218
+Second request sent at time - 1412528552.57
+Status ok to the second request at time - 1412528552.58
+Time taken for ok status is - 0.00798201560974
+
+
+Time for user119 :
+Initial request sent at time - 1412528551.17
+Unauthorized response to first request at time - 1412528552.55
+Time taken for unauthorized status is - 1.38011312485
+Second request sent at time - 1412528554.29
+Status ok to the second request at time - 1412528554.29
+Time taken for ok status is - 0.00643301010132
+
+
+Time for user120 :
+Initial request sent at time - 1412528550.68
+Unauthorized response to first request at time - 1412528551.06
+Time taken for unauthorized status is - 0.379678010941
+Second request sent at time - 1412528551.21
+Status ok to the second request at time - 1412528553.23
+Time taken for ok status is - 2.01654100418
+
+
+Time for user121 :
+Initial request sent at time - 1412528551.65
+Unauthorized response to first request at time - 1412528552.35
+Time taken for unauthorized status is - 0.700562953949
+Second request sent at time - 1412528559.55
+Service unavailable status to the second request at time - 1412528560.36
+Time taken for service unavailable status is - 0.804250001907
+
+
+Time for user122 :
+Initial request sent at time - 1412528551.65
+Second request sent at time - 1412528569.31
+Status ok to the second request at time - 1412528569.33
+Time taken for ok status is - 0.0132730007172
+
+
+Time for user123 :
+Initial request sent at time - 1412528551.65
+Unauthorized response to first request at time - 1412528552.18
+Time taken for unauthorized status is - 0.528090000153
+Second request sent at time - 1412528553.25
+Status ok to the second request at time - 1412528569.31
+Time taken for ok status is - 16.0560190678
+
+
+Time for user124 :
+Initial request sent at time - 1412528551.65
+Unauthorized response to first request at time - 1412528551.66
+Time taken for unauthorized status is - 0.00850391387939
+Second request sent at time - 1412528561.33
+Status ok to the second request at time - 1412528561.35
+Time taken for ok status is - 0.0160160064697
+
+
+Time for user125 :
+Initial request sent at time - 1412528551.65
+Unauthorized response to first request at time - 1412528551.89
+Time taken for unauthorized status is - 0.233699083328
+Second request sent at time - 1412528551.9
+Status ok to the second request at time - 1412528552.3
+Time taken for ok status is - 0.394811153412
+
+
+Time for user126 :
+Initial request sent at time - 1412528551.65
+Unauthorized response to first request at time - 1412528552.96
+Time taken for unauthorized status is - 1.30244898796
+Second request sent at time - 1412528553.66
+Server timeout status to the second request at time - 1412528558.07
+Time taken for server timeout status is - 4.41136884689
+
+
+Time for user127 :
+Initial request sent at time - 1412528551.65
+Unauthorized response to first request at time - 1412528552.23
+Time taken for unauthorized status is - 0.578275918961
+Second request sent at time - 1412528552.25
+Status ok to the second request at time - 1412528552.35
+Time taken for ok status is - 0.100787878036
+
+
+Time for user128 :
+Initial request sent at time - 1412528551.65
+Unauthorized response to first request at time - 1412528552.3
+Time taken for unauthorized status is - 0.642032146454
+Second request sent at time - 1412528563.89
+Service unavailable status to the second request at time - 1412528563.89
+Time taken for service unavailable status is - 0.00199294090271
+
+
+Time for user129 :
+Initial request sent at time - 1412528551.66
+Unauthorized response to first request at time - 1412528552.18
+Time taken for unauthorized status is - 0.52371096611
+Second request sent at time - 1412528553.25
+Status ok to the second request at time - 1412528553.26
+Time taken for ok status is - 0.00877094268799
+
+
+Time for user130 :
+Initial request sent at time - 1412528551.66
+Unauthorized response to first request at time - 1412528551.89
+Time taken for unauthorized status is - 0.229902982712
+Second request sent at time - 1412528554.32
+Status ok to the second request at time - 1412528554.72
+Time taken for ok status is - 0.396650075912
+
+
+Time for user131 :
+Initial request sent at time - 1412528551.66
+Unauthorized response to first request at time - 1412528553.47
+Time taken for unauthorized status is - 1.81166195869
+Second request sent at time - 1412528561.33
+Status ok to the second request at time - 1412528561.34
+Time taken for ok status is - 0.0147881507874
+
+
+Time for user132 :
+Initial request sent at time - 1412528551.66
+Unauthorized response to first request at time - 1412528553.16
+Time taken for unauthorized status is - 1.50057077408
+Second request sent at time - 1412528553.17
+Status ok to the second request at time - 1412528553.39
+Time taken for ok status is - 0.225219011307
+
+
+Time for user133 :
+Initial request sent at time - 1412528551.66
+Unauthorized response to first request at time - 1412528551.89
+Time taken for unauthorized status is - 0.231239080429
+Second request sent at time - 1412528552.21
+Status ok to the second request at time - 1412528553.43
+Time taken for ok status is - 1.21612501144
+
+
+Time for user134 :
+Initial request sent at time - 1412528551.66
+Unauthorized response to first request at time - 1412528551.89
+Time taken for unauthorized status is - 0.232792854309
+Second request sent at time - 1412528554.07
+Status ok to the second request at time - 1412528561.31
+Time taken for ok status is - 7.24013400078
+
+
+Time for user135 :
+Initial request sent at time - 1412528551.66
+Unauthorized response to first request at time - 1412528552.32
+Time taken for unauthorized status is - 0.668174982071
+Second request sent at time - 1412528554.61
+Status ok to the second request at time - 1412528554.62
+Time taken for ok status is - 0.00955486297607
+
+
+Time for user136 :
+Initial request sent at time - 1412528551.66
+Forbidden status to the second request at time - 1412528553.32
+Time taken for forbidden status is - 1.66839599609
+
+
+Time for user137 :
+Initial request sent at time - 1412528551.66
+Unauthorized response to first request at time - 1412528553.24
+Time taken for unauthorized status is - 1.57831096649
+Second request sent at time - 1412528553.25
+Status ok to the second request at time - 1412528553.47
+Time taken for ok status is - 0.214162111282
+
+
+Time for user138 :
+Initial request sent at time - 1412528552.19
+Unauthorized response to first request at time - 1412528552.41
+Time taken for unauthorized status is - 0.215294122696
+Second request sent at time - 1412528552.43
+Status ok to the second request at time - 1412528569.31
+Time taken for ok status is - 16.8823029995
+
+
+Time for user139 :
+Initial request sent at time - 1412528551.66
+Unauthorized response to first request at time - 1412528551.89
+Time taken for unauthorized status is - 0.234876871109
+Second request sent at time - 1412528551.91
+Server timeout status to the second request at time - 1412528553.54
+Time taken for server timeout status is - 1.63255882263
+
+
+Time for user140 :
+Initial request sent at time - 1412528551.66
+Unauthorized response to first request at time - 1412528560.7
+Time taken for unauthorized status is - 9.04245209694
+Second request sent at time - 1412528562.59
+Status ok to the second request at time - 1412528562.6
+Time taken for ok status is - 0.0171151161194
+
+
+Time for user141 :
+Initial request sent at time - 1412528552.65
+Unauthorized response to first request at time - 1412528552.86
+Time taken for unauthorized status is - 0.210901021957
+Second request sent at time - 1412528552.88
+Server timeout status to the second request at time - 1412528554.89
+Time taken for server timeout status is - 2.00762104988
+
+
+Time for user142 :
+Initial request sent at time - 1412528552.65
+Unauthorized response to first request at time - 1412528554.65
+Time taken for unauthorized status is - 1.99784517288
+Second request sent at time - 1412528554.67
+Server timeout status to the second request at time - 1412528561.92
+Time taken for server timeout status is - 7.24595093727
+
+
+Time for user143 :
+Initial request sent at time - 1412528552.65
+Unauthorized response to first request at time - 1412528569.31
+Time taken for unauthorized status is - 16.6541209221
+Second request sent at time - 1412528569.31
+Status ok to the second request at time - 1412528569.33
+Time taken for ok status is - 0.0115978717804
+
+
+Time for user144 :
+Initial request sent at time - 1412528552.65
+Unauthorized response to first request at time - 1412528552.88
+Time taken for unauthorized status is - 0.223012208939
+Second request sent at time - 1412528559.16
+Status ok to the second request at time - 1412528560.06
+Time taken for ok status is - 0.904279947281
+
+
+Time for user145 :
+Initial request sent at time - 1412528552.65
+Unauthorized response to first request at time - 1412528560.7
+Time taken for unauthorized status is - 8.04509401321
+Second request sent at time - 1412528562.59
+Status ok to the second request at time - 1412528562.6
+Time taken for ok status is - 0.0134661197662
+
+
+Time for user146 :
+Initial request sent at time - 1412528552.66
+Unauthorized response to first request at time - 1412528554.31
+Time taken for unauthorized status is - 1.65290689468
+Second request sent at time - 1412528556.63
+Status ok to the second request at time - 1412528557.23
+Time taken for ok status is - 0.597096204758
+
+
+Time for user147 :
+Initial request sent at time - 1412528552.66
+Unauthorized response to first request at time - 1412528552.89
+Time taken for unauthorized status is - 0.235017776489
+Second request sent at time - 1412528552.9
+Server timeout status to the second request at time - 1412528558.07
+Time taken for server timeout status is - 5.16694092751
+
+
+Time for user148 :
+Initial request sent at time - 1412528552.66
+Unauthorized response to first request at time - 1412528554.34
+Time taken for unauthorized status is - 1.68846106529
+Second request sent at time - 1412528556.24
+Status ok to the second request at time - 1412528561.92
+Time taken for ok status is - 5.67614388466
+
+
+Time for user149 :
+Initial request sent at time - 1412528552.66
+Unauthorized response to first request at time - 1412528553.16
+Time taken for unauthorized status is - 0.500223875046
+Second request sent at time - 1412528553.17
+Status ok to the second request at time - 1412528553.39
+Time taken for ok status is - 0.224860906601
+
+
+Time for user150 :
+Initial request sent at time - 1412528552.66
+Unauthorized response to first request at time - 1412528552.92
+Time taken for unauthorized status is - 0.267997026443
+Second request sent at time - 1412528556.66
+Service unavailable status to the second request at time - 1412528556.66
+Time taken for service unavailable status is - 0.000974893569946
+
+
+Time for user151 :
+Initial request sent at time - 1412528552.66
+Unauthorized response to first request at time - 1412528552.89
+Time taken for unauthorized status is - 0.228914022446
+Second request sent at time - 1412528552.9
+Server timeout status to the second request at time - 1412528554.9
+Time taken for server timeout status is - 1.99866104126
+
+
+Time for user152 :
+Initial request sent at time - 1412528552.67
+Forbidden status to the second request at time - 1412528556.66
+Time taken for forbidden status is - 3.99640107155
+
+
+Time for user153 :
+Initial request sent at time - 1412528552.66
+Forbidden status to the second request at time - 1412528556.48
+Time taken for forbidden status is - 3.81930994987
+
+
+Time for user154 :
+Initial request sent at time - 1412528552.66
+Forbidden status to the second request at time - 1412528554.66
+Time taken for forbidden status is - 2.00761294365
+
+
+Time for user155 :
+Initial request sent at time - 1412528552.66
+Unauthorized response to first request at time - 1412528554.65
+Time taken for unauthorized status is - 1.99496412277
+Second request sent at time - 1412528554.67
+Status ok to the second request at time - 1412528564.54
+Time taken for ok status is - 9.86975598335
+
+
+Time for user156 :
+Initial request sent at time - 1412528552.66
+Forbidden status to the second request at time - 1412528554.67
+Time taken for forbidden status is - 2.00391793251
+
+
+Time for user157 :
+Initial request sent at time - 1412528552.67
+Unauthorized response to first request at time - 1412528552.88
+Time taken for unauthorized status is - 0.21411895752
+Second request sent at time - 1412528558.75
+Service unavailable status to the second request at time - 1412528559.44
+Time taken for service unavailable status is - 0.696343898773
+
+
+Time for user158 :
+Initial request sent at time - 1412528552.67
+Unauthorized response to first request at time - 1412528552.89
+Time taken for unauthorized status is - 0.226906061172
+Second request sent at time - 1412528555.43
+Status ok to the second request at time - 1412528560.36
+Time taken for ok status is - 4.93290281296
+
+
+Time for user159 :
+Initial request sent at time - 1412528552.67
+Unauthorized response to first request at time - 1412528556.66
+Time taken for unauthorized status is - 3.99639296532
+Second request sent at time - 1412528558.05
+Status ok to the second request at time - 1412528558.74
+Time taken for ok status is - 0.687533140182
+
+
+Time for user160 :
+Initial request sent at time - 1412528552.67
+Unauthorized response to first request at time - 1412528554.59
+Time taken for unauthorized status is - 1.92230892181
+Second request sent at time - 1412528554.61
+Status ok to the second request at time - 1412528554.62
+Time taken for ok status is - 0.0101051330566
+
+
+Time for user161 :
+Initial request sent at time - 1412528554.31
+Unauthorized response to first request at time - 1412528556.66
+Time taken for unauthorized status is - 2.35082221031
+Second request sent at time - 1412528557.37
+Service unavailable status to the second request at time - 1412528561.31
+Time taken for service unavailable status is - 3.94123601913
+
+
+Time for user162 :
+Initial request sent at time - 1412528553.66
+Unauthorized response to first request at time - 1412528558.92
+Time taken for unauthorized status is - 5.26887989044
+Second request sent at time - 1412528558.94
+Status ok to the second request at time - 1412528558.94
+Time taken for ok status is - 0.00805616378784
+
+
+Time for user163 :
+Initial request sent at time - 1412528553.66
+Unauthorized response to first request at time - 1412528554.9
+Time taken for unauthorized status is - 1.24828386307
+Second request sent at time - 1412528560.38
+Status ok to the second request at time - 1412528560.39
+Time taken for ok status is - 0.00718212127686
+
+
+Time for user164 :
+Initial request sent at time - 1412528553.66
+Unauthorized response to first request at time - 1412528555.3
+Time taken for unauthorized status is - 1.6485581398
+Second request sent at time - 1412528560.59
+Service unavailable status to the second request at time - 1412528561.31
+Time taken for service unavailable status is - 0.716284990311
+
+
+Time for user165 :
+Initial request sent at time - 1412528553.66
+Unauthorized response to first request at time - 1412528553.87
+Time taken for unauthorized status is - 0.216756820679
+Second request sent at time - 1412528555.75
+Status ok to the second request at time - 1412528559.1
+Time taken for ok status is - 3.34708595276
+
+
+Time for user166 :
+Initial request sent at time - 1412528553.66
+Unauthorized response to first request at time - 1412528553.87
+Time taken for unauthorized status is - 0.215646982193
+Second request sent at time - 1412528556.23
+Status ok to the second request at time - 1412528558.92
+Time taken for ok status is - 2.69252896309
+
+
+Time for user167 :
+Initial request sent at time - 1412528553.66
+Forbidden status to the second request at time - 1412528556.49
+Time taken for forbidden status is - 2.83478498459
+
+
+Time for user168 :
+Initial request sent at time - 1412528553.66
+Forbidden status to the second request at time - 1412528555.67
+Time taken for forbidden status is - 2.0099902153
+
+
+Time for user169 :
+Initial request sent at time - 1412528553.66
+Unauthorized response to first request at time - 1412528553.67
+Time taken for unauthorized status is - 0.0101969242096
+Second request sent at time - 1412528556.52
+Status ok to the second request at time - 1412528560.36
+Time taken for ok status is - 3.84396886826
+
+
+Time for user170 :
+Initial request sent at time - 1412528553.66
+Status ok to the second request at time - 1412528559.53
+Forbidden status to the second request at time - 1412528559.53
+Time taken for forbidden status is - 5.87575888634
+
+
+Time for user171 :
+Initial request sent at time - 1412528553.66
+Forbidden status to the second request at time - 1412528555.67
+Time taken for forbidden status is - 2.01044797897
+
+
+Time for user172 :
+Initial request sent at time - 1412528553.66
+Forbidden status to the second request at time - 1412528555.76
+Time taken for forbidden status is - 2.10668301582
+
+
+Time for user173 :
+Initial request sent at time - 1412528553.66
+Forbidden status to the second request at time - 1412528556.66
+Time taken for forbidden status is - 3.00449299812
+
+
+Time for user174 :
+Initial request sent at time - 1412528553.66
+Unauthorized response to first request at time - 1412528558.07
+Time taken for unauthorized status is - 4.4107298851
+Second request sent at time - 1412528558.08
+Service unavailable status to the second request at time - 1412528558.56
+Time taken for service unavailable status is - 0.474537134171
+
+
+Time for user175 :
+Initial request sent at time - 1412528553.66
+Unauthorized response to first request at time - 1412528553.91
+Time taken for unauthorized status is - 0.249147891998
+Forbidden status to the second request at time - 1412528555.66
+Time taken for forbidden status is - 2.00354504585
+
+
+Time for user176 :
+Initial request sent at time - 1412528553.66
+Forbidden status to the second request at time - 1412528555.67
+Time taken for forbidden status is - 2.01082491875
+
+
+Time for user177 :
+Initial request sent at time - 1412528553.82
+Unauthorized response to first request at time - 1412528554.03
+Time taken for unauthorized status is - 0.212121009827
+Second request sent at time - 1412528554.06
+Status ok to the second request at time - 1412528555.07
+Time taken for ok status is - 1.0144431591
+
+
+Time for user178 :
+Initial request sent at time - 1412528554.17
+Unauthorized response to first request at time - 1412528556.66
+Time taken for unauthorized status is - 2.49418997765
+Second request sent at time - 1412528556.92
+Status ok to the second request at time - 1412528556.92
+Time taken for ok status is - 0.00595688819885
+
+
+Time for user179 :
+Initial request sent at time - 1412528553.66
+Forbidden status to the second request at time - 1412528555.67
+Time taken for forbidden status is - 2.01160478592
+
+
+Time for user180 :
+Initial request sent at time - 1412528553.66
+Unauthorized response to first request at time - 1412528557.76
+Time taken for unauthorized status is - 4.09733891487
+Second request sent at time - 1412528557.77
+Status ok to the second request at time - 1412528560.16
+Time taken for ok status is - 2.38508820534
+
+
+Time for user181 :
+Initial request sent at time - 1412528554.66
+Unauthorized response to first request at time - 1412528554.88
+Time taken for unauthorized status is - 0.219763994217
+Second request sent at time - 1412528561.68
+Service unavailable status to the second request at time - 1412528561.87
+Time taken for service unavailable status is - 0.18711400032
+
+
+Time for user182 :
+Initial request sent at time - 1412528555.76
+Unauthorized response to first request at time - 1412528556.09
+Time taken for unauthorized status is - 0.328723192215
+Second request sent at time - 1412528557.61
+Status ok to the second request at time - 1412528558.46
+Time taken for ok status is - 0.845743894577
+
+
+Time for user183 :
+Initial request sent at time - 1412528554.66
+Second request sent at time - 1412528562.59
+Status ok to the second request at time - 1412528562.6
+Time taken for ok status is - 0.0165450572968
+
+
+Time for user184 :
+Initial request sent at time - 1412528554.66
+Unauthorized response to first request at time - 1412528554.88
+Time taken for unauthorized status is - 0.219070911407
+Second request sent at time - 1412528559.23
+Status ok to the second request at time - 1412528560.16
+Time taken for ok status is - 0.932132005692
+
+
+Time for user185 :
+Initial request sent at time - 1412528556.51
+Unauthorized response to first request at time - 1412528556.72
+Time taken for unauthorized status is - 0.21569108963
+Second request sent at time - 1412528559.44
+Status ok to the second request at time - 1412528559.45
+Time taken for ok status is - 0.00950002670288
+
+
+Time for user186 :
+Initial request sent at time - 1412528554.7
+Unauthorized response to first request at time - 1412528561.66
+Time taken for unauthorized status is - 6.95968317986
+Second request sent at time - 1412528561.68
+Service unavailable status to the second request at time - 1412528561.68
+Time taken for service unavailable status is - 0.000230073928833
+
+
+Time for user187 :
+Initial request sent at time - 1412528554.66
+Forbidden status to the second request at time - 1412528556.29
+Time taken for forbidden status is - 1.63081097603
+
+
+Time for user188 :
+Initial request sent at time - 1412528554.66
+Second request sent at time - 1412528563.89
+Service unavailable status to the second request at time - 1412528563.89
+Time taken for service unavailable status is - 0.00194311141968
+
+
+Time for user189 :
+Initial request sent at time - 1412528554.66
+Forbidden status to the second request at time - 1412528558.32
+Time taken for forbidden status is - 3.65849995613
+
+
+Time for user190 :
+Initial request sent at time - 1412528554.66
+Forbidden status to the second request at time - 1412528556.67
+Time taken for forbidden status is - 2.00996613503
+
+
+Time for user191 :
+Initial request sent at time - 1412528555.17
+Unauthorized response to first request at time - 1412528555.74
+Time taken for unauthorized status is - 0.564252138138
+Second request sent at time - 1412528555.75
+Status ok to the second request at time - 1412528556.66
+Time taken for ok status is - 0.908710002899
+
+
+Time for user192 :
+Initial request sent at time - 1412528554.66
+Forbidden status to the second request at time - 1412528557.76
+Time taken for forbidden status is - 3.09423899651
+
+
+Time for user193 :
+Initial request sent at time - 1412528554.66
+Forbidden status to the second request at time - 1412528558.56
+Time taken for forbidden status is - 3.89385914803
+
+
+Time for user194 :
+Initial request sent at time - 1412528554.66
+Forbidden status to the second request at time - 1412528556.67
+Time taken for forbidden status is - 2.01142811775
+
+
+Time for user195 :
+Initial request sent at time - 1412528554.66
+Forbidden status to the second request at time - 1412528557.8
+Time taken for forbidden status is - 3.14130687714
+
+
+Time for user196 :
+Initial request sent at time - 1412528554.66
+Forbidden status to the second request at time - 1412528556.68
+Time taken for forbidden status is - 2.01632809639
+
+
+Time for user197 :
+Initial request sent at time - 1412528554.66
+Forbidden status to the second request at time - 1412528558.46
+Time taken for forbidden status is - 3.7968788147
+
+
+Time for user198 :
+Initial request sent at time - 1412528555.24
+Unauthorized response to first request at time - 1412528555.25
+Time taken for unauthorized status is - 0.00599598884583
+Second request sent at time - 1412528555.27
+Server timeout status to the second request at time - 1412528558.9
+Time taken for server timeout status is - 3.63336610794
+
+
+Time for user199 :
+Initial request sent at time - 1412528554.66
+Unauthorized response to first request at time - 1412528556.08
+Time taken for unauthorized status is - 1.41234397888
+Second request sent at time - 1412528556.09
+Status ok to the second request at time - 1412528556.73
+Time taken for ok status is - 0.631191968918
+
+
+Time for user200 :
+Initial request sent at time - 1412528554.66
+
+
+Time for user201 :
+Initial request sent at time - 1412528555.66
+Unauthorized response to first request at time - 1412528555.67
+Time taken for unauthorized status is - 0.0077497959137
+Second request sent at time - 1412528555.68
+Status ok to the second request at time - 1412528560.16
+Time taken for ok status is - 4.47541093826
+
+
+Time for user202 :
+Initial request sent at time - 1412528555.66
+Unauthorized response to first request at time - 1412528555.88
+Time taken for unauthorized status is - 0.21759390831
+Second request sent at time - 1412528557.82
+Status ok to the second request at time - 1412528557.83
+Time taken for ok status is - 0.00906085968018
+
+
+Time for user203 :
+Initial request sent at time - 1412528555.82
+Unauthorized response to first request at time - 1412528556.66
+Time taken for unauthorized status is - 0.834957122803
+Second request sent at time - 1412528556.68
+Service unavailable status to the second request at time - 1412528556.68
+Time taken for service unavailable status is - 0.0014967918396
+
+
+Time for user204 :
+Initial request sent at time - 1412528555.66
+Unauthorized response to first request at time - 1412528557.66
+Time taken for unauthorized status is - 2.00524306297
+Service unavailable status to the second request at time - 1412528561.72
+Time taken for service unavailable status is - 6.06427001953
+
+
+Time for user205 :
+Initial request sent at time - 1412528555.66
+Forbidden status to the second request at time - 1412528559.53
+Time taken for forbidden status is - 3.87388420105
+
+
+Time for user206 :
+Initial request sent at time - 1412528555.66
+Forbidden status to the second request at time - 1412528558.5
+Time taken for forbidden status is - 2.84012913704
+
+
+Time for user207 :
+Initial request sent at time - 1412528555.66
+Forbidden status to the second request at time - 1412528557.68
+Time taken for forbidden status is - 2.01888394356
+
+
+Time for user208 :
+Initial request sent at time - 1412528555.66
+Unauthorized response to first request at time - 1412528556.68
+Time taken for unauthorized status is - 1.01506686211
+Status ok to the second request at time - 1412528558.9
+
+
+Time for user209 :
+Initial request sent at time - 1412528555.66
+Forbidden status to the second request at time - 1412528559.38
+Time taken for forbidden status is - 3.72300291061
+
+
+Time for user210 :
+Initial request sent at time - 1412528556.21
+Unauthorized response to first request at time - 1412528556.68
+Time taken for unauthorized status is - 0.468039989471
+Second request sent at time - 1412528557.01
+
+
+Time for user211 :
+Initial request sent at time - 1412528555.66
+Forbidden status to the second request at time - 1412528557.68
+Time taken for forbidden status is - 2.01819992065
+
+
+Time for user212 :
+Initial request sent at time - 1412528555.66
+Forbidden status to the second request at time - 1412528557.84
+Time taken for forbidden status is - 2.1740489006
+
+
+Time for user213 :
+Initial request sent at time - 1412528555.66
+Forbidden status to the second request at time - 1412528557.68
+Time taken for forbidden status is - 2.01880192757
+
+
+Time for user214 :
+Initial request sent at time - 1412528555.66
+Forbidden status to the second request at time - 1412528557.8
+Time taken for forbidden status is - 2.14160490036
+
+
+Time for user215 :
+Initial request sent at time - 1412528555.66
+Unauthorized response to first request at time - 1412528555.97
+Time taken for unauthorized status is - 0.307548046112
+Second request sent at time - 1412528557.32
+Status ok to the second request at time - 1412528560.06
+Time taken for ok status is - 2.7436439991
+
+
+Time for user216 :
+Initial request sent at time - 1412528555.66
+Forbidden status to the second request at time - 1412528558.5
+Time taken for forbidden status is - 2.8372130394
+
+
+Time for user217 :
+Initial request sent at time - 1412528555.76
+Unauthorized response to first request at time - 1412528557.6
+Time taken for unauthorized status is - 1.83623123169
+Second request sent at time - 1412528557.61
+Status ok to the second request at time - 1412528564.54
+Time taken for ok status is - 6.92536997795
+
+
+Time for user218 :
+Initial request sent at time - 1412528555.66
+Unauthorized response to first request at time - 1412528558.92
+Time taken for unauthorized status is - 3.26054096222
+Second request sent at time - 1412528558.94
+Service unavailable status to the second request at time - 1412528564.29
+Time taken for service unavailable status is - 5.35494613647
+
+
+Time for user219 :
+Initial request sent at time - 1412528556.37
+Unauthorized response to first request at time - 1412528556.5
+Time taken for unauthorized status is - 0.132816791534
+Second request sent at time - 1412528556.52
+Status ok to the second request at time - 1412528557.23
+Time taken for ok status is - 0.711742162704
+
+
+Time for user220 :
+Initial request sent at time - 1412528555.66
+Unauthorized response to first request at time - 1412528555.88
+Time taken for unauthorized status is - 0.213814973831
+Second request sent at time - 1412528558.47
+Status ok to the second request at time - 1412528561.92
+Time taken for ok status is - 3.44164896011
+
+
+Time for user221 :
+Initial request sent at time - 1412528556.66
+Unauthorized response to first request at time - 1412528556.87
+Time taken for unauthorized status is - 0.213599920273
+Second request sent at time - 1412528558.06
+Service unavailable status to the second request at time - 1412528558.06
+Time taken for service unavailable status is - 0.000406980514526
+
+
+Time for user222 :
+Initial request sent at time - 1412528556.66
+Forbidden status to the second request at time - 1412528560.03
+Time taken for forbidden status is - 3.37612700462
+
+
+Time for user223 :
+Initial request sent at time - 1412528556.66
+Forbidden status to the second request at time - 1412528559.6
+Time taken for forbidden status is - 2.94764995575
+
+
+Time for user224 :
+Initial request sent at time - 1412528556.66
+Forbidden status to the second request at time - 1412528561.31
+Time taken for forbidden status is - 4.65157604218
+
+
+Time for user225 :
+Initial request sent at time - 1412528556.66
+Unauthorized response to first request at time - 1412528557.0
+Time taken for unauthorized status is - 0.338799953461
+Second request sent at time - 1412528557.4
+Status ok to the second request at time - 1412528559.6
+Time taken for ok status is - 2.20060300827
+
+
+Time for user226 :
+Initial request sent at time - 1412528556.66
+Unauthorized response to first request at time - 1412528558.04
+Time taken for unauthorized status is - 1.38586997986
+Second request sent at time - 1412528558.06
+Service unavailable status to the second request at time - 1412528558.5
+Time taken for service unavailable status is - 0.439810991287
+
+
+Time for user227 :
+Initial request sent at time - 1412528556.66
+Unauthorized response to first request at time - 1412528558.56
+Time taken for unauthorized status is - 1.89724421501
+Second request sent at time - 1412528558.57
+Status ok to the second request at time - 1412528561.92
+Time taken for ok status is - 3.34575796127
+
+
+Time for user228 :
+Initial request sent at time - 1412528556.66
+Unauthorized response to first request at time - 1412528558.92
+Time taken for unauthorized status is - 2.26487898827
+Second request sent at time - 1412528558.94
+Service unavailable status to the second request at time - 1412528558.94
+Time taken for service unavailable status is - 0.000907897949219
+
+
+Time for user229 :
+Initial request sent at time - 1412528556.66
+Forbidden status to the second request at time - 1412528561.17
+Time taken for forbidden status is - 4.51296591759
+
+
+Time for user230 :
+Initial request sent at time - 1412528556.66
+Forbidden status to the second request at time - 1412528558.88
+Time taken for forbidden status is - 2.2208199501
+
+
+Time for user231 :
+Initial request sent at time - 1412528556.66
+Service unavailable status to the second request at time - 1412528559.1
+Time taken for service unavailable status is - 2.44040203094
+
+
+Time for user232 :
+Initial request sent at time - 1412528556.66
+Service unavailable status to the second request at time - 1412528556.66
+Time taken for service unavailable status is - 0.000971078872681
+
+
+Time for user233 :
+Initial request sent at time - 1412528556.66
+Service unavailable status to the second request at time - 1412528556.66
+Time taken for service unavailable status is - 0.00059700012207
+
+
+Time for user234 :
+Initial request sent at time - 1412528556.66
+Service unavailable status to the second request at time - 1412528564.54
+Time taken for service unavailable status is - 7.87967085838
+
+
+Time for user235 :
+Initial request sent at time - 1412528556.66
+Service unavailable status to the second request at time - 1412528557.3
+Time taken for service unavailable status is - 0.639233827591
+
+
+Time for user236 :
+Initial request sent at time - 1412528556.66
+Service unavailable status to the second request at time - 1412528556.66
+Time taken for service unavailable status is - 0.00036096572876
+
+
+Time for user237 :
+Initial request sent at time - 1412528556.66
+Service unavailable status to the second request at time - 1412528557.76
+Time taken for service unavailable status is - 1.0943069458
+
+
+Time for user238 :
+Initial request sent at time - 1412528556.66
+Forbidden status to the second request at time - 1412528559.16
+Time taken for forbidden status is - 2.49481296539
+
+
+Time for user239 :
+Initial request sent at time - 1412528556.66
+Service unavailable status to the second request at time - 1412528556.94
+Time taken for service unavailable status is - 0.281085968018
+
+
+Time for user240 :
+Initial request sent at time - 1412528557.2
+Unauthorized response to first request at time - 1412528557.21
+Time taken for unauthorized status is - 0.00799894332886
+Second request sent at time - 1412528557.22
+Status ok to the second request at time - 1412528557.23
+Time taken for ok status is - 0.00895190238953
+
+
+Time for user241 :
+Initial request sent at time - 1412528557.66
+Unauthorized response to first request at time - 1412528557.66
+Time taken for unauthorized status is - 0.00554800033569
+Second request sent at time - 1412528560.37
+Status ok to the second request at time - 1412528560.38
+Time taken for ok status is - 0.00749492645264
+
+
+Time for user242 :
+Initial request sent at time - 1412528557.66
+Unauthorized response to first request at time - 1412528558.97
+Time taken for unauthorized status is - 1.3119289875
+Second request sent at time - 1412528559.36
+Status ok to the second request at time - 1412528560.37
+Time taken for ok status is - 1.00932908058
+
+
+Time for user243 :
+Initial request sent at time - 1412528557.66
+Unauthorized response to first request at time - 1412528558.67
+Time taken for unauthorized status is - 1.0144109726
+Second request sent at time - 1412528560.05
+Status ok to the second request at time - 1412528560.06
+Time taken for ok status is - 0.00853395462036
+
+
+Time for user244 :
+Initial request sent at time - 1412528557.66
+Forbidden status to the second request at time - 1412528559.66
+Time taken for forbidden status is - 2.00523400307
+
+
+Time for user245 :
+Initial request sent at time - 1412528557.66
+Unauthorized response to first request at time - 1412528559.44
+Time taken for unauthorized status is - 1.78351092339
+Second request sent at time - 1412528559.46
+Service unavailable status to the second request at time - 1412528559.46
+Time taken for service unavailable status is - 0.000250816345215
+
+
+Time for user246 :
+Initial request sent at time - 1412528557.66
+Status ok to the second request at time - 1412528560.32
+
+
+Time for user247 :
+Initial request sent at time - 1412528557.94
+Unauthorized response to first request at time - 1412528560.06
+Time taken for unauthorized status is - 2.12428498268
+Second request sent at time - 1412528560.08
+Status ok to the second request at time - 1412528560.09
+Time taken for ok status is - 0.0149309635162
+
+
+Time for user248 :
+Initial request sent at time - 1412528557.66
+Status ok to the second request at time - 1412528558.12
+Service unavailable status to the second request at time - 1412528557.66
+Time taken for service unavailable status is - 0.00289702415466
+
+
+Time for user249 :
+Initial request sent at time - 1412528557.66
+Service unavailable status to the second request at time - 1412528557.66
+Time taken for service unavailable status is - 0.00313806533813
+
+
+Time for user250 :
+Initial request sent at time - 1412528557.66
+Service unavailable status to the second request at time - 1412528559.56
+Time taken for service unavailable status is - 1.89900898933
+
+
+Time for user251 :
+Initial request sent at time - 1412528557.66
+
+
+Time for user252 :
+Initial request sent at time - 1412528557.66
+Service unavailable status to the second request at time - 1412528569.31
+Time taken for service unavailable status is - 11.6475710869
+
+
+Time for user253 :
+Initial request sent at time - 1412528557.66
+Service unavailable status to the second request at time - 1412528563.87
+Time taken for service unavailable status is - 6.20737504959
+
+
+Time for user254 :
+Initial request sent at time - 1412528557.66
+Service unavailable status to the second request at time - 1412528557.8
+Time taken for service unavailable status is - 0.14325094223
+
+
+Time for user255 :
+Initial request sent at time - 1412528557.66
+Service unavailable status to the second request at time - 1412528557.66
+Time taken for service unavailable status is - 0.00366902351379
+
+
+Time for user256 :
+Initial request sent at time - 1412528557.66
+Service unavailable status to the second request at time - 1412528557.66
+Time taken for service unavailable status is - 0.00387287139893
+
+
+Time for user257 :
+Initial request sent at time - 1412528557.66
+Unauthorized response to first request at time - 1412528558.97
+Time taken for unauthorized status is - 1.30759882927
+Second request sent at time - 1412528559.36
+Service unavailable status to the second request at time - 1412528559.44
+Time taken for service unavailable status is - 0.0815598964691
+
+
+Time for user258 :
+Initial request sent at time - 1412528557.66
+Service unavailable status to the second request at time - 1412528559.56
+Time taken for service unavailable status is - 1.89900898933
+
+
+Time for user259 :
+Initial request sent at time - 1412528557.66
+Service unavailable status to the second request at time - 1412528558.48
+Time taken for service unavailable status is - 0.82302904129
+
+
+Time for user260 :
+Initial request sent at time - 1412528557.76
+Unauthorized response to first request at time - 1412528557.97
+Time taken for unauthorized status is - 0.212085962296
+Second request sent at time - 1412528559.33
+Status ok to the second request at time - 1412528559.36
+Time taken for ok status is - 0.031760931015
+
+
+Time for user261 :
+Initial request sent at time - 1412528558.65
+Unauthorized response to first request at time - 1412528558.67
+Time taken for unauthorized status is - 0.0198788642883
+Second request sent at time - 1412528559.98
+Status ok to the second request at time - 1412528564.54
+Time taken for ok status is - 4.56020498276
+
+
+Time for user262 :
+Initial request sent at time - 1412528558.65
+Unauthorized response to first request at time - 1412528563.87
+Time taken for unauthorized status is - 5.21484494209
+Second request sent at time - 1412528563.89
+Service unavailable status to the second request at time - 1412528564.54
+Time taken for service unavailable status is - 0.652311086655
+
+
+Time for user263 :
+Initial request sent at time - 1412528558.65
+Unauthorized response to first request at time - 1412528561.66
+Time taken for unauthorized status is - 3.00602316856
+Second request sent at time - 1412528561.68
+Service unavailable status to the second request at time - 1412528561.68
+Time taken for service unavailable status is - 0.000379085540771
+
+
+Time for user264 :
+Initial request sent at time - 1412528558.65
+Unauthorized response to first request at time - 1412528560.06
+Time taken for unauthorized status is - 1.40608501434
+Second request sent at time - 1412528560.08
+Status ok to the second request at time - 1412528560.09
+Time taken for ok status is - 0.00897717475891
+
+
+Time for user265 :
+Initial request sent at time - 1412528558.65
+Service unavailable status to the second request at time - 1412528558.66
+Time taken for service unavailable status is - 0.00348901748657
+
+
+Time for user266 :
+Initial request sent at time - 1412528558.66
+Service unavailable status to the second request at time - 1412528558.66
+Time taken for service unavailable status is - 0.00318813323975
+
+
+Time for user267 :
+Initial request sent at time - 1412528558.84
+Service unavailable status to the second request at time - 1412528559.56
+Time taken for service unavailable status is - 0.716187000275
+
+
+Time for user268 :
+Initial request sent at time - 1412528558.66
+Unauthorized response to first request at time - 1412528563.87
+Time taken for unauthorized status is - 5.21175193787
+Second request sent at time - 1412528563.89
+Service unavailable status to the second request at time - 1412528564.29
+Time taken for service unavailable status is - 0.402750015259
+
+
+Time for user269 :
+Initial request sent at time - 1412528558.66
+Service unavailable status to the second request at time - 1412528559.38
+Time taken for service unavailable status is - 0.725922822952
+
+
+Time for user270 :
+Initial request sent at time - 1412528558.66
+Service unavailable status to the second request at time - 1412528558.66
+Time taken for service unavailable status is - 0.000497102737427
+
+
+Time for user271 :
+Initial request sent at time - 1412528558.66
+Service unavailable status to the second request at time - 1412528560.06
+Time taken for service unavailable status is - 1.4018881321
+
+
+Time for user272 :
+Initial request sent at time - 1412528558.66
+Service unavailable status to the second request at time - 1412528561.31
+Time taken for service unavailable status is - 2.65002202988
+
+
+Time for user273 :
+Initial request sent at time - 1412528558.66
+Service unavailable status to the second request at time - 1412528558.66
+Time taken for service unavailable status is - 0.00103092193604
+
+
+Time for user274 :
+Initial request sent at time - 1412528558.66
+Service unavailable status to the second request at time - 1412528561.17
+Time taken for service unavailable status is - 2.51382303238
+
+
+Time for user275 :
+Initial request sent at time - 1412528558.76
+Unauthorized response to first request at time - 1412528559.04
+Time taken for unauthorized status is - 0.279406070709
+Second request sent at time - 1412528560.59
+Status ok to the second request at time - 1412528561.31
+Time taken for ok status is - 0.71731877327
+
+
+Time for user276 :
+Initial request sent at time - 1412528559.66
+Service unavailable status to the second request at time - 1412528559.73
+Time taken for service unavailable status is - 0.0760588645935
+
+
+Time for user277 :
+Initial request sent at time - 1412528558.66
+Service unavailable status to the second request at time - 1412528560.16
+Time taken for service unavailable status is - 1.49811720848
+
+
+Time for user278 :
+Initial request sent at time - 1412528558.66
+Service unavailable status to the second request at time - 1412528561.92
+Time taken for service unavailable status is - 3.25771284103
+
+
+Time for user279 :
+Initial request sent at time - 1412528558.66
+Unauthorized response to first request at time - 1412528561.17
+Time taken for unauthorized status is - 2.51382303238
+Second request sent at time - 1412528561.18
+Status ok to the second request at time - 1412528563.87
+Time taken for ok status is - 2.68378400803
+
+
+Time for user280 :
+Initial request sent at time - 1412528558.66
+Service unavailable status to the second request at time - 1412528558.9
+Time taken for service unavailable status is - 0.241863012314
+
+
+Time for user281 :
+Initial request sent at time - 1412528559.66
+Unauthorized response to first request at time - 1412528560.06
+Time taken for unauthorized status is - 0.404937982559
+Second request sent at time - 1412528560.08
+Service unavailable status to the second request at time - 1412528560.08
+Time taken for service unavailable status is - 0.00181794166565
+
+
+Time for user282 :
+Initial request sent at time - 1412528560.59
+Unauthorized response to first request at time - 1412528561.31
+Time taken for unauthorized status is - 0.717220783234
+Second request sent at time - 1412528561.33
+Status ok to the second request at time - 1412528561.34
+Time taken for ok status is - 0.0142538547516
+
+
+Time for user283 :
+Initial request sent at time - 1412528559.66
+Service unavailable status to the second request at time - 1412528559.73
+Time taken for service unavailable status is - 0.0760588645935
+
+
+Time for user284 :
+Initial request sent at time - 1412528559.66
+Service unavailable status to the second request at time - 1412528559.66
+Time taken for service unavailable status is - 0.00114798545837
+
+
+Time for user285 :
+Initial request sent at time - 1412528559.66
+Service unavailable status to the second request at time - 1412528559.66
+Time taken for service unavailable status is - 0.00182890892029
+
+
+Time for user286 :
+Initial request sent at time - 1412528560.16
+Unauthorized response to first request at time - 1412528560.16
+Time taken for unauthorized status is - 0.00681519508362
+Second request sent at time - 1412528560.18
+Service unavailable status to the second request at time - 1412528560.62
+Time taken for service unavailable status is - 0.441447973251
+
+
+Time for user287 :
+Initial request sent at time - 1412528559.66
+Service unavailable status to the second request at time - 1412528559.66
+Time taken for service unavailable status is - 0.00250387191772
+
+
+Time for user288 :
+Initial request sent at time - 1412528559.66
+Service unavailable status to the second request at time - 1412528559.66
+Time taken for service unavailable status is - 0.00275707244873
+
+
+Time for user289 :
+Initial request sent at time - 1412528559.66
+Service unavailable status to the second request at time - 1412528559.66
+Time taken for service unavailable status is - 0.00298500061035
+
+
+Time for user290 :
+Initial request sent at time - 1412528559.66
+Service unavailable status to the second request at time - 1412528560.94
+Time taken for service unavailable status is - 1.28614783287
+
+
+Time for user291 :
+Initial request sent at time - 1412528559.66
+Service unavailable status to the second request at time - 1412528559.66
+Time taken for service unavailable status is - 0.00353503227234
+
+
+Time for user292 :
+Initial request sent at time - 1412528559.66
+Service unavailable status to the second request at time - 1412528561.66
+Time taken for service unavailable status is - 2.0012588501
+
+
+Time for user293 :
+Initial request sent at time - 1412528559.66
+Unauthorized response to first request at time - 1412528569.31
+Time taken for unauthorized status is - 9.65042805672
+
+
+Time for user294 :
+Initial request sent at time - 1412528559.66
+Service unavailable status to the second request at time - 1412528559.66
+Time taken for service unavailable status is - 0.00321507453918
+
+
+Time for user295 :
+Initial request sent at time - 1412528559.66
+Service unavailable status to the second request at time - 1412528561.02
+Time taken for service unavailable status is - 1.35679602623
+
+
+Time for user296 :
+Initial request sent at time - 1412528559.66
+Service unavailable status to the second request at time - 1412528559.66
+Time taken for service unavailable status is - 0.00289106369019
+
+
+Time for user297 :
+Initial request sent at time - 1412528559.66
+Service unavailable status to the second request at time - 1412528560.32
+Time taken for service unavailable status is - 0.664151906967
+
+
+Time for user298 :
+Initial request sent at time - 1412528559.66
+Service unavailable status to the second request at time - 1412528569.31
+Time taken for service unavailable status is - 9.64878106117
+
+
+Time for user299 :
+Initial request sent at time - 1412528559.66
+Service unavailable status to the second request at time - 1412528559.66
+Time taken for service unavailable status is - 0.000622034072876
+
+
+Time for user300 :
+Initial request sent at time - 1412528559.66
+Service unavailable status to the second request at time - 1412528564.54
+Time taken for service unavailable status is - 4.87913584709
+
+
+Time for user301 :
+Initial request sent at time - 1412528560.66
+Unauthorized response to first request at time - 1412528560.66
+Time taken for unauthorized status is - 0.00643706321716
+Second request sent at time - 1412528560.68
+Service unavailable status to the second request at time - 1412528560.68
+Time taken for service unavailable status is - 0.000193119049072
+
+
+Time for user302 :
+Initial request sent at time - 1412528560.66
+Service unavailable status to the second request at time - 1412528561.1
+Time taken for service unavailable status is - 0.439301013947
+
+
+Time for user303 :
+Initial request sent at time - 1412528560.66
+Service unavailable status to the second request at time - 1412528560.66
+Time taken for service unavailable status is - 0.00103712081909
+
+
+Time for user304 :
+Initial request sent at time - 1412528560.66
+Service unavailable status to the second request at time - 1412528560.66
+Time taken for service unavailable status is - 0.00120997428894
+
+
+Time for user305 :
+Initial request sent at time - 1412528560.66
+Service unavailable status to the second request at time - 1412528560.66
+Time taken for service unavailable status is - 0.00123500823975
+
+
+Time for user306 :
+Initial request sent at time - 1412528560.66
+Service unavailable status to the second request at time - 1412528560.66
+Time taken for service unavailable status is - 0.00116920471191
+
+
+Time for user307 :
+Initial request sent at time - 1412528560.66
+Service unavailable status to the second request at time - 1412528560.66
+Time taken for service unavailable status is - 0.00111985206604
+
+
+Time for user308 :
+Initial request sent at time - 1412528560.66
+Service unavailable status to the second request at time - 1412528560.66
+Time taken for service unavailable status is - 0.0013279914856
+
+
+Time for user309 :
+Initial request sent at time - 1412528560.7
+Service unavailable status to the second request at time - 1412528561.1
+Time taken for service unavailable status is - 0.400176048279
+
+
+Time for user310 :
+Initial request sent at time - 1412528560.66
+Service unavailable status to the second request at time - 1412528564.54
+Time taken for service unavailable status is - 3.88206505775
+
+
+Time for user311 :
+Initial request sent at time - 1412528560.66
+Service unavailable status to the second request at time - 1412528562.19
+Time taken for service unavailable status is - 1.52875685692
+
+
+Time for user312 :
+Initial request sent at time - 1412528560.66
+Service unavailable status to the second request at time - 1412528560.66
+Time taken for service unavailable status is - 0.00050687789917
+
+
+Time for user313 :
+Initial request sent at time - 1412528560.66
+Service unavailable status to the second request at time - 1412528560.66
+Time taken for service unavailable status is - 0.00062108039856
+
+
+Time for user314 :
+Initial request sent at time - 1412528560.66
+Service unavailable status to the second request at time - 1412528561.75
+Time taken for service unavailable status is - 1.08781504631
+
+
+Time for user315 :
+Initial request sent at time - 1412528560.66
+Service unavailable status to the second request at time - 1412528560.66
+Time taken for service unavailable status is - 0.000558853149414
+
+
+Time for user316 :
+Initial request sent at time - 1412528560.66
+Service unavailable status to the second request at time - 1412528560.67
+Time taken for service unavailable status is - 0.00440502166748
+
+
+Time for user317 :
+Initial request sent at time - 1412528560.66
+Service unavailable status to the second request at time - 1412528561.02
+Time taken for service unavailable status is - 0.35530591011
+
+
+Time for user318 :
+Initial request sent at time - 1412528560.66
+Service unavailable status to the second request at time - 1412528560.67
+Time taken for service unavailable status is - 0.00439596176147
+
+
+Time for user319 :
+Initial request sent at time - 1412528560.66
+Service unavailable status to the second request at time - 1412528560.67
+Time taken for service unavailable status is - 0.00442099571228
+
+
+Time for user320 :
+Initial request sent at time - 1412528560.66
+Service unavailable status to the second request at time - 1412528560.67
+Time taken for service unavailable status is - 0.00442886352539
+
+
+Time for user321 :
+Initial request sent at time - 1412528561.66
+Unauthorized response to first request at time - 1412528561.68
+Time taken for unauthorized status is - 0.0170080661774
+Second request sent at time - 1412528561.69
+Service unavailable status to the second request at time - 1412528561.69
+Time taken for service unavailable status is - 0.000319004058838
+
+
+Time for user322 :
+Initial request sent at time - 1412528561.66
+Unauthorized response to first request at time - 1412528561.71
+Time taken for unauthorized status is - 0.0489330291748
+Second request sent at time - 1412528561.72
+Service unavailable status to the second request at time - 1412528561.92
+Time taken for service unavailable status is - 0.192809820175
+
+
+Time for user323 :
+Initial request sent at time - 1412528561.66
+Unauthorized response to first request at time - 1412528561.68
+Time taken for unauthorized status is - 0.0182628631592
+Second request sent at time - 1412528561.69
+Service unavailable status to the second request at time - 1412528561.87
+Time taken for service unavailable status is - 0.174940109253
+
+
+Time for user324 :
+Initial request sent at time - 1412528561.66
+Unauthorized response to first request at time - 1412528561.67
+Time taken for unauthorized status is - 0.0114018917084
+Second request sent at time - 1412528561.69
+Service unavailable status to the second request at time - 1412528561.69
+Time taken for service unavailable status is - 0.000396013259888
+
+
+Time for user325 :
+Initial request sent at time - 1412528561.66
+Unauthorized response to first request at time - 1412528561.67
+Time taken for unauthorized status is - 0.013827085495
+Second request sent at time - 1412528561.69
+Service unavailable status to the second request at time - 1412528561.69
+Time taken for service unavailable status is - 0.000460147857666
+
+
+Time for user326 :
+Initial request sent at time - 1412528561.66
+Service unavailable status to the second request at time - 1412528561.67
+Time taken for service unavailable status is - 0.00523591041565
+
+
+Time for user327 :
+Initial request sent at time - 1412528561.66
+Unauthorized response to first request at time - 1412528561.68
+Time taken for unauthorized status is - 0.0159780979156
+Second request sent at time - 1412528561.69
+Service unavailable status to the second request at time - 1412528564.29
+Time taken for service unavailable status is - 2.59869194031
+
+
+Time for user328 :
+Initial request sent at time - 1412528561.66
+Service unavailable status to the second request at time - 1412528561.67
+Time taken for service unavailable status is - 0.00524497032166
+
+
+Time for user329 :
+Initial request sent at time - 1412528561.66
+Service unavailable status to the second request at time - 1412528561.67
+Time taken for service unavailable status is - 0.00539898872375
+
+
+Time for user330 :
+Initial request sent at time - 1412528561.66
+Service unavailable status to the second request at time - 1412528561.67
+Time taken for service unavailable status is - 0.00536489486694
+
+
+Time for user331 :
+Initial request sent at time - 1412528561.66
+Service unavailable status to the second request at time - 1412528561.67
+Time taken for service unavailable status is - 0.00529789924622
+
+
+Time for user332 :
+Initial request sent at time - 1412528561.66
+Service unavailable status to the second request at time - 1412528569.31
+Time taken for service unavailable status is - 7.64708399773
+
+
+Time for user333 :
+Initial request sent at time - 1412528561.66
+Service unavailable status to the second request at time - 1412528561.67
+Time taken for service unavailable status is - 0.00547790527344
+
+
+Time for user334 :
+Initial request sent at time - 1412528561.67
+Service unavailable status to the second request at time - 1412528561.67
+Time taken for service unavailable status is - 0.00143694877625
+
+
+Time for user335 :
+Initial request sent at time - 1412528561.66
+Service unavailable status to the second request at time - 1412528561.67
+Time taken for service unavailable status is - 0.00531601905823
+
+
+Time for user336 :
+Initial request sent at time - 1412528561.66
+Service unavailable status to the second request at time - 1412528561.67
+Time taken for service unavailable status is - 0.00446200370789
+
+
+Time for user337 :
+Initial request sent at time - 1412528561.66
+Service unavailable status to the second request at time - 1412528561.67
+Time taken for service unavailable status is - 0.00528788566589
+
+
+Time for user338 :
+Initial request sent at time - 1412528561.66
+Service unavailable status to the second request at time - 1412528569.31
+Time taken for service unavailable status is - 7.64541387558
+
+
+Time for user339 :
+Initial request sent at time - 1412528561.66
+Service unavailable status to the second request at time - 1412528561.75
+Time taken for service unavailable status is - 0.0839629173279
+
+
+Time for user340 :
+Initial request sent at time - 1412528561.66
+Service unavailable status to the second request at time - 1412528561.67
+Time taken for service unavailable status is - 0.00429701805115
+
+
+Time for user341 :
+Initial request sent at time - 1412528562.66
+Unauthorized response to first request at time - 1412528562.68
+Time taken for unauthorized status is - 0.0248410701752
+Second request sent at time - 1412528562.7
+Service unavailable status to the second request at time - 1412528562.7
+Time taken for service unavailable status is - 0.000478982925415
+
+
+Time for user342 :
+Initial request sent at time - 1412528562.66
+Unauthorized response to first request at time - 1412528562.67
+Time taken for unauthorized status is - 0.0103988647461
+Second request sent at time - 1412528562.69
+Service unavailable status to the second request at time - 1412528562.69
+Time taken for service unavailable status is - 0.000231981277466
+
+
+Time for user343 :
+Initial request sent at time - 1412528562.66
+Unauthorized response to first request at time - 1412528562.69
+Time taken for unauthorized status is - 0.0276749134064
+Second request sent at time - 1412528562.7
+Service unavailable status to the second request at time - 1412528564.54
+Time taken for service unavailable status is - 1.83951997757
+
+
+Time for user344 :
+Initial request sent at time - 1412528562.66
+Unauthorized response to first request at time - 1412528563.87
+Time taken for unauthorized status is - 1.20942497253
+Second request sent at time - 1412528563.89
+Service unavailable status to the second request at time - 1412528563.89
+Time taken for service unavailable status is - 0.00155711174011
+
+
+Time for user345 :
+Initial request sent at time - 1412528562.66
+Unauthorized response to first request at time - 1412528562.68
+Time taken for unauthorized status is - 0.0247390270233
+Second request sent at time - 1412528562.7
+Service unavailable status to the second request at time - 1412528562.7
+Time taken for service unavailable status is - 0.000594854354858
+
+
+Time for user346 :
+Initial request sent at time - 1412528562.66
+Service unavailable status to the second request at time - 1412528562.66
+Time taken for service unavailable status is - 0.00381517410278
+
+
+Time for user347 :
+Initial request sent at time - 1412528562.66
+Service unavailable status to the second request at time - 1412528562.66
+Time taken for service unavailable status is - 0.00364589691162
+
+
+Time for user348 :
+Initial request sent at time - 1412528562.66
+Service unavailable status to the second request at time - 1412528562.66
+Time taken for service unavailable status is - 0.00391483306885
+
+
+Time for user349 :
+Initial request sent at time - 1412528562.66
+Service unavailable status to the second request at time - 1412528562.66
+Time taken for service unavailable status is - 0.00397777557373
+
+
+Time for user350 :
+Initial request sent at time - 1412528562.66
+Service unavailable status to the second request at time - 1412528562.67
+Time taken for service unavailable status is - 0.00384616851807
+
+
+Time for user351 :
+Initial request sent at time - 1412528562.66
+Service unavailable status to the second request at time - 1412528562.67
+Time taken for service unavailable status is - 0.003751039505
+
+
+Time for user352 :
+Initial request sent at time - 1412528562.66
+Service unavailable status to the second request at time - 1412528562.67
+Time taken for service unavailable status is - 0.00377106666565
+
+
+Time for user353 :
+Initial request sent at time - 1412528562.66
+Service unavailable status to the second request at time - 1412528562.67
+Time taken for service unavailable status is - 0.00376915931702
+
+
+Time for user354 :
+Initial request sent at time - 1412528562.66
+Service unavailable status to the second request at time - 1412528562.66
+Time taken for service unavailable status is - 0.00203490257263
+
+
+Time for user355 :
+Initial request sent at time - 1412528562.66
+Service unavailable status to the second request at time - 1412528562.67
+Time taken for service unavailable status is - 0.00335502624512
+
+
+Time for user356 :
+Initial request sent at time - 1412528562.66
+Service unavailable status to the second request at time - 1412528562.67
+Time taken for service unavailable status is - 0.00257205963135
+
+
+Time for user357 :
+Initial request sent at time - 1412528562.66
+Service unavailable status to the second request at time - 1412528562.67
+Time taken for service unavailable status is - 0.00273108482361
+
+
+Time for user358 :
+Initial request sent at time - 1412528562.66
+Service unavailable status to the second request at time - 1412528562.67
+Time taken for service unavailable status is - 0.00257015228271
+
+
+Time for user359 :
+Initial request sent at time - 1412528562.66
+Service unavailable status to the second request at time - 1412528562.67
+Time taken for service unavailable status is - 0.00249314308167
+
+
+Time for user360 :
+Initial request sent at time - 1412528562.66
+Service unavailable status to the second request at time - 1412528564.29
+Time taken for service unavailable status is - 1.62710094452
+
+
+Time for user361 :
+Initial request sent at time - 1412528563.65
+Unauthorized response to first request at time - 1412528563.67
+Time taken for unauthorized status is - 0.0167150497437
+Second request sent at time - 1412528563.69
+Service unavailable status to the second request at time - 1412528563.69
+Time taken for service unavailable status is - 0.000241994857788
+
+
+Time for user362 :
+Initial request sent at time - 1412528563.65
+Unauthorized response to first request at time - 1412528563.67
+Time taken for unauthorized status is - 0.0154759883881
+Second request sent at time - 1412528563.69
+Service unavailable status to the second request at time - 1412528563.69
+Time taken for service unavailable status is - 0.000226974487305
+
+
+Time for user363 :
+Initial request sent at time - 1412528563.66
+Unauthorized response to first request at time - 1412528563.68
+Time taken for unauthorized status is - 0.0232510566711
+Second request sent at time - 1412528563.7
+Service unavailable status to the second request at time - 1412528564.54
+Time taken for service unavailable status is - 0.839307069778
+
+
+Time for user364 :
+Initial request sent at time - 1412528563.66
+Unauthorized response to first request at time - 1412528563.68
+Time taken for unauthorized status is - 0.023087978363
+Second request sent at time - 1412528563.7
+Service unavailable status to the second request at time - 1412528563.7
+Time taken for service unavailable status is - 0.000315189361572
+
+
+Time for user365 :
+Initial request sent at time - 1412528563.66
+Unauthorized response to first request at time - 1412528563.67
+Time taken for unauthorized status is - 0.00891900062561
+Second request sent at time - 1412528563.68
+Service unavailable status to the second request at time - 1412528563.68
+Time taken for service unavailable status is - 0.00390601158142
+
+
+Time for user366 :
+Initial request sent at time - 1412528563.66
+Unauthorized response to first request at time - 1412528563.68
+Time taken for unauthorized status is - 0.0227010250092
+Second request sent at time - 1412528563.7
+Service unavailable status to the second request at time - 1412528563.7
+Time taken for service unavailable status is - 0.000322103500366
+
+
+Time for user367 :
+Initial request sent at time - 1412528563.66
+Unauthorized response to first request at time - 1412528563.68
+Time taken for unauthorized status is - 0.0217430591583
+Second request sent at time - 1412528563.69
+Service unavailable status to the second request at time - 1412528563.69
+Time taken for service unavailable status is - 0.000133991241455
+
+
+Time for user368 :
+Initial request sent at time - 1412528563.66
+Unauthorized response to first request at time - 1412528563.68
+Time taken for unauthorized status is - 0.0260920524597
+Second request sent at time - 1412528563.7
+Service unavailable status to the second request at time - 1412528563.7
+Time taken for service unavailable status is - 0.000393867492676
+
+
+Time for user369 :
+Initial request sent at time - 1412528563.66
+Unauthorized response to first request at time - 1412528563.67
+Time taken for unauthorized status is - 0.0165460109711
+Second request sent at time - 1412528563.69
+Service unavailable status to the second request at time - 1412528569.31
+Time taken for service unavailable status is - 5.6168859005
+
+
+Time for user370 :
+Initial request sent at time - 1412528563.66
+Unauthorized response to first request at time - 1412528563.67
+Time taken for unauthorized status is - 0.014955997467
+Second request sent at time - 1412528563.69
+Service unavailable status to the second request at time - 1412528563.69
+Time taken for service unavailable status is - 0.000169038772583
+
+
+Time for user371 :
+Initial request sent at time - 1412528563.66
+Service unavailable status to the second request at time - 1412528563.66
+Time taken for service unavailable status is - 0.00398707389832
+
+
+Time for user372 :
+Initial request sent at time - 1412528563.66
+Service unavailable status to the second request at time - 1412528563.66
+Time taken for service unavailable status is - 0.00344586372375
+
+
+Time for user373 :
+Initial request sent at time - 1412528563.66
+Service unavailable status to the second request at time - 1412528563.66
+Time taken for service unavailable status is - 0.00331711769104
+
+
+Time for user374 :
+Initial request sent at time - 1412528563.66
+Service unavailable status to the second request at time - 1412528563.66
+Time taken for service unavailable status is - 0.00318002700806
+
+
+Time for user375 :
+Initial request sent at time - 1412528563.67
+Service unavailable status to the second request at time - 1412528563.68
+Time taken for service unavailable status is - 0.00343298912048
+
+
+Time for user376 :
+Initial request sent at time - 1412528563.66
+Service unavailable status to the second request at time - 1412528563.66
+Time taken for service unavailable status is - 0.0031361579895
+
+
+Time for user377 :
+Initial request sent at time - 1412528563.66
+Service unavailable status to the second request at time - 1412528563.66
+Time taken for service unavailable status is - 0.00298404693604
+
+
+Time for user378 :
+Initial request sent at time - 1412528563.66
+Service unavailable status to the second request at time - 1412528563.66
+Time taken for service unavailable status is - 0.00290393829346
+
+
+Time for user379 :
+Initial request sent at time - 1412528563.66
+Service unavailable status to the second request at time - 1412528564.54
+Time taken for service unavailable status is - 0.880321025848
+
+
+Time for user380 :
+Initial request sent at time - 1412528563.66
+Service unavailable status to the second request at time - 1412528563.66
+Time taken for service unavailable status is - 0.00261902809143
+
+
+Time for user381 :
+Initial request sent at time - 1412528564.66
+Unauthorized response to first request at time - 1412528564.68
+Time taken for unauthorized status is - 0.0192649364471
+Second request sent at time - 1412528564.69
+Service unavailable status to the second request at time - 1412528564.69
+Time taken for service unavailable status is - 0.000347137451172
+
+
+Time for user382 :
+Initial request sent at time - 1412528564.66
+Unauthorized response to first request at time - 1412528564.68
+Time taken for unauthorized status is - 0.0211389064789
+Second request sent at time - 1412528564.7
+Service unavailable status to the second request at time - 1412528564.7
+Time taken for service unavailable status is - 0.00049090385437
+
+
+Time for user383 :
+Initial request sent at time - 1412528564.66
+Unauthorized response to first request at time - 1412528564.68
+Time taken for unauthorized status is - 0.0236668586731
+Second request sent at time - 1412528564.7
+Service unavailable status to the second request at time - 1412528564.7
+Time taken for service unavailable status is - 0.00041389465332
+
+
+Time for user384 :
+Initial request sent at time - 1412528564.68
+Service unavailable status to the second request at time - 1412528564.68
+Time taken for service unavailable status is - 0.00131416320801
+
+
+Time for user385 :
+Initial request sent at time - 1412528564.66
+Unauthorized response to first request at time - 1412528564.68
+Time taken for unauthorized status is - 0.0198860168457
+Second request sent at time - 1412528564.7
+Service unavailable status to the second request at time - 1412528564.7
+Time taken for service unavailable status is - 0.000442028045654
+
+
+Time for user386 :
+Initial request sent at time - 1412528564.66
+Unauthorized response to first request at time - 1412528564.68
+Time taken for unauthorized status is - 0.0208811759949
+Second request sent at time - 1412528564.7
+Service unavailable status to the second request at time - 1412528564.7
+Time taken for service unavailable status is - 0.000421047210693
+
+
+Time for user387 :
+Initial request sent at time - 1412528564.66
+Unauthorized response to first request at time - 1412528564.67
+Time taken for unauthorized status is - 0.0137929916382
+Second request sent at time - 1412528564.69
+Service unavailable status to the second request at time - 1412528564.69
+Time taken for service unavailable status is - 0.000318050384521
+
+
+Time for user388 :
+Initial request sent at time - 1412528564.66
+Unauthorized response to first request at time - 1412528564.68
+Time taken for unauthorized status is - 0.0201909542084
+Second request sent at time - 1412528564.7
+Service unavailable status to the second request at time - 1412528564.7
+Time taken for service unavailable status is - 0.000478982925415
+
+
+Time for user389 :
+Initial request sent at time - 1412528564.66
+Unauthorized response to first request at time - 1412528564.68
+Time taken for unauthorized status is - 0.0181319713593
+Second request sent at time - 1412528564.69
+Service unavailable status to the second request at time - 1412528564.69
+Time taken for service unavailable status is - 0.000170946121216
+
+
+Time for user390 :
+Initial request sent at time - 1412528564.66
+Service unavailable status to the second request at time - 1412528564.66
+Time taken for service unavailable status is - 0.00398397445679
+
+
+Time for user391 :
+Initial request sent at time - 1412528564.66
+Service unavailable status to the second request at time - 1412528564.66
+Time taken for service unavailable status is - 0.00378584861755
+
+
+Time for user392 :
+Initial request sent at time - 1412528564.66
+Service unavailable status to the second request at time - 1412528564.66
+Time taken for service unavailable status is - 0.0038731098175
+
+
+Time for user393 :
+Initial request sent at time - 1412528564.68
+Service unavailable status to the second request at time - 1412528564.68
+Time taken for service unavailable status is - 0.00282311439514
+
+
+Time for user394 :
+Initial request sent at time - 1412528564.66
+Service unavailable status to the second request at time - 1412528564.66
+Time taken for service unavailable status is - 0.00356698036194
+
+
+Time for user395 :
+Initial request sent at time - 1412528564.66
+Service unavailable status to the second request at time - 1412528564.67
+Time taken for service unavailable status is - 0.0014500617981
+
+
+Time for user396 :
+Initial request sent at time - 1412528564.66
+Service unavailable status to the second request at time - 1412528564.66
+Time taken for service unavailable status is - 0.00334095954895
+
+
+Time for user397 :
+Initial request sent at time - 1412528564.66
+Service unavailable status to the second request at time - 1412528564.66
+Time taken for service unavailable status is - 0.00324511528015
+
+
+Time for user398 :
+Initial request sent at time - 1412528564.66
+Service unavailable status to the second request at time - 1412528564.67
+Time taken for service unavailable status is - 0.000860929489136
+
+
+Time for user399 :
+Initial request sent at time - 1412528564.66
+Service unavailable status to the second request at time - 1412528564.66
+Time taken for service unavailable status is - 0.00299501419067
+
+
+Time for user400 :
+Initial request sent at time - 1412528564.66
+Service unavailable status to the second request at time - 1412528564.67
+Time taken for service unavailable status is - 0.00302600860596
+
+

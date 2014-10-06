@@ -1,6 +1,14 @@
 from scapy.all import *
+import re
+import sys
+import numpy as np
+import matplotlib.pyplot as plt
+import pylab
+
 
 leftover = ''
+
+##################### Keep track of various requests and status ###########
 first_request = 0
 second_request = 0
 unauthorized_status = 0
@@ -10,6 +18,8 @@ server_timeout_status = 0
 forbidden_status = 0
 total = 0;
 fart_response = 0
+
+##################### Used for printing timeline of requests #################
 init_request = {}
 sec_request = {}
 status_unauthorised = {}
@@ -17,6 +27,16 @@ status_ok = {}
 status_service_unavailable = {}
 status_server_timeout = {}
 status_forbidden = {}
+
+###################### Used for printing Graphs ############################## 
+
+first_request_arr = []
+second_request_arr = []
+unauthorized_status_arr = []
+ok_status_arr = []
+service_unavailable_status_arr = []
+server_timeout_status_arr = []
+forbidden_status_arr = []
 
 def extract_status(load, time):
     # f = open('sprout','a')
@@ -34,7 +54,7 @@ def extract_status(load, time):
 
     username = load[username_start:username_end]
     
-    print "STATUS " + status + " for " + username + " at time " + str(time)
+    # print "STATUS " + status + " for " + username + " at time " + str(time)
     global unauthorized_status
     global ok_status
     global service_unavailable_status
@@ -110,12 +130,12 @@ def extract_register(load, time):
     global first_request
     global second_request
     if (nonce.strip() == ''):
-        print "REGISTER[1] for " + username + " at time " + str(time)
+        # print "REGISTER[1] for " + username + " at time " + str(time)
         if init_request.has_key(username) == False:
             init_request[username] = time;
             first_request = first_request + 1    
     else:
-        print "REGISTER[2] for " + username + " at time " + str(time)
+        # print "REGISTER[2] for " + username + " at time " + str(time)
         if sec_request.has_key(username) == False:
             sec_request[username] = time
             second_request = second_request + 1
@@ -210,16 +230,89 @@ def print_timeline():
                 print "Time taken for forbidden status is - " + str(status_forbidden[username] - init_request[username])
         print "\n"
 
+
+def make_plot(location):
+  fig = plt.figure()
+  ax = fig.add_subplot(111)
+
+  N = 5
+  ind = np.arange(N)                # the x locations for the groups
+  width = 0.2                      # the width of the bars
+
+  ## the bars
+  rects1 = ax.bar(ind, first_request_arr, width,
+                  color='black',
+                  error_kw=dict(elinewidth=2,ecolor='black'))
+
+  rects2 = ax.bar(ind+width, unauthorized_status_arr, width,
+                      color='red',
+                      error_kw=dict(elinewidth=2,ecolor='red'))
+
+  rects3 = ax.bar(ind+2*width, second_request_arr, width,
+                  color='yellow',
+                  error_kw=dict(elinewidth=2,ecolor='yellow'))
+
+  rects4 = ax.bar(ind+3*width, ok_status_arr, width,
+                      color='green',
+                      error_kw=dict(elinewidth=2,ecolor='green'))
+
+  # axes and labels
+  ax.set_xlim(-width,len(ind)+width)
+  ax.set_ylim(0,2)
+  ax.set_ylabel('Rate')
+  ax.set_title('Communication between Client and Bono')
+  xTickMarks = [str(i*10)+' req/s' for i in range(1,6)]
+  ax.set_xticks(ind+width)
+  xtickNames = ax.set_xticklabels(xTickMarks)
+  plt.setp(xtickNames, rotation=45, fontsize=10)
+
+  ## add a legend
+  ax.legend( (rects1[0], rects2[0],rects3[0], rects4[0]), ('Initial Request', 'Unauthorized response', 'Re-request', 'Ok Status') )
+
+  # plt.show()
+  pylab.savefig(location)
+
+
 def main(filename):
+    global first_request
+    first_request = 0
+    global unauthorized_status
+    unauthorized_status = 0
+    global second_request
+    second_request = 0
+    global ok_status
+    ok_status = 0
+    global service_unavailable_status
+    service_unavailable_status = 0
+    global server_timeout_status
+    server_timeout_status = 0
+    global forbidden_status
+    forbidden_status = 0
+    init_request.clear()
+    sec_request.clear()
+    status_unauthorised.clear()
+    status_ok.clear()
+    status_service_unavailable.clear()
+    status_server_timeout.clear()
+    status_forbidden.clear()
     pkts = rdpcap(filename)
     for i in xrange(0, len(pkts)):
         if "sip" in str(pkts[i]):
             extract_sip(pkts[i].load, pkts[i].time)
         # else:
         #     extract_sip(str(pkts[i]), pkts[i].time)
+    # print_result()
 
-
-
-main(str(sys.argv[1]))
-# print_timeline()
-print_result()
+def plot_graphs():
+    for i in xrange(1,6):
+        filename = "../logs/bono-sprout-" + str(10*i) + ".pcap"
+        main(filename)
+        # first_request_arr.append(first_request/first_request)
+        unauthorized_status_arr.append(float(unauthorized_status)/float(first_request))
+        second_request_arr.append(float(second_request)/float(first_request))
+        ok_status_arr.append(float(ok_status)/float(first_request))
+    make_plot("../Graphs/Bono-Sprout")
+# 
+main("../logs/client-bono-20.pcap")
+print_timeline()
+# plot_graphs()
