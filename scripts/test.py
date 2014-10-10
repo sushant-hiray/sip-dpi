@@ -259,8 +259,8 @@ def make_plot(location):
   # axes and labels
   ax.set_xlim(-width,len(ind)+width)
   ax.set_ylim(0,2)
-  ax.set_ylabel('Rate')
-  ax.set_title('Communication between Client and Bono')
+  ax.set_ylabel('Ratio')
+  ax.set_title('Communication between Bono and Sprout')
   xTickMarks = [str(i*10)+' req/s' for i in range(1,6)]
   ax.set_xticks(ind+width)
   xtickNames = ax.set_xticklabels(xTickMarks)
@@ -307,12 +307,14 @@ def plot_graphs():
     for i in xrange(1,6):
         filename = "../logs/bono-sprout-" + str(10*i) + ".pcap"
         main(filename)
-        # first_request_arr.append(first_request/first_request)
+        print_result()
+        first_request_arr.append(first_request/first_request)
         unauthorized_status_arr.append(float(unauthorized_status)/float(first_request))
         second_request_arr.append(float(second_request)/float(first_request))
         ok_status_arr.append(float(ok_status)/float(first_request))
     make_plot("../Graphs/Bono-Sprout")
-# 
-main("../logs/client-bono-20.pcap")
-print_timeline()
-# plot_graphs()
+
+# main(str(sys.argv[1]))
+# print_result()
+# print_timeline()
+plot_graphs()
