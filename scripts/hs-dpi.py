@@ -118,24 +118,25 @@ def make_plot(location):
   pylab.savefig(location)
 
 def main(filename):
-	global total
-	global first_request
-	first_request = 0
-	global unauthorized_status
-	unauthorized_status = 0
-	global second_request
-	second_request = 0
-	global ok_status
-	ok_status = 0
-	init_request.clear()
-	sec_request.clear()
-	status_unauthorised.clear()
-	status_ok.clear()  
-	pkts = rdpcap(filename)
-	for pkt in pkts:
-		if "HTTP" in str(pkt):
-			total += 1
-			parse_hs(pkt.load, pkt.time)
+  global total
+  total = 0
+  global first_request
+  first_request = 0
+  global unauthorized_status
+  unauthorized_status = 0
+  global second_request
+  second_request = 0
+  global ok_status
+  ok_status = 0
+  init_request.clear()
+  sec_request.clear()
+  status_unauthorised.clear()
+  status_ok.clear()  
+  pkts = rdpcap(filename)
+  for pkt in pkts:
+	 if "HTTP" in str(pkt):
+		  total += 1
+		  parse_hs(pkt.load, pkt.time)
 
 
 def plot_graphs():
@@ -152,8 +153,34 @@ def plot_graphs():
         # print float(ok_status)/float(first_request)
     make_plot("../Graphs/Sprout-Hs")
 
-
+def print_maps():
+  file_data = open("data.py","a")
+  for i in xrange(1,2):
+    filename = "../logs/logs/sprout-" + str(10*i) + "-2.pcap"
+    main(filename)
+    print_result()
+    first_request_arr.append(first_request/first_request)
+    unauthorized_status_arr.append(float(unauthorized_status)/float(first_request))
+    second_request_arr.append(float(second_request)/float(first_request))
+    ok_status_arr.append(float(ok_status)/float(first_request))
+    file_data.write("left_sprout_first_request = " + str(init_request) + "\n")
+    file_data.write("left_sprout_second_request = " + str(sec_request) + "\n")
+    file_data.write("came_sprout_first_response = " + str(status_unauthorised) + "\n")
+    file_data.write("came_sprout_second_response = " + str(status_ok) + "\n")
+  for i in xrange(1,2):
+    filename = "../logs/logs/hs-" + str(10*i) + ".pcap"
+    main(filename)
+    print_result()
+    first_request_arr.append(first_request/first_request)
+    unauthorized_status_arr.append(float(unauthorized_status)/float(first_request))
+    second_request_arr.append(float(second_request)/float(first_request))
+    ok_status_arr.append(float(ok_status)/float(first_request))
+    file_data.write("came_hs_first_request = " + str(init_request) + "\n")
+    file_data.write("came_hs_second_request = " + str(init_request) + "\n")
+    file_data.write("left_hs_first_response = " + str(init_request) + "\n")
+    file_data.write("left_hs_second_response = " + str(init_request) + "\n")
 
 # main(str(sys.argv[1]))
-plot_graphs()
+# plot_graphs()
 # print_result()
+print_maps()

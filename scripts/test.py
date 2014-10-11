@@ -18,6 +18,7 @@ server_timeout_status = 0
 forbidden_status = 0
 total = 0;
 fart_response = 0
+throughput = 0
 
 ##################### Used for printing timeline of requests #################
 init_request = {}
@@ -37,6 +38,7 @@ ok_status_arr = []
 service_unavailable_status_arr = []
 server_timeout_status_arr = []
 forbidden_status_arr = []
+throughput_arr = []
 
 def extract_status(load, time):
     # f = open('sprout','a')
@@ -54,7 +56,7 @@ def extract_status(load, time):
 
     username = load[username_start:username_end]
     
-    # print "STATUS " + status + " for " + username + " at time " + str(time)
+    # print "STATUS " + status + " for " + username + " at time %0.07f" %time
     global unauthorized_status
     global ok_status
     global service_unavailable_status
@@ -196,6 +198,7 @@ def print_result():
     print "Service unavailable status " + str(service_unavailable_status)
     print "Number of server timeout requests is " + str(server_timeout_status)
     print "Number of forbidden requests is " + str(forbidden_status)
+    print "Throughtput of the system is " + str(float(ok_status)/20)
     print "\n"
 
 def print_timeline():
@@ -235,45 +238,56 @@ def make_plot(location):
   fig = plt.figure()
   ax = fig.add_subplot(111)
 
-  N = 5
+  # N = 5
+  N = 5 # For throughput
   ind = np.arange(N)                # the x locations for the groups
   width = 0.2                      # the width of the bars
 
   ## the bars
-  rects1 = ax.bar(ind, first_request_arr, width,
-                  color='black',
-                  error_kw=dict(elinewidth=2,ecolor='black'))
+  # rects1 = ax.bar(ind, first_request_arr, width,
+  #                 color='black',
+  #                 error_kw=dict(elinewidth=2,ecolor='black'))
 
-  rects2 = ax.bar(ind+width, unauthorized_status_arr, width,
-                      color='red',
-                      error_kw=dict(elinewidth=2,ecolor='red'))
+  # rects2 = ax.bar(ind+width, unauthorized_status_arr, width,
+  #                     color='red',
+  #                     error_kw=dict(elinewidth=2,ecolor='red'))
 
-  rects3 = ax.bar(ind+2*width, second_request_arr, width,
-                  color='yellow',
-                  error_kw=dict(elinewidth=2,ecolor='yellow'))
+  # rects3 = ax.bar(ind+2*width, second_request_arr, width,
+  #                 color='yellow',
+  #                 error_kw=dict(elinewidth=2,ecolor='yellow'))
 
-  rects4 = ax.bar(ind+3*width, ok_status_arr, width,
+  # rects4 = ax.bar(ind+3*width, ok_status_arr, width,
+  #                     color='green',
+  #                     error_kw=dict(elinewidth=2,ecolor='green'))
+
+  rects4 = ax.bar(ind, throughput_arr, width,
                       color='green',
                       error_kw=dict(elinewidth=2,ecolor='green'))
 
   # axes and labels
   ax.set_xlim(-width,len(ind)+width)
-  ax.set_ylim(0,2)
-  ax.set_ylabel('Ratio')
-  ax.set_title('Communication between Bono and Sprout')
+  ax.set_ylim(0,50)
+  # ax.set_ylabel('Ratio')
+  # ax.set_title('Communication between Bono and Sprout')
+  
+  ax.set_ylabel('Throughtput Value')
+  ax.set_title('Throughtput for various request rates')
+  
   xTickMarks = [str(i*10)+' req/s' for i in range(1,6)]
   ax.set_xticks(ind+width)
   xtickNames = ax.set_xticklabels(xTickMarks)
   plt.setp(xtickNames, rotation=45, fontsize=10)
 
   ## add a legend
-  ax.legend( (rects1[0], rects2[0],rects3[0], rects4[0]), ('Initial Request', 'Unauthorized response', 'Re-request', 'Ok Status') )
+  # ax.legend( (rects1[0], rects2[0],rects3[0], rects4[0]), ('Initial Request', 'Unauthorized response', 'Re-request', 'Ok Status') )
 
   # plt.show()
   pylab.savefig(location)
 
 
 def main(filename):
+    global total
+    total = 0
     global first_request
     first_request = 0
     global unauthorized_status
@@ -312,9 +326,65 @@ def plot_graphs():
         unauthorized_status_arr.append(float(unauthorized_status)/float(first_request))
         second_request_arr.append(float(second_request)/float(first_request))
         ok_status_arr.append(float(ok_status)/float(first_request))
+        throughput_arr.append(float(ok_status)/float(20))
     make_plot("../Graphs/Bono-Sprout")
 
+def plot_throughput():
+    for i in xrange(1,6):
+        filename = "../logs/client-bono-" + str(10*i) + ".pcap"
+        main(filename)
+        print_result()
+        first_request_arr.append(first_request/first_request)
+        unauthorized_status_arr.append(float(unauthorized_status)/float(first_request))
+        second_request_arr.append(float(second_request)/float(first_request))
+        ok_status_arr.append(float(ok_status)/float(first_request))
+        throughput_arr.append(float(ok_status)/float(20))
+    make_plot("../Graphs/Throughtput")
+
+def print_maps():
+    file_data = open("data.py","a")
+    for i in xrange(1,2):
+        filename = "../logs/logs/bono-" + str(10*i) + "-1.pcap"
+        main(filename)
+        print_result()
+        first_request_arr.append(first_request/first_request)
+        unauthorized_status_arr.append(float(unauthorized_status)/float(first_request))
+        second_request_arr.append(float(second_request)/float(first_request))
+        ok_status_arr.append(float(ok_status)/float(first_request))
+        throughput_arr.append(float(ok_status)/float(20))
+        file_data.write("came_bono_first_request = " + str(init_request) + "\n")
+        file_data.write("came_bono_second_request = " + str(sec_request) + "\n")
+        file_data.write("left_bono_first_response = " + str(status_unauthorised) + "\n")
+        file_data.write("left_bono_second_response = " + str(status_ok) + "\n")
+    for i in xrange(1,2):
+        filename = "../logs/logs/bono-" + str(10*i) + "-2.pcap"
+        main(filename)
+        print_result()
+        first_request_arr.append(first_request/first_request)
+        unauthorized_status_arr.append(float(unauthorized_status)/float(first_request))
+        second_request_arr.append(float(second_request)/float(first_request))
+        ok_status_arr.append(float(ok_status)/float(first_request))
+        throughput_arr.append(float(ok_status)/float(20))
+        file_data.write("left_bono_first_request = " + str(init_request) + "\n")
+        file_data.write("left_bono_second_request = " + str(sec_request) + "\n")
+        file_data.write("came_bono_first_response = " + str(status_unauthorised) + "\n")
+        file_data.write("came_bono_second_response = " + str(status_ok) + "\n")
+    for i in xrange(1,2):
+        filename = "../logs/logs/sprout-" + str(10*i) + "-1.pcap"
+        main(filename)
+        print_result()
+        first_request_arr.append(first_request/first_request)
+        unauthorized_status_arr.append(float(unauthorized_status)/float(first_request))
+        second_request_arr.append(float(second_request)/float(first_request))
+        ok_status_arr.append(float(ok_status)/float(first_request))
+        throughput_arr.append(float(ok_status)/float(20))
+        file_data.write("came_sprout_first_request = " + str(init_request) + "\n")
+        file_data.write("came_sprout_second_request = " + str(sec_request) + "\n")
+        file_data.write("left_sprout_first_response = " + str(status_unauthorised) + "\n")
+        file_data.write("left_sprout_second_response = " + str(status_ok) + "\n")
 # main(str(sys.argv[1]))
 # print_result()
 # print_timeline()
-plot_graphs()
+# plot_graphs()
+# plot_throughput()
+print_maps()
