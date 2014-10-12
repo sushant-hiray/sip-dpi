@@ -17,6 +17,7 @@ init_request = {}
 sec_request = {}
 status_unauthorised = {}
 status_ok = {}
+init_request_ack = {}
 
 first_request_arr = []
 second_request_arr = []
@@ -25,47 +26,52 @@ ok_status_arr = []
 
 
 
-def parse_hs(load, time):
-	global first_request
-	global second_request
-	global unauthorized_status
-	global ok_status
-	bucket = load.split(' ')
-	if (bucket[0] == "GET"):
-		username_start = load.find("user")
-		username_end = load.find("%40", username_start)
-		username = load[username_start:username_end]
-		# print "REGISTER[1] for " + username + " at time " + str(time)
-		if (init_request.has_key(username)) == False:
-			init_request[username] = time
-			first_request += 1
+def parse_hs(pkt):
+  load = pkt.load
+  time = pkt.time
+  global first_request
+  global second_request
+  global unauthorized_status
+  global ok_status
+  bucket = load.split(' ')
+  if (bucket[0] == "GET"):
+    username_start = load.find("user")
+    username_end = load.find("%40", username_start)
+    username = load[username_start:username_end]
+    print "REGISTER[1] for " + username + " at time " + str(time)
+    if (init_request.has_key(username)) == False:
+      init_request[username] = time
+      first_request += 1
+    if (init_request_ack.has_key(pkt.ack)) == False:
+      init_request_ack[pkt.ack] = username
 
-	elif (bucket[0] == "PUT"):
-		username_start = load.find("user")
-		username_end = load.find("%40", username_start)
-		username = load[username_start:username_end]
-		# print "REGISTER[2] for " + username + " at time " + str(time)
-		if sec_request.has_key(username) == False:
-			sec_request[username] = time
-			second_request += 1
+  elif (bucket[0] == "PUT"):
+    username_start = load.find("user")
+    username_end = load.find("%40", username_start)
+    username = load[username_start:username_end]
+    print "REGISTER[2] for " + username + " at time " + str(time)
+    if sec_request.has_key(username) == False:
+      sec_request[username] = time
+      second_request += 1
 
-	elif (load.find("REGISTERED")!=-1):
-		username_start = load.find("user")
-		username_end = load.find("@", username_start)
-		username = load[username_start:username_end]
-		# print "STATUS 200 for " + username + " at time " + str(time)
-		if status_ok.has_key(username) == False:
-			status_ok[username] = time
-			ok_status += 1
+  elif (load.find("REGISTERED")!=-1):
+    username_start = load.find("user")
+    username_end = load.find("@", username_start)
+    username = load[username_start:username_end]
+    print "STATUS 200 for " + username + " at time " + str(time)
+    if status_ok.has_key(username) == False:
+      status_ok[username] = time
+      ok_status += 1
 
-	elif (load.find("digest")!=-1):
-		ha_start = load.find('ha1')
-		ha_end = load.find('",', ha_start)
-		ha1 = load[ha_start+6:ha_end]
-		# print "STATUS 401 Authorized for ha1 " + ha1 + " at time " + str(time)
-		if status_unauthorised.has_key(ha1) == False:
-			status_unauthorised[ha1] = time
-			unauthorized_status += 1
+  elif (load.find("digest")!=-1):
+    ha_start = load.find('ha1')
+    ha_end = load.find('",', ha_start)
+    ha1 = load[ha_start+6:ha_end]
+    if init_request_ack.has_key(pkt.seq) == True:
+      username = init_request_ack[pkt.seq]
+      print "STATUS 401 for " + username + " at time " + str(time)
+      status_unauthorised[username] = time
+      unauthorized_status += 1
 
 def print_result():
     print "\n"
@@ -134,9 +140,9 @@ def main(filename):
   status_ok.clear()  
   pkts = rdpcap(filename)
   for pkt in pkts:
-	 if "HTTP" in str(pkt):
-		  total += 1
-		  parse_hs(pkt.load, pkt.time)
+   if "HTTP" in str(pkt):
+      total += 1
+      parse_hs(pkt)
 
 
 def plot_graphs():
@@ -181,6 +187,6 @@ def print_maps():
     file_data.write("left_hs_second_response = " + str(init_request) + "\n")
 
 # main(str(sys.argv[1]))
-# plot_graphs()
+plot_graphs()
 # print_result()
-print_maps()
+# print_maps()
