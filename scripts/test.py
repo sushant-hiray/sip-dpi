@@ -28,6 +28,7 @@ status_ok = {}
 status_service_unavailable = {}
 status_server_timeout = {}
 status_forbidden = {}
+init_request_ack = {}
 
 ###################### Used for printing Graphs ############################## 
 
@@ -188,6 +189,54 @@ def extract_sip(load, time):
         else:
             leftover = load
             break
+def parse_hs(pkt):
+  load = pkt.load
+  time = pkt.time
+  global first_request
+  global second_request
+  global unauthorized_status
+  global ok_status
+  bucket = load.split(' ')
+  if (bucket[0] == "GET"):
+    username_start = load.find("user")
+    username_end = load.find("%40", username_start)
+    username = load[username_start:username_end]
+    # print "REGISTER[1] for " + username + " at time " + str(time)
+    if (init_request.has_key(username)) == False:
+      init_request[username] = time
+      first_request += 1
+    if (init_request_ack.has_key(pkt.ack)) == False:
+      init_request_ack[pkt.ack] = username
+
+  elif (bucket[0] == "PUT"):
+    username_start = load.find("user")
+    username_end = load.find("%40", username_start)
+    username = load[username_start:username_end]
+    # print "REGISTER[2] for " + username + " at time " + str(time)
+    if sec_request.has_key(username) == False:
+      sec_request[username] = time
+      second_request += 1
+
+  elif (load.find("REGISTERED")!=-1):
+    username_start = load.find("user")
+    username_end = load.find("@", username_start)
+    username = load[username_start:username_end]
+    # print "STATUS 200 for " + username + " at time " + str(time)
+    if status_ok.has_key(username) == False:
+      status_ok[username] = time
+      ok_status += 1
+
+  elif (load.find("digest")!=-1):
+    ha_start = load.find('ha1')
+    ha_end = load.find('",', ha_start)
+    ha1 = load[ha_start+6:ha_end]
+    if init_request_ack.has_key(pkt.seq) == True:
+      username = init_request_ack[pkt.seq]
+      # print "STATUS 401 for " + username + " at time " + str(time)
+      if status_unauthorised.has_key(username) == False:
+        status_unauthorised[username] = time
+        unauthorized_status += 1
+
 
 def print_result():
     print "Total number of lines in file is " + str(total)
@@ -313,6 +362,9 @@ def main(filename):
     for i in xrange(0, len(pkts)):
         if "sip" in str(pkts[i]):
             extract_sip(pkts[i].load, pkts[i].time)
+        if "HTTP" in str(pkts[i]):
+            total += 1
+            parse_hs(pkts[i])
         # else:
         #     extract_sip(str(pkts[i]), pkts[i].time)
     # print_result()
@@ -341,9 +393,9 @@ def plot_throughput():
         throughput_arr.append(float(ok_status)/float(20))
     make_plot("../Graphs/Throughtput")
 
-def print_maps():
-    file_data = open("data.py","a")
-    for i in xrange(1,2):
+def print_maps(x):
+    file_data = open("data.py","w")
+    for i in xrange(x,x+1):
         filename = "../logs/logs/bono-" + str(10*i) + "-1.pcap"
         main(filename)
         print_result()
@@ -356,7 +408,7 @@ def print_maps():
         file_data.write("came_bono_second_request = " + str(sec_request) + "\n")
         file_data.write("left_bono_first_response = " + str(status_unauthorised) + "\n")
         file_data.write("left_bono_second_response = " + str(status_ok) + "\n")
-    for i in xrange(1,2):
+    for i in xrange(x,x+1):
         filename = "../logs/logs/bono-" + str(10*i) + "-2.pcap"
         main(filename)
         print_result()
@@ -369,7 +421,7 @@ def print_maps():
         file_data.write("left_bono_second_request = " + str(sec_request) + "\n")
         file_data.write("came_bono_first_response = " + str(status_unauthorised) + "\n")
         file_data.write("came_bono_second_response = " + str(status_ok) + "\n")
-    for i in xrange(1,2):
+    for i in xrange(x,x+1):
         filename = "../logs/logs/sprout-" + str(10*i) + "-1.pcap"
         main(filename)
         print_result()
@@ -382,9 +434,33 @@ def print_maps():
         file_data.write("came_sprout_second_request = " + str(sec_request) + "\n")
         file_data.write("left_sprout_first_response = " + str(status_unauthorised) + "\n")
         file_data.write("left_sprout_second_response = " + str(status_ok) + "\n")
+    for i in xrange(x,x+1):
+        filename = "../logs/logs/sprout-" + str(10*i) + "-2.pcap"
+        main(filename)
+        print_result()
+        first_request_arr.append(first_request/first_request)
+        unauthorized_status_arr.append(float(unauthorized_status)/float(first_request))
+        second_request_arr.append(float(second_request)/float(first_request))
+        ok_status_arr.append(float(ok_status)/float(first_request))
+        file_data.write("left_sprout_first_request = " + str(init_request) + "\n")
+        file_data.write("left_sprout_second_request = " + str(sec_request) + "\n")
+        file_data.write("came_sprout_first_response = " + str(status_unauthorised) + "\n")
+        file_data.write("came_sprout_second_response = " + str(status_ok) + "\n")
+    for i in xrange(x,x+1):
+        filename = "../logs/logs/hs-" + str(10*i) + ".pcap"
+        main(filename)
+        print_result()
+        first_request_arr.append(first_request/first_request)
+        unauthorized_status_arr.append(float(unauthorized_status)/float(first_request))
+        second_request_arr.append(float(second_request)/float(first_request))
+        ok_status_arr.append(float(ok_status)/float(first_request))
+        file_data.write("came_hs_first_request = " + str(init_request) + "\n")
+        file_data.write("came_hs_second_request = " + str(sec_request) + "\n")
+        file_data.write("left_hs_first_response = " + str(status_unauthorised) + "\n")
+        file_data.write("left_hs_second_response = " + str(status_ok) + "\n")
 # main(str(sys.argv[1]))
 # print_result()
 # print_timeline()
 # plot_graphs()
 # plot_throughput()
-print_maps()
+print_maps(int(sys.argv[1]))

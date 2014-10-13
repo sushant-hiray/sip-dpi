@@ -1,53 +1,73 @@
 from data import *
-from test import *
 
 
-def make_plot(location):
-  fig = plt.figure()
-  ax = fig.add_subplot(111)
+########################## For calculating average values of various times #################
+avg_first_request_bono = 0
+avg_first_request_sprout = 0
+avg_first_request_hs = 0
+avg_first_response_sprout = 0
+avg_first_response_bono = 0
+avg_second_request_bono = 0
+avg_second_request_sprout = 0
+avg_second_request_hs = 0
+avg_second_response_sprout = 0
+avg_second_response_bono = 0
 
-  N = 5 # For throughput
-  ind = np.arange(N)                # the x locations for the groups
-  width = 0.2                      # the width of the bars
-
-  # the bars
-  rects1 = ax.bar(ind, first_request_arr, width,
-                  color='black',
-                  error_kw=dict(elinewidth=2,ecolor='black'))
-
-  rects2 = ax.bar(ind, unauthorized_status_arr, width,
-                      color='red',
-                      error_kw=dict(elinewidth=2,ecolor='red'))
-
-  # rects3 = ax.bar(ind+2*width, second_request_arr, width,
-  #                 color='yellow',
-  #                 error_kw=dict(elinewidth=2,ecolor='yellow'))
-
-  # rects4 = ax.bar(ind+3*width, ok_status_arr, width,
-                      # color='green',
-                      # error_kw=dict(elinewidth=2,ecolor='green'))
-
-  # axes and labels
-  ax.set_xlim(-width,len(ind)+width)
-  ax.set_ylim(0,0.001)
-  
-  ax.set_ylabel('Per Hop Delay')
-  ax.set_title('Per hop delay at various nodes')
-  
-  xTickMarks = [str(i*10)+' req/s' for i in range(1,6)]
-  ax.set_xticks(ind+width)
-  xtickNames = ax.set_xticklabels(xTickMarks)
-  plt.setp(xtickNames, rotation=45, fontsize=10)
-
-  ## add a legend
-  # ax.legend( (rects1[0], rects2[0],rects3[0], rects4[0]), ('Initial Request', 'Unauthorized response', 'Re-request', 'Ok Status') )
-
-  # plt.show()
-  pylab.savefig(location)
 
 
 def calculate_time_diff():
+    global avg_first_request_bono 
+    global avg_first_request_sprout
+    global avg_first_request_hs
+    global avg_first_response_sprout
+    global avg_first_response_bono
+    global avg_second_request_bono
+    global avg_second_request_sprout
+    global avg_second_request_hs
+    global avg_second_response_sprout
+    global avg_second_response_bono
+    size = len(left_bono_second_response)
+    file_data = open("graph_arrays","a")
     for key in left_bono_second_response:
-
+      if came_bono_first_request.has_key(key) != False:
+        if left_bono_first_request.has_key(key) != False:
+          avg_first_request_bono += left_bono_first_request[key] - came_bono_first_request[key]
+      if came_sprout_first_request.has_key(key) != False:
+        if left_sprout_first_request.has_key(key) != False:
+          avg_first_request_sprout += left_sprout_first_request[key] - came_sprout_first_request[key]
+      if came_hs_first_request.has_key(key) != False:
+        if left_hs_first_response.has_key(key) != False:
+          avg_first_request_hs += left_hs_first_response[key] - came_hs_first_request[key]
+      if came_sprout_first_response.has_key(key) != False:
+        if left_sprout_first_response.has_key(key) != False:
+          avg_first_response_sprout += left_sprout_first_response[key] - came_sprout_first_response[key]
+      if came_bono_first_response.has_key(key) != False:
+        if left_bono_first_response.has_key(key) != False:
+          avg_first_response_bono += left_bono_first_response[key] - came_bono_first_response[key]
+      if came_bono_second_request.has_key(key) != False:
+        if left_bono_second_request.has_key(key) != False:
+          avg_second_request_bono += left_bono_second_request[key] - came_bono_second_request[key]
+      if came_sprout_second_request.has_key(key) != False:
+        if left_sprout_second_request.has_key(key) != False:
+          avg_second_request_sprout += left_sprout_second_request[key] - came_sprout_second_request[key]
+      if came_hs_second_request.has_key(key) != False:
+        if left_hs_second_response.has_key(key) != False:
+          avg_second_request_hs += left_hs_second_response[key] - came_hs_second_request[key]
+      if came_sprout_second_response.has_key(key) != False:
+        if left_sprout_second_response.has_key(key) != False:
+          avg_second_response_sprout += left_sprout_second_response[key] - came_sprout_second_response[key]
+      if came_bono_second_response.has_key(key) != False:
+        if left_bono_second_response.has_key(key) != False:
+          avg_second_response_bono += left_bono_second_response[key] - came_bono_second_response[key]
+    file_data.write(str(float(avg_first_request_bono)/size) + " ")
+    file_data.write(str(float(avg_first_request_sprout)/size) + " ")
+    file_data.write(str(float(avg_first_request_hs)/size) + " ")
+    file_data.write(str(float(avg_first_response_sprout)/size) + " ")
+    file_data.write(str(float(avg_first_response_bono)/size) + " ")
+    file_data.write(str(float(avg_second_request_bono)/size) + " ")
+    file_data.write(str(float(avg_second_request_sprout)/size) + " ")
+    file_data.write(str(float(avg_second_request_hs)/size) + " ")
+    file_data.write(str(float(avg_second_response_sprout)/size) + " ")
+    file_data.write(str(float(avg_second_response_bono)/size) + "\n")
 
 calculate_time_diff()
