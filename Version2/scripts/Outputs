@@ -1,0 +1,103 @@
+20 Requests per second :
+
+Bono - 
+
+Total number of lines in file is 1860
+Number of requests sent initially 400
+Unauthorized response to the first request 220
+Number of re-requests 220
+Successful requests 129
+Service unavailable status 183
+Number of server timeout requests is 27
+Number of forbidden requests is 61
+
+
+Sprout - 
+
+Total number of lines in file is 2431
+Number of requests sent initially 397
+Unauthorized response to the first request 218
+Number of re-requests 211
+Successful requests 128
+Service unavailable status 181
+Number of server timeout requests is 27
+Number of forbidden requests is 58
+
+
+30 Requests per second :
+
+Bono - 
+
+Total number of lines in file is 2811
+Number of requests sent initially 600
+Unauthorized response to the first request 337
+Number of re-requests 337
+Successful requests 52
+Service unavailable status 548
+Number of server timeout requests is 0
+Number of forbidden requests is 0
+
+Sprout - 
+
+Total number of lines in file is 2834
+Number of requests sent initially 587
+Unauthorized response to the first request 337
+Number of re-requests 337
+Successful requests 52
+Service unavailable status 535
+Number of server timeout requests is 0
+Number of forbidden requests is 0
+
+
+40 Requests per second :
+
+Bono - 
+
+Total number of lines in file is 2973
+Number of requests sent initially 800
+Unauthorized response to the first request 191
+Number of re-requests 191
+Successful requests 96
+Service unavailable status 593
+Number of server timeout requests is 35
+Number of forbidden requests is 76
+
+Sprout - 
+
+Total number of lines in file is 4662
+Number of requests sent initially 767
+Unauthorized response to the first request 191
+Number of re-requests 190
+Successful requests 96
+Service unavailable status 569
+Number of server timeout requests is 35
+Number of forbidden requests is 76
+
+
+50 Requests per second :
+
+Bono - 
+
+Total number of lines in file is 3895
+Number of requests sent initially 1000
+Unauthorized response to the first request 309
+Number of re-requests 309
+Successful requests 52
+Service unavailable status 919
+Number of server timeout requests is 9
+Number of forbidden requests is 4
+
+
+Sprout - 
+
+Total number of lines in file is 4405
+Number of requests sent initially 940
+Unauthorized response to the first request 308
+Number of re-requests 308
+Successful requests 52
+Service unavailable status 874
+Number of server timeout requests is 9
+Number of forbidden requests is 4
+
+
+

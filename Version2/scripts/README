@@ -1,0 +1,5 @@
+The dpi.py essentially accepts a pcap file and parses the sip messages into 4 categories:
+* Initial Register
+* Status 401
+* Authorized Register
+* Status 200
