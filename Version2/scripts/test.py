@@ -292,42 +292,44 @@ def make_plot(location):
   width = 0.2                      # the width of the bars
 
   # the bars
-  rects1 = ax.bar(ind, first_request_arr, width,
-                  color='black',
-                  error_kw=dict(elinewidth=2,ecolor='black'))
+  # rects1 = ax.bar(ind, first_request_arr, width,
+  #                 color='black',
+  #                 error_kw=dict(elinewidth=2,ecolor='black'))
 
-  rects2 = ax.bar(ind+width, unauthorized_status_arr, width,
-                      color='red',
-                      error_kw=dict(elinewidth=2,ecolor='red'))
+  # rects2 = ax.bar(ind+width, unauthorized_status_arr, width,
+  #                     color='red',
+  #                     error_kw=dict(elinewidth=2,ecolor='red'))
 
-  rects3 = ax.bar(ind+2*width, second_request_arr, width,
-                  color='yellow',
-                  error_kw=dict(elinewidth=2,ecolor='yellow'))
+  # rects3 = ax.bar(ind+2*width, second_request_arr, width,
+  #                 color='yellow',
+  #                 error_kw=dict(elinewidth=2,ecolor='yellow'))
 
-  rects4 = ax.bar(ind+3*width, ok_status_arr, width,
-                      color='green',
-                      error_kw=dict(elinewidth=2,ecolor='green'))
-
-  # rects4 = ax.bar(ind, throughput_arr, width,
+  # rects4 = ax.bar(ind+3*width, ok_status_arr, width,
   #                     color='green',
   #                     error_kw=dict(elinewidth=2,ecolor='green'))
 
+  rects4 = ax.bar(ind, throughput_arr, width,
+                      color='green',
+                      error_kw=dict(elinewidth=2,ecolor='green'))
+
   # axes and labels
   ax.set_xlim(-width,len(ind)+width)
-  ax.set_ylim(0,2)
+  ax.set_ylim(0,50)
   # ax.set_ylabel('Ratio')
   # ax.set_title('Communication between Bono and Sprout')
   
-  ax.set_ylabel('Ratio')
-  ax.set_title('Communication between Sprout and Homestead')
-  
+  # ax.set_ylabel('Ratio')
+  # ax.set_title('Communication between Sprout and Homestead')
+  ax.set_ylabel('Throughtput Value')
+  ax.set_title('Throughtput for various request rates')
+
   xTickMarks = [str(i*10)+' req/s' for i in range(1,6)]
   ax.set_xticks(ind+width)
   xtickNames = ax.set_xticklabels(xTickMarks)
   plt.setp(xtickNames, rotation=45, fontsize=10)
 
   ## add a legend
-  ax.legend( (rects1[0], rects2[0],rects3[0], rects4[0]), ('Initial Request', 'Unauthorized response', 'Re-request', 'Ok Status') )
+  # ax.legend( (rects1[0], rects2[0],rects3[0], rects4[0]), ('Initial Request', 'Unauthorized response', 'Re-request', 'Ok Status') )
 
   # plt.show()
   pylab.savefig(location)
@@ -628,9 +630,9 @@ def print_maps(x):
 # main(str(sys.argv[1]),str(sys.argv[2]))
 # plot_bono()
 # plot_sprout()
-plot_hs()
+# plot_hs()
 # print_result()
 # print_timeline()
 # plot_graphs()
-# plot_throughput()
+plot_throughput()
 # print_maps(int(sys.argv[1]))
