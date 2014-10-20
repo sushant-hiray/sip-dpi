@@ -314,12 +314,12 @@ def make_plot(location):
 
   # axes and labels
   ax.set_xlim(-width,len(ind)+width)
-  ax.set_ylim(0,50)
+  ax.set_ylim(0,2)
   # ax.set_ylabel('Ratio')
   # ax.set_title('Communication between Bono and Sprout')
   
-  ax.set_ylabel('Throughtput Value')
-  ax.set_title('Throughtput for various request rates')
+  ax.set_ylabel('Ratio')
+  ax.set_title('Communication between Sprout and Homestead')
   
   xTickMarks = [str(i*10)+' req/s' for i in range(1,6)]
   ax.set_xticks(ind+width)
@@ -327,7 +327,7 @@ def make_plot(location):
   plt.setp(xtickNames, rotation=45, fontsize=10)
 
   ## add a legend
-  # ax.legend( (rects1[0], rects2[0],rects3[0], rects4[0]), ('Initial Request', 'Unauthorized response', 'Re-request', 'Ok Status') )
+  ax.legend( (rects1[0], rects2[0],rects3[0], rects4[0]), ('Initial Request', 'Unauthorized response', 'Re-request', 'Ok Status') )
 
   # plt.show()
   pylab.savefig(location)
@@ -628,9 +628,9 @@ def print_maps(x):
 # main(str(sys.argv[1]),str(sys.argv[2]))
 # plot_bono()
 # plot_sprout()
-# plot_hs()
+plot_hs()
 # print_result()
 # print_timeline()
 # plot_graphs()
 # plot_throughput()
-print_maps(int(sys.argv[1]))
+# print_maps(int(sys.argv[1]))
