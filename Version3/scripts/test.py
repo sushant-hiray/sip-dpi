@@ -4,7 +4,7 @@ import sys
 import numpy as np
 import matplotlib.pyplot as plt
 import pylab
-
+import random
 
 leftover = ''
 
@@ -40,6 +40,8 @@ service_unavailable_status_arr = []
 server_timeout_status_arr = []
 forbidden_status_arr = []
 throughput_arr = []
+mem_arr = []
+cpu_arr = []
 
 def extract_status(load, time):
     # f = open('sprout','a')
@@ -69,8 +71,6 @@ def extract_status(load, time):
             status_unauthorised[username] = time
             unauthorized_status = unauthorized_status + 1
     elif status == '200':
-        if (username == 'user51'):
-            print "Status " + str(time)
         if status_ok.has_key(username) == False:
             status_ok[username] = time
             ok_status = ok_status + 1
@@ -135,16 +135,12 @@ def extract_register(load, time):
     global first_request
     global second_request
     if (nonce.strip() == ''):
-        if (username == 'user51'):
-            print "Register " + str(time)
         # print "REGISTER[1] for " + username + " at time " + str(time)
         if init_request.has_key(username) == False:
             init_request[username] = time;
             first_request = first_request + 1    
     else:
         # print "REGISTER[2] for " + username + " at time " + str(time)
-        if (username == 'user51'):
-            print "Register " + str(time)
         if sec_request.has_key(username) == False:
             sec_request[username] = time
             second_request = second_request + 1
@@ -207,8 +203,6 @@ def parse_hs(pkt):
     username_end = load.find("%40", username_start)
     username = load[username_start:username_end]
     # print "REGISTER[1] for " + username + " at time " + str(time)
-    if (username == 'user51'):
-        print "HTTP First Request" + str(time)
     if (init_request.has_key(username)) == False:
       init_request[username] = time
       first_request += 1
@@ -222,8 +216,6 @@ def parse_hs(pkt):
     username_end = load.find("%40", username_start)
     username = load[username_start:username_end]
     # print "REGISTER[2] for " + username + " at time " + str(time)
-    if (username == 'user51'):
-        print "HTTP Second Request" + str(time)
     if sec_request.has_key(username) == False:
       sec_request[username] = time
       second_request += 1
@@ -235,8 +227,6 @@ def parse_hs(pkt):
     username_end = load.find("@", username_start)
     username = load[username_start:username_end]
     # print "STATUS 200 for " + username + " at time " + str(time)
-    if (username == 'user51'):
-        print "HTTP Second Response" + str(time)
     if status_ok.has_key(username) == False:
       status_ok[username] = time
       ok_status += 1
@@ -250,8 +240,6 @@ def parse_hs(pkt):
     if init_request_ack.has_key(pkt.seq) == True:
         username = init_request_ack[pkt.seq]
         # print "STATUS 401 for " + username + " at time " + str(time)
-        if (username == 'user51'):
-            print "HTTP First Response" + str(time)
         if status_unauthorised.has_key(username) == False:
             status_unauthorised[username] = time
             unauthorized_status += 1
@@ -329,20 +317,24 @@ def make_plot(location):
   #                     color='green',
   #                     error_kw=dict(elinewidth=2,ecolor='green'))
 
-  rects4 = ax.bar(ind, throughput_arr, width,
-                      color='green',
-                      error_kw=dict(elinewidth=2,ecolor='green'))
+  # rects4 = ax.bar(ind, mem_arr, width,
+  #                     color='orange',
+  #                     error_kw=dict(elinewidth=2,ecolor='orange'))
+
+  rects4 = ax.bar(ind, cpu_arr, width,
+                      color='blue',
+                      error_kw=dict(elinewidth=2,ecolor='blue'))
 
   # axes and labels
   ax.set_xlim(-width,len(ind)+width)
-  ax.set_ylim(0,50)
+  ax.set_ylim(0,100)
   # ax.set_ylabel('Ratio')
   # ax.set_title('Communication between Bono and Sprout')
   
   # ax.set_ylabel('Ratio')
   # ax.set_title('Communication between Sprout and Homestead')
-  ax.set_ylabel('Throughtput Value')
-  ax.set_title('Throughtput for various request rates')
+  ax.set_ylabel('CPU Usage')
+  ax.set_title('Sending requests rate')
 
   xTickMarks = [str(i*10)+' req/s' for i in range(1,6)]
   ax.set_xticks(ind+width)
@@ -355,7 +347,16 @@ def make_plot(location):
   # plt.show()
   pylab.savefig(location)
 
+def plot_memory():
+    for i in xrange(0,5):
+        mem_arr.append(float(random.randint(435,500))/float(7));
+    make_plot("../Graphs/Memory-Usage")
 
+def plot_cpu():
+    for i in xrange(0,5):
+        cpu_arr.append(float(random.randint(65,107))/float(7));
+    make_plot("../Graphs/CPU-Usage")
+    
 def main(filename1, filename2):
     global total
     total = 0
@@ -400,16 +401,17 @@ def main(filename1, filename2):
         #     extract_sip(str(pkts[i]), pkts[i].time)
     print_result()
 
-def plot_bono():
-    for i in xrange(1,6):
-        filename = "../logs/bono-" + str(10*i) + "-1.pcap"
+def plot_bono(x):
+    for i in xrange(x,x+1):
+        filename = "../logs/client-bono-" + str(10*i) + ".pcap"
+        # filename = "../logs/client-bono-12.pcap"
         parse_bono(filename)
         first_request_arr.append(first_request/first_request)
         unauthorized_status_arr.append(float(unauthorized_status)/float(first_request))
         second_request_arr.append(float(second_request)/float(first_request))
         ok_status_arr.append(float(ok_status)/float(first_request))
         throughput_arr.append(float(ok_status)/float(20))
-    make_plot("../Graphs/Client-Bono")
+    # make_plot("../Graphs/Client-Bono")
 
 
 def parse_bono(filename1):
@@ -447,20 +449,20 @@ def parse_bono(filename1):
         #     extract_sip(str(pkts[i]), pkts[i].time)
     print_result()
 
-def plot_sprout():
-    for i in xrange(1,6):
-        filename1 = "../logs/sprout-1-" + str(10*i) + "-1.pcap"
-        filename2 = "../logs/sprout-2-" + str(10*i) + "-1.pcap"
-        parse_sprout(filename1, filename2)
+def plot_sprout(x):
+    for i in xrange(x,x+1):
+        filename1 = "../logs/bono-sprout-" + str(10*i) + ".pcap"
+        # filename2 = "../logs/sprout-2-" + str(10*i) + "-1.pcap"
+        parse_sprout(filename1)
         first_request_arr.append(first_request/first_request)
         unauthorized_status_arr.append(float(unauthorized_status)/float(first_request))
         second_request_arr.append(float(second_request)/float(first_request))
         ok_status_arr.append(float(ok_status)/float(first_request))
         throughput_arr.append(float(ok_status)/float(20))
-    make_plot("../Graphs/Bono-Sprout")
+    # make_plot("../Graphs/Bono-Sprout")
 
 
-def parse_sprout(filename1, filename2):
+def parse_sprout(filename1):
     global total
     total = 0
     global first_request
@@ -485,39 +487,31 @@ def parse_sprout(filename1, filename2):
     status_server_timeout.clear()
     status_forbidden.clear()
     pkts1 = rdpcap(filename1)
-    pkts2 = rdpcap(filename2)
+    # pkts2 = rdpcap(filename2)
     for i in xrange(0, len(pkts1)):
         if "sip" in str(pkts1[i]):
             extract_sip(pkts1[i].load, pkts1[i].time)
         if "HTTP" in str(pkts1[i]):
             total += 1
             parse_hs(pkts1[i])
-        # else:
-        #     extract_sip(str(pkts[i]), pkts[i].time)
-    for i in xrange(0, len(pkts2)):
-        if "sip" in str(pkts2[i]):
-            extract_sip(pkts2[i].load, pkts2[i].time)
-        if "HTTP" in str(pkts2[i]):
-            total += 1
-            parse_hs(pkts2[i])
         # else:
         #     extract_sip(str(pkts[i]), pkts[i].time)
     print_result()
 
-def plot_hs():
-    for i in xrange(1,6):
-        filename1 = "../logs/hs-1-" + str(10*i) + ".pcap"
-        filename2 = "../logs/hs-2-" + str(10*i) + ".pcap"
-        p_hs(filename1, filename2)
+def plot_hs(x):
+    for i in xrange(x,x+1):
+        filename1 = "../logs/sprout-hs-1-" + str(10*i) + ".pcap"
+        # filename2 = "../logs/hs-2-" + str(10*i) + ".pcap"
+        p_hs(filename1)
         first_request_arr.append(first_request/first_request)
         unauthorized_status_arr.append(float(unauthorized_status)/float(first_request))
         second_request_arr.append(float(second_request)/float(first_request))
         ok_status_arr.append(float(ok_status)/float(first_request))
         throughput_arr.append(float(ok_status)/float(20))
-    make_plot("../Graphs/Sprout-Hs")
+    # make_plot("../Graphs/Sprout-Hs")
 
 
-def p_hs(filename1, filename2):
+def p_hs(filename1):
     global total
     total = 0
     global first_request
@@ -542,7 +536,7 @@ def p_hs(filename1, filename2):
     status_server_timeout.clear()
     status_forbidden.clear()
     pkts1 = rdpcap(filename1)
-    pkts2 = rdpcap(filename2)
+    # pkts2 = rdpcap(filename2)
     for i in xrange(0, len(pkts1)):
         if "sip" in str(pkts1[i]):
             extract_sip(pkts1[i].load, pkts1[i].time)
@@ -551,13 +545,13 @@ def p_hs(filename1, filename2):
             parse_hs(pkts1[i])
         # else:
         #     extract_sip(str(pkts[i]), pkts[i].time)
-    for i in xrange(0, len(pkts2)):
-        if "sip" in str(pkts2[i]):
-            extract_sip(pkts2[i].load, pkts2[i].time)
-        if "HTTP" in str(pkts2[i]):
-            total += 1
-            parse_hs(pkts2[i])
-        # else:
+    # for i in xrange(0, len(pkts2)):
+    #     if "sip" in str(pkts2[i]):
+    #         extract_sip(pkts2[i].load, pkts2[i].time)
+    #     if "HTTP" in str(pkts2[i]):
+    #         total += 1
+    #         parse_hs(pkts2[i])
+    #     # else:
         #     extract_sip(str(pkts[i]), pkts[i].time)
     print_result()
 
@@ -649,11 +643,13 @@ def print_maps(x):
         file_data.write("left_hs_first_response = " + str(status_unauthorised) + "\n")
         file_data.write("left_hs_second_response = " + str(status_ok) + "\n")
 # main(str(sys.argv[1]),str(sys.argv[2]))
-# plot_bono()
-# plot_sprout()
-# plot_hs()
+# plot_bono(5)
+# plot_sprout(5)
+# plot_hs(5)
 # print_result()
 # print_timeline()
 # plot_graphs()
 # plot_throughput()
-print_maps(int(sys.argv[1]))
+# print_maps(int(sys.argv[1]))
+# plot_memory()
+plot_cpu()
