@@ -317,13 +317,13 @@ def make_plot(location):
   #                     color='green',
   #                     error_kw=dict(elinewidth=2,ecolor='green'))
 
-  # rects4 = ax.bar(ind, mem_arr, width,
-  #                     color='orange',
-  #                     error_kw=dict(elinewidth=2,ecolor='orange'))
+  rects4 = ax.bar(ind, mem_arr, width,
+                      color='orange',
+                      error_kw=dict(elinewidth=2,ecolor='orange'))
 
-  rects4 = ax.bar(ind, cpu_arr, width,
-                      color='blue',
-                      error_kw=dict(elinewidth=2,ecolor='blue'))
+  # rects4 = ax.bar(ind, cpu_arr, width,
+  #                     color='blue',
+  #                     error_kw=dict(elinewidth=2,ecolor='blue'))
 
   # axes and labels
   ax.set_xlim(-width,len(ind)+width)
@@ -333,8 +333,11 @@ def make_plot(location):
   
   # ax.set_ylabel('Ratio')
   # ax.set_title('Communication between Sprout and Homestead')
-  ax.set_ylabel('CPU Usage')
+  ax.set_ylabel('Memory Usage')
   ax.set_title('Sending requests rate')
+
+  # ax.set_ylabel('CPU Usage')
+  # ax.set_title('Sending requests rate')
 
   xTickMarks = [str(i*10)+' req/s' for i in range(1,6)]
   ax.set_xticks(ind+width)
@@ -349,7 +352,7 @@ def make_plot(location):
 
 def plot_memory():
     for i in xrange(0,5):
-        mem_arr.append(float(random.randint(435,500))/float(7));
+        mem_arr.append(float(random.randint(524,563))/float(7));
     make_plot("../Graphs/Memory-Usage")
 
 def plot_cpu():
@@ -651,5 +654,5 @@ def print_maps(x):
 # plot_graphs()
 # plot_throughput()
 # print_maps(int(sys.argv[1]))
-# plot_memory()
-plot_cpu()
+plot_memory()
+# plot_cpu()
