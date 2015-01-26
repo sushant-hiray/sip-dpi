@@ -31,13 +31,13 @@
 
 # Copy proxy setting script
 
-# scp proxy.sh ubuntu64@10.129.2.110:~/
-# scp proxy.sh ubuntu64@10.129.2.111:~/
-# scp proxy.sh ubuntu64@10.129.2.112:~/
-# scp proxy.sh ubuntu64@10.129.2.113:~/
-# scp proxy.sh ubuntu64@10.129.2.114:~/
-# scp proxy.sh ubuntu64@10.129.2.115:~/
-# scp proxy.sh ubuntu64@10.129.2.116:~/
+ scp port.sh ubuntu64@10.129.2.110:~/
+ scp port.sh ubuntu64@10.129.2.111:~/
+ scp port.sh ubuntu64@10.129.2.112:~/
+ scp port.sh ubuntu64@10.129.2.113:~/
+ scp port.sh ubuntu64@10.129.2.114:~/
+ scp port.sh ubuntu64@10.129.2.115:~/
+ scp port.sh ubuntu64@10.129.2.116:~/
 
 # run a sudo apt-get update on all the VM's
 
