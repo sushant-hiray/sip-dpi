@@ -1,0 +1,83 @@
+Register 1413639258.21
+Register 1413639258.62
+Register 1413639258.66
+Status 1413639258.71
+Total number of lines in file is 1192
+Number of requests sent initially 200
+Unauthorized response to the first request 200
+Number of re-requests 200
+Successful requests 200
+Service unavailable status 0
+Number of server timeout requests is 0
+Number of forbidden requests is 0
+Throughtput of the system is 10.0
+
+
+Register 1413639258.22
+Register 1413639258.62
+Register 1413639258.67
+Status 1413639258.71
+Total number of lines in file is 1191
+Number of requests sent initially 200
+Unauthorized response to the first request 200
+Number of re-requests 200
+Successful requests 200
+Service unavailable status 0
+Number of server timeout requests is 0
+Number of forbidden requests is 0
+Throughtput of the system is 10.0
+
+
+Register 1413639258.77
+Register 1413639258.8
+Register 1413639258.84
+Status 1413639258.88
+Total number of lines in file is 1199
+Number of requests sent initially 200
+Unauthorized response to the first request 200
+Number of re-requests 200
+Successful requests 200
+Service unavailable status 0
+Number of server timeout requests is 0
+Number of forbidden requests is 0
+Throughtput of the system is 10.0
+
+
+HTTP First Request1413639258.77
+HTTP First Response1413639259.16
+HTTP Second Request1413639289.19
+HTTP Second Response1413639289.19
+HTTP First Request1413639258.8
+HTTP First Response1413639258.83
+HTTP Second Request1413639258.84
+HTTP Second Response1413639258.88
+Total number of lines in file is 1584
+Number of requests sent initially 200
+Unauthorized response to the first request 200
+Number of re-requests 200
+Successful requests 200
+Service unavailable status 0
+Number of server timeout requests is 0
+Number of forbidden requests is 0
+Throughtput of the system is 10.0
+
+
+HTTP First Request1413639259.27
+HTTP First Response1413639259.67
+HTTP Second Request1413639289.69
+HTTP Second Response1413639289.7
+HTTP First Request1413639259.68
+HTTP First Response1413639259.71
+HTTP Second Request1413639259.73
+HTTP Second Response1413639259.76
+Total number of lines in file is 1584
+Number of requests sent initially 200
+Unauthorized response to the first request 200
+Number of re-requests 200
+Successful requests 200
+Service unavailable status 0
+Number of server timeout requests is 0
+Number of forbidden requests is 0
+Throughtput of the system is 10.0
+
+
