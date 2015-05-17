@@ -65,7 +65,10 @@ def extract_status(load, time):
     global forbidden_status
     global fart_response
     if status == '401':
-        if status_unauthorised.has_key(username) == False: 
+        if status_unauthorised.has_key(username) == False:
+	    #if username == 'user12000':
+	 #	print "User 12000 is present"
+	#	sys.exit()	
             status_unauthorised[username] = time
             unauthorized_status = unauthorized_status + 1
     elif status == '200':
@@ -140,6 +143,9 @@ def extract_register(load, time):
     else:
         # print "REGISTER[2] for " + username + " at time " + str(time)
         if sec_request.has_key(username) == False:
+	    #if username == 'user12000':
+	#	print 'Second Request sent'
+	#	sys.exit()
             sec_request[username] = time
             second_request = second_request + 1
     count = load.count("CSeq: 1 REGISTER")

@@ -1,10 +1,11 @@
 from scapy.all import *
 import re
 import sys
-import numpy as np
+# import numpy as np
 # import matplotlib.pyplot as plt
 # import pylab
 import random
+import threading
 
 leftover = ''
 
@@ -45,8 +46,8 @@ cpu_arr = []
 
 def extract_status(load, time):
     # f = open('sprout','a')
-    bucket = load.split(' ')
-    status = bucket[1]
+	bucket = load.split(' ')
+	status = bucket[1]
     username_start = load.find('user')
     if username_start == -1:
         #print "[ERROR: extract_status]: username_start not found"
@@ -70,6 +71,7 @@ def extract_status(load, time):
         if status_unauthorised.has_key(username) == False: 
             status_unauthorised[username] = time
             unauthorized_status = unauthorized_status + 1
+            print "Incremented"
     elif status == '200':
         if status_ok.has_key(username) == False:
             status_ok[username] = time
@@ -175,12 +177,12 @@ def extract_sip(load, time):
                 if (bucket[0] == 'SIP/2.0'):
                     total = total + 1
                     extract_status(load, time)
-                    # print "Found Status"
+                    print "Found Status"
                 elif (bucket[0] == 'REGISTER'):
                     total = total + 1
                     extract_register(load, time)
                     # check = 1
-                    # print "Found REGISTER"
+                    print "Found REGISTER"
             if(len(load) > cl_end):
                 load = load[cl_end+1:]
                 load = load.strip()
@@ -417,6 +419,7 @@ def plot_bono(x):
     # make_plot("../Graphs/Client-Bono")
 
 def identify_type(pkt):
+    # threading.Timer(1.0,print_result).start()
     if "sip" in str(pkt):
         extract_sip(pkt.load, pkt.time)
     if "HTTP" in str(pkt):
@@ -450,7 +453,7 @@ def parse_bono():
     status_forbidden.clear()
 
 def runmain():
-    sniff(iface="eth0",filter="port 5060",prn=identify_type)
+	sniff(iface="eth0",filter="port 5060",prn=identify_type)
 
 
 def plot_sprout(x):
